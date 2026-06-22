@@ -34,7 +34,7 @@ permissions:
   contents: write
 
 concurrency:
-      group: bot-arq-v4-8-analizar
+  group: bot-arq-v4-8-analizar
   cancel-in-progress: false
 
 jobs:
@@ -70,7 +70,7 @@ jobs:
 
           echo "Agregando archivos necesarios para GitHub Pages..."
 
-          for file in datos_acciones.json historial_senales.json data/ticker_health.json paper/paper_state.json paper/paper_audit.json paper/paper_operational_rules.json reports/backtest_summary.json reports/backtest_by_sector.json reports/backtest_by_month.json reports/backtest_by_signal.json reports/executive_report.json reports/executive_report.md; do
+          for file in datos_acciones.json historial_senales.json paper/paper_state.json paper/paper_audit.json paper/paper_operational_rules.json data/ticker_health.json reports/backtest_summary.json reports/backtest_by_sector.json reports/backtest_by_signal.json reports/backtest_by_month.json reports/executive_report.json reports/executive_report.md; do
             if [ -f "$file" ]; then
               git add "$file"
               echo "Agregado: $file"
