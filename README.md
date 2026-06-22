@@ -1,4 +1,4 @@
-# BOT-ARQ v4.4.5 - Dashboard profesional, rendimiento y limpieza
+# BOT-ARQ v4.5 - Position Sizing Pro
 
 BOT-ARQ es un sistema gratuito basado en GitHub Pages + GitHub Actions + Python + JSON + JavaScript para análisis de acciones, señales BUY/HOLD/SELL, simulación, paper trading, auditoría de bloqueos y reglas operativas.
 
@@ -39,3 +39,13 @@ El bot puede generarlos durante una ejecución, pero quedan ignorados para reduc
 ## Seguridad
 
 No ejecuta órdenes reales. Broker real permanece OFF. El sistema sigue siendo paper trading / simulación.
+
+
+## V4.4.6 Ticker Health Filter
+
+Agrega control de tickers fallidos y panel de salud de datos.
+
+
+## V4.5 Position Sizing Pro
+
+Limita posiciones por riesgo, capital disponible, reserva de efectivo y exposición por sector.

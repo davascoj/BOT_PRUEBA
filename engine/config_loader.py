@@ -92,6 +92,11 @@ def cargar_config_simulacion(default_config, system_config=None):
         "permitir_buy_strong_en_modo_defensivo_drawdown": ["permitir_buy_strong_en_modo_defensivo_drawdown", "allow_buy_strong_defensive_drawdown"],
         "permitir_buy_strong_sobre_exposicion": ["permitir_buy_strong_sobre_exposicion", "allow_buy_strong_over_exposure"],
         "permitir_buy_strong_sobre_riesgo": ["permitir_buy_strong_sobre_riesgo", "allow_buy_strong_over_risk"],
+        "usar_capital_disponible": ["usar_capital_disponible", "use_available_cash"],
+        "reservar_efectivo_pct": ["reservar_efectivo_pct", "cash_reserve_pct"],
+        "max_exposicion_sector_pct": ["max_exposicion_sector_pct", "max_sector_exposure_pct"],
+        "max_operaciones_por_sector": ["max_operaciones_por_sector", "max_positions_per_sector"],
+        "bloquear_sin_capital_disponible": ["bloquear_sin_capital_disponible", "block_without_available_cash"],
     }
 
     # Revisa top-level y secciones conocidas.
@@ -113,7 +118,7 @@ def cargar_config_simulacion(default_config, system_config=None):
                     result[target_key] = section[key]
 
     # Normalización simple de tipos para evitar errores por texto.
-    int_keys = {"max_operaciones_abiertas", "pausar_si_perdidas_seguidas", "bloquear_si_perdidas_seguidas"}
+    int_keys = {"max_operaciones_abiertas", "pausar_si_perdidas_seguidas", "bloquear_si_perdidas_seguidas", "max_operaciones_por_sector"}
     bool_keys = {
         "permitir_buy_strong_en_mercado_debil",
         "activar_reglas_operativas",
@@ -123,6 +128,8 @@ def cargar_config_simulacion(default_config, system_config=None):
         "permitir_buy_strong_en_modo_defensivo_drawdown",
         "permitir_buy_strong_sobre_exposicion",
         "permitir_buy_strong_sobre_riesgo",
+        "usar_capital_disponible",
+        "bloquear_sin_capital_disponible",
     }
 
     for key in list(result.keys()):

@@ -1,6 +1,6 @@
 {
-  "version": "4.4.5",
-  "name": "BOT-ARQ V4.4.5 - Limpieza repo docs",
+  "version": "4.5",
+  "name": "BOT-ARQ 4.5 - Position Sizing Pro",
   "mode": "PAPER_TRADING_SIMULATED",
   "data_source": "yfinance",
   "dashboard": {
@@ -34,7 +34,13 @@
     "usar_drawdown_como_bloqueo": true,
     "permitir_buy_strong_en_modo_defensivo_drawdown": true,
     "permitir_buy_strong_sobre_exposicion": false,
-    "permitir_buy_strong_sobre_riesgo": false
+    "permitir_buy_strong_sobre_riesgo": false,
+    "position_sizing_mode": "RISK_CAPPED_CASH_AWARE",
+    "usar_capital_disponible": true,
+    "reservar_efectivo_pct": 5.0,
+    "max_exposicion_sector_pct": 35.0,
+    "max_operaciones_por_sector": 6,
+    "bloquear_sin_capital_disponible": true
   },
   "paper_trading": {
     "enabled": true,
@@ -57,6 +63,20 @@
     "V4.4 convierte métricas existentes en reglas operativas configurables.",
     "No crea otro motor de riesgo paralelo; usa la simulación y métricas existentes.",
     "Puede bloquear nuevas entradas por exposición, riesgo abierto o drawdown.",
-    "No ejecuta dinero real. Broker real permanece deshabilitado."
-  ]
+    "No ejecuta dinero real. Broker real permanece deshabilitado.",
+    "V4.4.6 agrega filtro de salud de tickers para saltar temporalmente símbolos que Yahoo no entrega.",
+    "No cambia la lógica de señales ni compra/venta; solo evita pérdida de tiempo por tickers fallidos.",
+    "V4.5 mejora el tamaño de posición con capital disponible, reserva de efectivo y concentración por sector.",
+    "Sigue siendo paper trading. No ejecuta dinero real."
+  ],
+  "ticker_health": {
+    "enabled": true,
+    "file": "data/ticker_health.json",
+    "fail_threshold": 3,
+    "cooldown_days": 7,
+    "manual_blocklist": [],
+    "manual_allowlist": [],
+    "reset_on_success": true,
+    "show_in_dashboard": true
+  }
 }

@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import pandas as pd
@@ -10,6 +10,7 @@ import yfinance as yf
 ZONA_HORARIA = ZoneInfo("America/Bogota")
 HISTORIAL_FILE = "historial_senales.json"
 HISTORIAL_XLSX = "historial_senales.xlsx"
+TICKER_HEALTH_FILE = "data/ticker_health.json"
 
 # ============================================================
 # BOT-ARQ V4 - PAPER TRADING ENGINE
@@ -203,6 +204,14 @@ DEFAULT_CONFIG_SIMULACION = {
     "permitir_buy_strong_en_modo_defensivo_drawdown": True,
     "permitir_buy_strong_sobre_exposicion": False,
     "permitir_buy_strong_sobre_riesgo": False,
+
+    # V4.5 - Position Sizing Pro.
+    "position_sizing_mode": "RISK_CAPPED_CASH_AWARE",
+    "usar_capital_disponible": True,
+    "reservar_efectivo_pct": 5.0,
+    "max_exposicion_sector_pct": 35.0,
+    "max_operaciones_por_sector": 6,
+    "bloquear_sin_capital_disponible": True,
 }
 
 # CONFIG_SIMULACION real usada por el motor.
@@ -255,6 +264,156 @@ def limpiar_df(df):
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
     return df.dropna()
+
+
+
+# ============================================================
+# BOT-ARQ V4.4.6 - TICKER HEALTH FILTER
+# Registra tickers que fallan en Yahoo Finance y los omite temporalmente.
+# No modifica el motor de señales; solo mejora estabilidad y velocidad.
+# ============================================================
+
+def ticker_health_config():
+    cfg = (CONFIG_SISTEMA or {}).get("ticker_health", {}) if isinstance(CONFIG_SISTEMA, dict) else {}
+    return {
+        "enabled": bool(cfg.get("enabled", True)),
+        "file": cfg.get("file", TICKER_HEALTH_FILE),
+        "fail_threshold": int(cfg.get("fail_threshold", 3) or 3),
+        "cooldown_days": int(cfg.get("cooldown_days", 7) or 7),
+        "manual_blocklist": set(str(x).upper() for x in cfg.get("manual_blocklist", []) if x),
+        "manual_allowlist": set(str(x).upper() for x in cfg.get("manual_allowlist", []) if x),
+        "reset_on_success": bool(cfg.get("reset_on_success", True)),
+    }
+
+def cargar_ticker_health():
+    cfg = ticker_health_config()
+    path = cfg["file"]
+    try:
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, dict):
+                data.setdefault("version", "V4.4.6")
+                data.setdefault("tickers", {})
+                data.setdefault("resumen", {})
+                return data
+    except Exception as e:
+        print("ADVERTENCIA: no se pudo leer ticker_health:", e)
+    return {"version": "V4.4.6", "actualizado": "", "tickers": {}, "resumen": {}}
+
+def guardar_ticker_health(data):
+    cfg = ticker_health_config()
+    path = cfg["file"]
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        data["version"] = "V4.4.6"
+        data["actualizado"] = fecha_visible()
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print("ADVERTENCIA: no se pudo guardar ticker_health:", e)
+
+def _parse_ymd_safe(value):
+    try:
+        if not value:
+            return None
+        return datetime.strptime(str(value)[:10], "%Y-%m-%d").date()
+    except Exception:
+        return None
+
+def debe_omitir_ticker(ticker, health):
+    cfg = ticker_health_config()
+    if not cfg["enabled"]:
+        return False, ""
+    ticker = str(ticker or "").upper().strip()
+    if not ticker:
+        return True, "Ticker vacío"
+    if ticker in cfg["manual_allowlist"]:
+        return False, ""
+    if ticker in cfg["manual_blocklist"]:
+        return True, "Bloqueado manualmente"
+
+    info = (health.get("tickers") or {}).get(ticker, {})
+    fail_count = int(info.get("fail_count", 0) or 0)
+    last_failure_date = _parse_ymd_safe(info.get("last_failure_date"))
+    if fail_count >= cfg["fail_threshold"] and last_failure_date:
+        unlock_date = last_failure_date + timedelta(days=cfg["cooldown_days"])
+        if datetime.now(ZONA_HORARIA).date() < unlock_date:
+            return True, f"Cooldown hasta {unlock_date.isoformat()} tras {fail_count} fallos"
+    return False, ""
+
+def registrar_ticker_ok(ticker, health):
+    cfg = ticker_health_config()
+    if not cfg["enabled"]:
+        return
+    ticker = str(ticker or "").upper().strip()
+    if not ticker:
+        return
+    entry = (health.setdefault("tickers", {})).setdefault(ticker, {})
+    entry["status"] = "OK"
+    entry["last_success_date"] = hoy_ymd()
+    entry["last_success_at"] = fecha_visible()
+    entry["success_count"] = int(entry.get("success_count", 0) or 0) + 1
+    if cfg.get("reset_on_success", True):
+        entry["fail_count"] = 0
+        entry["action"] = "ALLOW"
+
+def registrar_ticker_error(ticker, health, error="SIN DATOS"):
+    cfg = ticker_health_config()
+    if not cfg["enabled"]:
+        return
+    ticker = str(ticker or "").upper().strip()
+    if not ticker:
+        return
+    entry = (health.setdefault("tickers", {})).setdefault(ticker, {})
+    entry["status"] = "ERROR"
+    entry["fail_count"] = int(entry.get("fail_count", 0) or 0) + 1
+    entry["last_failure_date"] = hoy_ymd()
+    entry["last_failure_at"] = fecha_visible()
+    entry["last_error"] = str(error)[:220]
+    if entry["fail_count"] >= cfg["fail_threshold"]:
+        entry["action"] = "SKIP_TEMPORAL"
+    else:
+        entry["action"] = "RETRY"
+
+def resumen_ticker_health(health, omitidos=None):
+    cfg = ticker_health_config()
+    omitidos = omitidos or []
+    tickers = health.get("tickers", {}) or {}
+    en_cooldown = []
+    fallidos = []
+    ok = []
+    for t, info in tickers.items():
+        if str(info.get("status", "")).upper() == "OK":
+            ok.append(t)
+        if int(info.get("fail_count", 0) or 0) > 0:
+            fallidos.append(t)
+        skip, motivo = debe_omitir_ticker(t, health)
+        if skip:
+            en_cooldown.append({"ticker": t, "motivo": motivo, "fail_count": info.get("fail_count", 0), "last_error": info.get("last_error", "")})
+    recientes = sorted(
+        [
+            {"ticker": t, **(info if isinstance(info, dict) else {})}
+            for t, info in tickers.items()
+            if int((info or {}).get("fail_count", 0) or 0) > 0
+        ],
+        key=lambda x: (str(x.get("last_failure_date", "")), int(x.get("fail_count", 0) or 0)),
+        reverse=True,
+    )[:20]
+    return {
+        "version": "V4.4.6",
+        "enabled": bool(cfg.get("enabled", True)),
+        "fail_threshold": cfg.get("fail_threshold"),
+        "cooldown_days": cfg.get("cooldown_days"),
+        "total_registrados": len(tickers),
+        "ok": len(ok),
+        "fallidos": len(fallidos),
+        "en_cooldown": len(en_cooldown),
+        "omitidos_en_ejecucion": len(omitidos),
+        "omitidos": omitidos[:40],
+        "fallos_recientes": recientes,
+        "nota": "Tickers con muchos fallos se omiten temporalmente para acelerar el análisis y limpiar logs."
+    }
 
 
 def descargar(ticker, periodo="1y"):
@@ -877,20 +1036,45 @@ def distancia_stop_pct(precio_entrada, stop):
         return 0.0
 
 
-def calcular_posicion(capital, precio_entrada, stop):
-    """Calcula tamaño de posición para no superar el riesgo configurado."""
+def calcular_posicion(capital, precio_entrada, stop, capital_disponible=None, limite_sector_usd=None):
+    """V4.5 Position Sizing Pro.
+
+    Calcula tamaño de posición con cuatro límites:
+    1. Riesgo por operación.
+    2. Máximo por posición.
+    3. Capital disponible real simulado.
+    4. Límite de exposición por sector.
+    """
     capital = float(capital or CONFIG_SIMULACION["capital_inicial"])
     d_stop = distancia_stop_pct(precio_entrada, stop)
     riesgo_usd = capital * (CONFIG_SIMULACION["riesgo_por_operacion_pct"] / 100)
     max_posicion_usd = capital * (CONFIG_SIMULACION["max_posicion_pct"] / 100)
 
     if d_stop <= 0:
-        posicion_usd = max_posicion_usd
+        posicion_por_riesgo = max_posicion_usd
         riesgo_real_usd = 0.0
     else:
-        posicion_usd = riesgo_usd / (d_stop / 100)
-        posicion_usd = min(posicion_usd, max_posicion_usd)
+        posicion_por_riesgo = riesgo_usd / (d_stop / 100)
+        riesgo_real_usd = min(posicion_por_riesgo, max_posicion_usd) * (d_stop / 100)
+
+    limites = {
+        "riesgo": max(0.0, float(posicion_por_riesgo or 0)),
+        "max_posicion": max(0.0, float(max_posicion_usd or 0)),
+    }
+
+    if CONFIG_SIMULACION.get("usar_capital_disponible", True) and capital_disponible is not None:
+        limites["capital_disponible"] = max(0.0, float(capital_disponible or 0))
+
+    if limite_sector_usd is not None:
+        limites["sector"] = max(0.0, float(limite_sector_usd or 0))
+
+    limitador = min(limites, key=lambda k: limites[k])
+    posicion_usd = min(limites.values()) if limites else 0.0
+
+    if d_stop > 0:
         riesgo_real_usd = posicion_usd * (d_stop / 100)
+    else:
+        riesgo_real_usd = 0.0
 
     acciones_estimadas = 0.0
     try:
@@ -907,6 +1091,11 @@ def calcular_posicion(capital, precio_entrada, stop):
         "riesgo_pct_cuenta": round((riesgo_real_usd / capital) * 100, 2) if capital else 0,
         "distancia_stop_pct": round(d_stop, 2),
         "acciones_estimadas": round(acciones_estimadas, 4),
+        "sizing_mode": CONFIG_SIMULACION.get("position_sizing_mode", "RISK_CAPPED_CASH_AWARE"),
+        "limitador_posicion": limitador.upper(),
+        "capital_disponible_antes": round(float(capital_disponible), 2) if capital_disponible is not None else None,
+        "capital_disponible_despues": round(float(capital_disponible or 0) - posicion_usd, 2) if capital_disponible is not None else None,
+        "limite_sector_disponible": round(float(limite_sector_usd), 2) if limite_sector_usd is not None else None,
     }
 
 
@@ -1367,6 +1556,50 @@ def resumen_operacion_top(op):
 
 
 
+
+# ============================================================
+# BOT-ARQ V4.5 - POSITION SIZING PRO HELPERS
+# Controla capital disponible y concentración por sector en la simulación.
+# ============================================================
+
+def exposicion_por_sector_abierta_(operaciones):
+    data = {}
+    conteo = {}
+    for op in operaciones or []:
+        if op.get("estado") != "ABIERTA":
+            continue
+        sector = op.get("sector") or op.get("Sector") or "Otro"
+        valor = float(op.get("valor_cartera_usd") or op.get("posicion_usd_estimada") or 0)
+        data[sector] = data.get(sector, 0.0) + valor
+        conteo[sector] = conteo.get(sector, 0) + 1
+    return data, conteo
+
+def resumen_position_sizing_(capital_base, exposicion_abierta_usd, capital_disponible, sector_exposicion, sector_conteo):
+    reserva_pct = float(CONFIG_SIMULACION.get("reservar_efectivo_pct", 5.0) or 0)
+    reserva_usd = capital_base * (reserva_pct / 100)
+    return {
+        "version": "V4.5",
+        "mode": CONFIG_SIMULACION.get("position_sizing_mode", "RISK_CAPPED_CASH_AWARE"),
+        "capital_base_usd": round(capital_base, 2),
+        "reserva_efectivo_pct": round(reserva_pct, 2),
+        "reserva_efectivo_usd": round(reserva_usd, 2),
+        "capital_comprometido_usd": round(exposicion_abierta_usd, 2),
+        "capital_disponible_usd": round(max(0.0, capital_disponible), 2),
+        "capital_disponible_pct": round((max(0.0, capital_disponible) / capital_base) * 100, 2) if capital_base else 0,
+        "max_exposicion_sector_pct": CONFIG_SIMULACION.get("max_exposicion_sector_pct", 35.0),
+        "max_operaciones_por_sector": CONFIG_SIMULACION.get("max_operaciones_por_sector", 6),
+        "sectores": [
+            {
+                "sector": s,
+                "exposicion_usd": round(v, 2),
+                "exposicion_pct": round((v / capital_base) * 100, 2) if capital_base else 0,
+                "operaciones": sector_conteo.get(s, 0),
+            }
+            for s, v in sorted((sector_exposicion or {}).items(), key=lambda x: x[1], reverse=True)
+        ][:12],
+        "nota": "V4.5 limita nuevas posiciones por riesgo, capital disponible, máximo por operación y exposición sectorial."
+    }
+
 # ============================================================
 # BOT-ARQ V4.4 - REGLAS OPERATIVAS
 # No duplica el riesgo: convierte métricas existentes en bloqueo real.
@@ -1579,6 +1812,11 @@ def actualizar_historial(historial, resultados, mercado):
     rachas_previas = calcular_rachas(cerradas_previas)
     nuevas_bloqueadas = []
     contexto_reglas_operativas = calcular_contexto_reglas_operativas_(operaciones, mercado)
+    capital_base_sizing = float(CONFIG_SIMULACION.get("capital_inicial", 5000.0) or 5000.0)
+    reserva_usd_sizing = capital_base_sizing * (float(CONFIG_SIMULACION.get("reservar_efectivo_pct", 5.0) or 0) / 100)
+    capital_disponible_sizing = max(0.0, capital_base_sizing - reserva_usd_sizing - float(contexto_reglas_operativas.get("exposicion_abierta_usd", 0) or 0))
+    sector_exposicion_sizing, sector_conteo_sizing = exposicion_por_sector_abierta_(operaciones)
+    limite_sector_usd_sizing = capital_base_sizing * (float(CONFIG_SIMULACION.get("max_exposicion_sector_pct", 35.0) or 35.0) / 100)
 
     for r in resultados:
         ticker = r.get("Accion")
@@ -1597,10 +1835,25 @@ def actualizar_historial(historial, resultados, mercado):
             continue
 
         precio = float(r.get("Precio actual") or 0)
-        posicion = calcular_posicion(CONFIG_SIMULACION["capital_inicial"], precio, r.get("Stop loss"))
+        sector_actual = r.get("Sector", "Otro")
+        sector_usado = float(sector_exposicion_sizing.get(sector_actual, 0) or 0)
+        sector_restante = max(0.0, limite_sector_usd_sizing - sector_usado)
+        posicion = calcular_posicion(
+            CONFIG_SIMULACION["capital_inicial"],
+            precio,
+            r.get("Stop loss"),
+            capital_disponible=capital_disponible_sizing,
+            limite_sector_usd=sector_restante,
+        )
 
         if riesgo == "ALTO":
             motivo_bloqueo = "Riesgo alto"
+        elif CONFIG_SIMULACION.get("bloquear_sin_capital_disponible", True) and posicion.get("posicion_usd", 0) <= 0:
+            motivo_bloqueo = "Sin capital disponible o límite sectorial alcanzado"
+        elif sector_conteo_sizing.get(sector_actual, 0) >= int(CONFIG_SIMULACION.get("max_operaciones_por_sector", 6) or 6):
+            motivo_bloqueo = "Máximo de operaciones por sector alcanzado"
+        elif sector_usado >= limite_sector_usd_sizing:
+            motivo_bloqueo = "Límite de exposición por sector alcanzado"
         elif rr < CONFIG_SIMULACION["rr_minimo"]:
             motivo_bloqueo = f"R/R menor a {CONFIG_SIMULACION['rr_minimo']}"
         elif len(abiertas) >= CONFIG_SIMULACION["max_operaciones_abiertas"]:
@@ -1633,7 +1886,10 @@ def actualizar_historial(historial, resultados, mercado):
                 "exposicion_abierta_pct": contexto_reglas_operativas.get("exposicion_abierta_pct", 0),
                 "riesgo_abierto_pct": contexto_reglas_operativas.get("riesgo_abierto_pct", 0),
                 "drawdown_pct": contexto_reglas_operativas.get("drawdown_pct", 0),
-                "regla_operativa": motivo_bloqueo.startswith(("Exposición", "Riesgo", "Bloqueo operativo", "Modo defensivo")),
+                "regla_operativa": motivo_bloqueo.startswith(("Exposición", "Riesgo", "Bloqueo operativo", "Modo defensivo", "Sin capital", "Máximo de operaciones por sector", "Límite de exposición por sector")),
+                "limitador_posicion": posicion.get("limitador_posicion"),
+                "capital_disponible_usd": posicion.get("capital_disponible_antes"),
+                "sector": sector_actual,
             })
             continue
 
@@ -1677,6 +1933,11 @@ def actualizar_historial(historial, resultados, mercado):
             "riesgo_pct_cuenta_estimado": posicion.get("riesgo_pct_cuenta", 0),
             "distancia_stop_pct": posicion.get("distancia_stop_pct", 0),
             "acciones_estimadas": posicion.get("acciones_estimadas", 0),
+            "sizing_mode": posicion.get("sizing_mode"),
+            "limitador_posicion": posicion.get("limitador_posicion"),
+            "capital_disponible_antes": posicion.get("capital_disponible_antes"),
+            "capital_disponible_despues": posicion.get("capital_disponible_despues"),
+            "limite_sector_disponible": posicion.get("limite_sector_disponible"),
             "valor_cartera_usd": posicion.get("posicion_usd", 0),
             "ganancia_abierta_usd_estimada": 0.0,
             "perdida_maxima_stop_usd": posicion.get("riesgo_usd", 0),
@@ -1688,6 +1949,9 @@ def actualizar_historial(historial, resultados, mercado):
         abiertas.add(ticker)
         creadas_hoy.add((ticker, hoy))
         actualizar_contexto_reglas_operativas_(contexto_reglas_operativas, posicion)
+        capital_disponible_sizing = max(0.0, capital_disponible_sizing - float(posicion.get("posicion_usd", 0) or 0))
+        sector_exposicion_sizing[sector_actual] = float(sector_exposicion_sizing.get(sector_actual, 0) or 0) + float(posicion.get("posicion_usd", 0) or 0)
+        sector_conteo_sizing[sector_actual] = int(sector_conteo_sizing.get(sector_actual, 0) or 0) + 1
 
     operaciones = sorted(
         operaciones,
@@ -1711,6 +1975,7 @@ def actualizar_historial(historial, resultados, mercado):
 
     avanzadas = calcular_metricas_avanzadas(operaciones, mercado)
     reglas_operativas = resumen_reglas_operativas_(contexto_reglas_operativas, nuevas_bloqueadas)
+    position_sizing = resumen_position_sizing_(capital_base_sizing, contexto_reglas_operativas.get("exposicion_abierta_usd", 0), capital_disponible_sizing, sector_exposicion_sizing, sector_conteo_sizing)
 
     resumen = {
         "total_operaciones": len(operaciones),
@@ -1724,6 +1989,7 @@ def actualizar_historial(historial, resultados, mercado):
         "promedio_cerradas_pct": promedio_cerradas,
         "nuevas_bloqueadas": nuevas_bloqueadas[:50],
         "reglas_operativas": reglas_operativas,
+        "position_sizing": position_sizing,
         "config_simulacion": CONFIG_SIMULACION,
         "nota": "Simulación avanzada paper trading: tamaño de posición, costos estimados, drawdown y riesgo. No ejecuta compras reales.",
     }
@@ -1824,21 +2090,40 @@ def guardar_historial(historial):
 
 def main():
     resultados = []
+    ticker_health = cargar_ticker_health()
+    tickers_omitidos = []
 
     mercado = contexto_mercado()
     print(f"Contexto mercado: {mercado}")
 
     for ticker in ACCIONES:
+        omitir, motivo_omitir = debe_omitir_ticker(ticker, ticker_health)
+        if omitir:
+            print(f"Omitiendo {ticker}: {motivo_omitir}")
+            tickers_omitidos.append({"ticker": ticker, "motivo": motivo_omitir})
+            continue
+
         print(f"Analizando {ticker}...")
-        r = analizar(ticker, mercado)
+        try:
+            r = analizar(ticker, mercado)
+        except Exception as e:
+            r = None
+            registrar_ticker_error(ticker, ticker_health, f"EXCEPCION: {e}")
+            print(f"ERROR: {e}")
 
         if r:
             resultados.append(r)
+            registrar_ticker_ok(ticker, ticker_health)
             print("OK")
         else:
+            registrar_ticker_error(ticker, ticker_health, "SIN DATOS EN YAHOO/YFINANCE")
             print("SIN DATOS")
 
         time.sleep(0.35)
+
+    ticker_health_resumen = resumen_ticker_health(ticker_health, tickers_omitidos)
+    ticker_health["resumen"] = ticker_health_resumen
+    guardar_ticker_health(ticker_health)
 
     for r in resultados:
         r["Score calidad"] = calcular_score_calidad(r)
@@ -1874,9 +2159,10 @@ def main():
 
     salida = {
         "actualizado": fecha_visible(),
-        "version_bot": "V4.4.5 LIMPIEZA REPO DOCS",
+        "version_bot": "V4.5 POSITION SIZING PRO",
         "contexto_mercado": mercado,
         "config_operativa": resumen_config_operativa(CONFIG_SISTEMA, CONFIG_SIMULACION) if resumen_config_operativa else {"simulation_config": CONFIG_SIMULACION},
+        "ticker_health": ticker_health_resumen,
         "resultados": resultados,
         "paper_trading": paper_state.get("status", {}) if paper_state else {
             "version": "V4",

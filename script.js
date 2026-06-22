@@ -1,7 +1,7 @@
 "use strict";
 
-const APP_VERSION = "V4.4.5";
-const APP_BUILD = "4.4.5";
+const APP_VERSION = "V4.5";
+const APP_BUILD = "V4.5";
 const AUTO_REFRESH_MS = 5 * 60 * 1000;
 
 let datosGlobales = [];
@@ -23,6 +23,8 @@ let paperTradingV4 = null;
 let paperAuditV43 = null;
 let operationalRulesV44 = null;
 let configOperativa = null;
+let tickerHealth = null;
+let positionSizing = null;
 let ultimaActualizacionDatos = "";
 let rankingRenderizado = false;
 let historialRenderizado = false;
@@ -157,6 +159,8 @@ function setLoadingState() {
     marketPanel: "Cargando mercado...",
     operationalRulesResumen: "Cargando reglas operativas...",
     alertasEjecutivas: "Cargando alertas...",
+    tickerHealthResumen: "Cargando salud de tickers...",
+    positionSizingResumen: "Cargando position sizing...",
     auditSummary: "Cargando auditoría...",
     riesgoResumen: "Cargando riesgo...",
     paperV4Resumen: "Cargando paper engine..."
@@ -178,6 +182,8 @@ async function cargarDatos(force = false) {
 
     contextoMercado = data.contexto_mercado || null;
     configOperativa = data.config_operativa || null;
+    tickerHealth = data.ticker_health || null;
+    positionSizing = data.historial?.resumen?.position_sizing || null;
     datosGlobales = Array.isArray(data.resultados) ? data.resultados : [];
     datosOriginales = datosGlobales;
     historialOperaciones = Array.isArray(data.historial?.operaciones) ? data.historial.operaciones : [];
@@ -200,6 +206,8 @@ async function cargarDatos(force = false) {
     ejecutarBloqueSeguro("Mercado", renderMarket);
     ejecutarBloqueSeguro("Reglas operativas", renderOperationalRules);
     ejecutarBloqueSeguro("Alertas", renderAlerts);
+    ejecutarBloqueSeguro("Position sizing", renderPositionSizing);
+    ejecutarBloqueSeguro("Salud de tickers", renderTickerHealth);
     ejecutarBloqueSeguro("Top oportunidades", renderTopOportunidades);
     ejecutarBloqueSeguro("Cartera abierta", renderCarteraAbierta);
     ejecutarBloqueSeguro("Auditoría", renderAudit);
@@ -309,6 +317,8 @@ function renderAlerts() {
   if (rules.estado === "BLOQUEADO") alerts.unshift({ type: "danger", text: `Sistema bloqueado por reglas operativas: ${rules.motivo_principal || "sin motivo"}` });
   else if (rules.estado === "DEFENSIVO") alerts.unshift({ type: "warning", text: `Sistema en modo defensivo: ${rules.motivo_principal || "sin motivo"}` });
   if (!paperTradingV4) alerts.push({ type: "warning", text: "paper_state.json no cargó; se muestra dashboard con datos principales." });
+  if ((tickerHealth?.omitidos_en_ejecucion || 0) > 0) alerts.push({ type: "warning", text: `${tickerHealth.omitidos_en_ejecucion} tickers omitidos temporalmente por fallos de datos.` });
+  if ((tickerHealth?.fallidos || 0) > 0) alerts.push({ type: "info", text: `${tickerHealth.fallidos} tickers con fallos registrados en ticker health.` });
   if (!alerts.length) { box.innerHTML = `<span class="alert-ok">Sin alertas críticas.</span>`; return; }
   box.innerHTML = alerts.slice(0, 6).map(a => `<span class="alert-chip ${a.type}">${safe(a.text)}</span>`).join("");
 }
@@ -320,6 +330,72 @@ function accionSugerida(r) {
   if (bot === "BUY STRONG") return "Alta prioridad";
   if (bot === "BUY") return "Vigilar entrada";
   return "No abrir";
+}
+
+
+
+function renderPositionSizing() {
+  const box = $("positionSizingResumen");
+  const lista = $("sectorExposureLista");
+  const badge = $("positionSizingBadge");
+  if (!box) return;
+  if (!positionSizing) {
+    box.innerHTML = metric("Position sizing", "Pendiente", "se genera al correr Actions");
+    if (lista) lista.innerHTML = "";
+    if (badge) badge.textContent = "Pendiente";
+    return;
+  }
+  if (badge) badge.textContent = positionSizing.mode || "V4.5";
+  box.innerHTML = [
+    metric("Capital base", money(positionSizing.capital_base_usd), "base de cálculo"),
+    metric("Disponible", money(positionSizing.capital_disponible_usd), pct(positionSizing.capital_disponible_pct), Number(positionSizing.capital_disponible_usd || 0) <= 0 ? "danger" : ""),
+    metric("Comprometido", money(positionSizing.capital_comprometido_usd), "capital en posiciones"),
+    metric("Reserva efectivo", money(positionSizing.reserva_efectivo_usd), pct(positionSizing.reserva_efectivo_pct)),
+    metric("Máx sector", pct(positionSizing.max_exposicion_sector_pct), `${safe(positionSizing.max_operaciones_por_sector || 0)} ops/sector`),
+    metric("Modo", safe(positionSizing.mode || "RISK_CAPPED"), "riesgo + caja + sector")
+  ].join("");
+  const sectores = Array.isArray(positionSizing.sectores) ? positionSizing.sectores.slice(0, 8) : [];
+  if (lista) {
+    lista.innerHTML = sectores.length ? sectores.map(s => `
+      <div class="sector-exposure-chip">
+        <strong>${safe(s.sector)}</strong>
+        <span>${money(s.exposicion_usd)} · ${pct(s.exposicion_pct)} · ${safe(s.operaciones)} ops</span>
+      </div>`).join("") : `<span class="muted">Sin exposición sectorial abierta.</span>`;
+  }
+}
+
+function renderTickerHealth() {
+  const box = $("tickerHealthResumen");
+  const lista = $("tickerHealthLista");
+  const badge = $("tickerHealthBadge");
+  if (!box) return;
+  if (!tickerHealth) {
+    box.innerHTML = metric("Ticker health", "Sin datos", "se genera al correr Actions");
+    if (lista) lista.innerHTML = "";
+    if (badge) badge.textContent = "Pendiente";
+    return;
+  }
+  const omitidos = Number(tickerHealth.omitidos_en_ejecucion || 0);
+  const cooldown = Number(tickerHealth.en_cooldown || 0);
+  const fallidos = Number(tickerHealth.fallidos || 0);
+  const ok = Number(tickerHealth.ok || 0);
+  if (badge) badge.textContent = omitidos > 0 ? `${omitidos} omitidos` : "OK";
+  box.innerHTML = [
+    metric("Tickers OK", safe(ok), "con datos válidos"),
+    metric("Fallidos", safe(fallidos), "con errores registrados", fallidos > 0 ? "warning" : ""),
+    metric("En cooldown", safe(cooldown), `umbral ${safe(tickerHealth.fail_threshold || 3)} fallos`, cooldown > 0 ? "warning" : ""),
+    metric("Omitidos hoy", safe(omitidos), `cooldown ${safe(tickerHealth.cooldown_days || 7)} días`, omitidos > 0 ? "warning" : "")
+  ].join("");
+  const recientes = Array.isArray(tickerHealth.fallos_recientes) ? tickerHealth.fallos_recientes.slice(0, 8) : [];
+  const omitidosLista = Array.isArray(tickerHealth.omitidos) ? tickerHealth.omitidos.slice(0, 8) : [];
+  if (lista) {
+    if (!recientes.length && !omitidosLista.length) {
+      lista.innerHTML = `<span class="muted">Sin tickers problemáticos recientes.</span>`;
+    } else {
+      const items = [...omitidosLista.map(x => ({...x, tipo:"OMITIDO"})), ...recientes.map(x => ({...x, tipo:"FALLO"}))].slice(0, 12);
+      lista.innerHTML = items.map(x => `<span class="ticker-health-chip ${x.tipo === "OMITIDO" ? "warn" : ""}"><strong>${safe(x.ticker)}</strong> ${safe(x.tipo)} · ${safe(x.motivo || x.last_error || "sin detalle")}</span>`).join("");
+    }
+  }
 }
 
 function renderTopOportunidades() {

@@ -1,0 +1,12 @@
+{
+  "version": "V4.4.6",
+  "actualizado": "",
+  "tickers": {},
+  "resumen": {
+    "total_registrados": 0,
+    "omitidos_en_ejecucion": 0,
+    "en_cooldown": 0,
+    "fallidos": 0,
+    "ok": 0
+  }
+}

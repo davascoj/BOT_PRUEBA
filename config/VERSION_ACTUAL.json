@@ -1,8 +1,8 @@
 {
-  "version_actual": "V4.4.5",
-  "nombre": "BOT-ARQv4_4_5_LIMPIEZA_REPO_DOCS",
+  "version_actual": "4.5",
+  "nombre": "BOT-ARQv4_5_POSITION_SIZING_PRO",
   "base": "BOT-ARQ V4.4",
-  "fecha_generacion": "2026-06-22 02:47:00 UTC",
+  "fecha_generacion": "2026-06-22 03:55:27 UTC",
   "cambios": [
     "Dashboard profesional consolidado",
     "Refresh inteligente cada 5 minutos",
@@ -11,5 +11,7 @@
     "Documentación actualizada"
   ],
   "siguiente_version_recomendada": "V4.4.2 Ticker Health Filter",
-  "tipo": "HOTFIX"
+  "tipo": "HOTFIX",
+  "estado": "estable",
+  "nota": "Position Sizing Pro"
 }

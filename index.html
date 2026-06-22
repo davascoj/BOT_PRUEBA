@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BOT-ARQ · Dashboard Profesional</title>
-  <link rel="stylesheet" href="style.css?v=4.4.5" />
+  <link rel="stylesheet" href="style.css?v=4.5" />
 </head>
 <body>
   <header class="top-shell">
@@ -14,7 +14,7 @@
       <p>Dashboard profesional de señales, riesgo operativo y cartera simulada.</p>
     </div>
     <div class="status-strip" aria-label="Estado general del sistema">
-      <div class="status-pill"><span>Versión</span><strong id="appVersion">V4.4.5</strong></div>
+      <div class="status-pill"><span>Versión</span><strong id="appVersion">V4.5</strong></div>
       <div class="status-pill"><span>Actualización</span><strong id="fecha">Cargando...</strong></div>
       <div class="status-pill"><span>Modo</span><strong id="paperModeText">Paper</strong></div>
       <div class="status-pill off"><span>Broker real</span><strong id="brokerStateText">OFF</strong></div>
@@ -50,7 +50,7 @@
 
     <section class="card operational-card" id="reglasOperativasCard">
       <div class="section-head">
-        <div><h2>Reglas operativas V4.4</h2><p>Exposición, riesgo abierto y drawdown como controles reales.</p></div>
+        <div><h2>Reglas operativas V4.5</h2><p>Exposición, riesgo abierto y drawdown como controles reales.</p></div>
         <span class="mini-badge" id="operationalRulesBadge">Cargando</span>
       </div>
       <div class="metric-grid operational-grid" id="operationalRulesResumen"></div>
@@ -59,6 +59,26 @@
     <section class="alert-ribbon" id="alertasCard">
       <div class="ribbon-title">Alertas operativas</div>
       <div id="alertasEjecutivas">Cargando alertas...</div>
+    </section>
+
+
+
+    <section class="card position-sizing-card" id="positionSizingCard">
+      <div class="section-head">
+        <div><h2>Position Sizing Pro V4.5</h2><p>Capital disponible, reserva de efectivo y concentración sectorial.</p></div>
+        <span class="mini-badge" id="positionSizingBadge">Sizing</span>
+      </div>
+      <div class="metric-grid" id="positionSizingResumen"></div>
+      <div class="sector-exposure-list" id="sectorExposureLista"></div>
+    </section>
+
+    <section class="card ticker-health-card" id="tickerHealthCard">
+      <div class="section-head">
+        <div><h2>Salud de tickers</h2><p>Controla símbolos con fallos de datos en Yahoo Finance.</p></div>
+        <span class="mini-badge" id="tickerHealthBadge">Health</span>
+      </div>
+      <div class="metric-grid" id="tickerHealthResumen"></div>
+      <div class="ticker-health-list" id="tickerHealthLista"></div>
     </section>
 
     <section class="card" id="topOportunidadesCard">
@@ -178,6 +198,6 @@
     <section class="notice">BOT-ARQ es un sistema de análisis y paper trading simulado. No ejecuta dinero real ni reemplaza asesoría financiera profesional.</section>
   </main>
 
-  <script src="script.js?v=4.4.5"></script>
+  <script src="script.js?v=4.5"></script>
 </body>
 </html>
