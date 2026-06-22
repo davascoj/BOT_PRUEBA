@@ -1,149 +1,153 @@
 name: BOT-ARQ V4.4.5 - Limpieza Repo Docs
 
 on:
-  schedule:
-    # Corre cada 5 minutos en días hábiles. El paso de Python valida si NYSE está abierto.
-    - cron: "*/5 13-21 * * 1-5"
+schedule:
+# Corre cada 5 minutos en días hábiles. El paso de Python valida si NYSE está abierto.
+- cron: "*/5 13-21 * * 1-5"
 
-  workflow_dispatch:
-    inputs:
-      force:
-        description: "Forzar ejecucion aunque el mercado este cerrado"
-        required: false
-        default: "false"
-        type: choice
-        options:
-          - "false"
-          - "true"
+workflow_dispatch:
+inputs:
+force:
+description: "Forzar ejecucion aunque el mercado este cerrado"
+required: false
+default: "false"
+type: choice
+options:
+- "false"
+- "true"
 
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/analizar.yml"
-      - "analizador_acciones.py"
-      - "index.html"
-      - "script.js"
-      - "style.css"
-      - "requirements.txt"
-      - "config/**"
-      - "engine/**"
-      - "execution/**"
-      - "scripts/**"
+push:
+branches:
+- main
+paths:
+- ".github/workflows/analizar.yml"
+- "analizador_acciones.py"
+- "index.html"
+- "script.js"
+- "style.css"
+- "requirements.txt"
+- "config/**"
+- "engine/**"
+- "execution/**"
+- "scripts/**"
 
 permissions:
-  contents: write
+contents: write
 
 concurrency:
-  group: arq-4.4.5-auto-update
-  cancel-in-progress: false
+group: arq-4.4.5-auto-update
+cancel-in-progress: false
 
 jobs:
-  analizar:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+analizar:
+runs-on: ubuntu-latest
+timeout-minutes: 30
 
-    steps:
-      - name: Descargar repositorio
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.ARQ_PAT }}
-          persist-credentials: true
+```
+steps:
+  - name: Descargar repositorio
+    uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
+      persist-credentials: true
 
-      - name: Sincronizar con la rama main
-        run: |
-          git fetch origin main
-          git pull --rebase origin main
+  - name: Sincronizar con la rama main
+    run: |
+      git fetch origin main
+      git pull --rebase origin main
 
-      - name: Mostrar tipo de ejecucion
-        run: |
-          echo "Evento: ${{ github.event_name }}"
-          echo "Force: ${{ inputs.force }}"
-          echo "Rama: ${{ github.ref }}"
-          echo "Fecha UTC:"
-          date -u
-          echo "Fecha Colombia:"
-          TZ=America/Bogota date
-          echo "Fecha New York:"
-          TZ=America/New_York date
+  - name: Mostrar tipo de ejecucion
+    run: |
+      echo "Evento: ${{ github.event_name }}"
+      echo "Force: ${{ inputs.force }}"
+      echo "Rama: ${{ github.ref }}"
+      echo "Fecha UTC:"
+      date -u
+      echo "Fecha Colombia:"
+      TZ=America/Bogota date
+      echo "Fecha New York:"
+      TZ=America/New_York date
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+  - name: Configurar Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.11"
 
-      - name: Instalar librerias
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+  - name: Instalar librerias
+    run: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
 
-      - name: Verificar mercado abierto NYSE
-        id: mercado
-        run: |
-          python - <<'PY'
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          import pandas_market_calendars as mcal
+  - name: Verificar mercado abierto NYSE
+    id: mercado
+    run: |
+      python - <<'PY'
+      import os
+      from datetime import datetime
+      from zoneinfo import ZoneInfo
+      import pandas_market_calendars as mcal
 
-          now = datetime.now(ZoneInfo("America/New_York"))
-          cal = mcal.get_calendar("NYSE")
-          sched = cal.schedule(start_date=now.date(), end_date=now.date())
+      now = datetime.now(ZoneInfo("America/New_York"))
+      cal = mcal.get_calendar("NYSE")
+      sched = cal.schedule(start_date=now.date(), end_date=now.date())
 
-          is_open = False
+      is_open = False
 
-          if sched.empty:
-              print(f"Mercado cerrado hoy. Ahora NY: {now:%Y-%m-%d %H:%M:%S %Z}")
-          else:
-              market_open = sched.iloc[0]["market_open"].tz_convert("America/New_York").to_pydatetime()
-              market_close = sched.iloc[0]["market_close"].tz_convert("America/New_York").to_pydatetime()
+      if sched.empty:
+          print(f"Mercado cerrado hoy. Ahora NY: {now:%Y-%m-%d %H:%M:%S %Z}")
+      else:
+          market_open = sched.iloc[0]["market_open"].tz_convert("America/New_York").to_pydatetime()
+          market_close = sched.iloc[0]["market_close"].tz_convert("America/New_York").to_pydatetime()
 
-              is_open = market_open <= now <= market_close
+          is_open = market_open <= now <= market_close
 
-              print(f"Ahora NY: {now:%Y-%m-%d %H:%M:%S %Z}")
-              print(f"Apertura NYSE: {market_open:%Y-%m-%d %H:%M:%S %Z}")
-              print(f"Cierre NYSE: {market_close:%Y-%m-%d %H:%M:%S %Z}")
-              print(f"Mercado abierto: {is_open}")
+          print(f"Ahora NY: {now:%Y-%m-%d %H:%M:%S %Z}")
+          print(f"Apertura NYSE: {market_open:%Y-%m-%d %H:%M:%S %Z}")
+          print(f"Cierre NYSE: {market_close:%Y-%m-%d %H:%M:%S %Z}")
+          print(f"Mercado abierto: {is_open}")
 
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"is_open={'true' if is_open else 'false'}\n")
-          PY
+      with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+          f.write(f"is_open={'true' if is_open else 'false'}\n-%d %H:%M:%S %Z}")
+          print(f"Mercado abierto: {is_open}")
 
-      - name: Mercado cerrado - no ejecutar analisis
-        if: steps.mercado.outputs.is_open != 'true' && inputs.force != 'true'
-        run: |
-          echo "Mercado cerrado. No se actualizan los archivos."
+      with open(os.environ["GITHUB_OUTPUT"], "")
+      PY
 
-      - name: Ejecutar analizador
-        if: steps.mercado.outputs.is_open == 'true' || inputs.force == 'true'
-        run: python analizador_acciones.py
+  - name: Mercado cerrado - no ejecutar analisis
+    if: steps.mercado.outputs.is_open != 'true' && inputs.force != 'true'
+    run: |
+      echo "Mercado cerrado. No se actualizan los archivos."
 
-      - name: Guardar resultados en el repositorio
-        if: steps.mercado.outputs.is_open == 'true' || inputs.force == 'true'
-        run: |
-          git config user.name "davascoj"
-          git config user.email "stivenvasco223@gmail.com"
+  - name: Ejecutar analizador
+    if: steps.mercado.outputs.is_open == 'true' || inputs.force == 'true'
+    run: python analizador_acciones.py
 
-          echo "Agregando archivos generados..."
+  - name: Guardar resultados en el repositorio
+    if: steps.mercado.outputs.is_open == 'true' || inputs.force == 'true'
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for file in datos_acciones.json historial_senales.json paper/paper_state.json paper/paper_audit.json paper/paper_operational_rules.json; do
-            if [ -f "$file" ]; then
-              git add "$file"
-              echo "Agregado: $file"
-            else
-              echo "No existe, se omite: $file"
-            fi
-          done
+      echo "Agregando archivos generados..."
 
-          if git diff --cached --quiet; then
-            echo "Sin cambios para guardar"
-          else
-            git commit -m "Actualizar analisis automatico BOT-ARQ V4.4.5"
+      for file in datos_acciones.json historial_senales.json paper/paper_state.json paper/paper_audit.json paper/paper_operational_rules.json; do
+        if [ -f "$file" ]; then
+          git add "$file"
+          echo "Agregado: $file"
+        else
+          echo "No existe, se omite: $file"
+        fi
+      done
 
-            echo "Sincronizando antes de subir cambios..."
-            git pull --rebase origin main
+      if git diff --cached --quiet; then
+        echo "Sin cambios para guardar"
+      else
+        git commit -m "Actualizar analisis automatico BOT-ARQ V4.4.5"
 
-            echo "Subiendo cambios al repositorio..."
-            git push origin main
-          fi
+        echo "Sincronizando antes de subir cambios..."
+        git pull --rebase origin main
+
+        echo "Subiendo cambios al repositorio..."
+        git push origin main
+      fi
+```
