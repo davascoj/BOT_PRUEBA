@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BOT-ARQ · Dashboard Profesional</title>
+  <link rel="stylesheet" href="style.css?v=4.4.5" />
+</head>
+<body>
+  <header class="top-shell">
+    <div class="brand-block">
+      <div class="brand-kicker">PAPER TRADING · GITHUB ACTIONS</div>
+      <h1>BOT-ARQ</h1>
+      <p>Dashboard profesional de señales, riesgo operativo y cartera simulada.</p>
+    </div>
+    <div class="status-strip" aria-label="Estado general del sistema">
+      <div class="status-pill"><span>Versión</span><strong id="appVersion">V4.4.5</strong></div>
+      <div class="status-pill"><span>Actualización</span><strong id="fecha">Cargando...</strong></div>
+      <div class="status-pill"><span>Modo</span><strong id="paperModeText">Paper</strong></div>
+      <div class="status-pill off"><span>Broker real</span><strong id="brokerStateText">OFF</strong></div>
+      <div class="status-pill" id="marketStatusBadge"><span>Sesión</span><strong id="marketStatusText">verificando</strong></div>
+    </div>
+    <div class="top-actions">
+      <button type="button" onclick="cargarDatos(true)">Actualizar vista</button>
+      <button type="button" class="ghost" onclick="ejecutarAnalisis()">Abrir Actions</button>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="load-diagnostics" id="loadDiagnostics">
+      <span class="dot pulse"></span>
+      <span id="autoRefreshInfo">Cargando diagnóstico de datos...</span>
+    </section>
+
+    <section class="card executive-card">
+      <div class="section-head">
+        <div><h2>Panel ejecutivo</h2><p>Solo las métricas críticas para leer el estado del bot.</p></div>
+        <span class="mini-badge" id="executiveBadge">Cargando</span>
+      </div>
+      <div class="metric-grid primary-grid" id="dashboardEjecutivo"></div>
+    </section>
+
+    <section class="card market-card">
+      <div class="section-head">
+        <div><h2>Estado del mercado</h2><p>Contexto general y drivers principales.</p></div>
+        <span class="mini-badge" id="marketModeBadge">Mercado</span>
+      </div>
+      <div class="market-layout" id="marketPanel"></div>
+    </section>
+
+    <section class="card operational-card" id="reglasOperativasCard">
+      <div class="section-head">
+        <div><h2>Reglas operativas V4.4</h2><p>Exposición, riesgo abierto y drawdown como controles reales.</p></div>
+        <span class="mini-badge" id="operationalRulesBadge">Cargando</span>
+      </div>
+      <div class="metric-grid operational-grid" id="operationalRulesResumen"></div>
+    </section>
+
+    <section class="alert-ribbon" id="alertasCard">
+      <div class="ribbon-title">Alertas operativas</div>
+      <div id="alertasEjecutivas">Cargando alertas...</div>
+    </section>
+
+    <section class="card" id="topOportunidadesCard">
+      <div class="section-head">
+        <div><h2>Top oportunidades</h2><p>Señales BUY priorizadas con entrada, stop, objetivo y R/R.</p></div>
+        <span class="mini-badge" id="topBadge">Top 10</span>
+      </div>
+      <div class="table-wrap">
+        <table class="pro-table compact-table">
+          <thead>
+            <tr>
+              <th>Ticker</th><th>Sector</th><th>Precio</th><th>Bot</th><th>Score</th><th>Riesgo</th><th>Entrada</th><th>Stop</th><th>Objetivo</th><th>R/R</th><th>Acción sugerida</th>
+            </tr>
+          </thead>
+          <tbody id="tablaTopOportunidades"><tr><td colspan="11">Cargando...</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" id="carteraAbiertaCard">
+      <div class="section-head">
+        <div><h2>Cartera abierta simulada</h2><p>Posiciones vigentes con G/P, riesgo y niveles de control.</p></div>
+        <span class="mini-badge" id="carteraBadge">Abiertas</span>
+      </div>
+      <div class="table-wrap">
+        <table class="pro-table compact-table">
+          <thead>
+            <tr>
+              <th>Ticker</th><th>Sector</th><th>Entrada</th><th>Precio actual</th><th>G/P USD</th><th>G/P %</th><th>Stop</th><th>Objetivo</th><th>Riesgo USD</th><th>Señal actual</th>
+            </tr>
+          </thead>
+          <tbody id="tablaCarteraAbierta"><tr><td colspan="10">Cargando...</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card audit-card" id="auditoriaBloqueosCard">
+      <div class="section-head">
+        <div><h2>Auditoría de bloqueos</h2><p>Explica por qué el bot no abrió algunas señales BUY.</p></div>
+        <span class="mini-badge" id="auditBadge">Auditoría</span>
+      </div>
+      <div class="metric-grid audit-summary" id="auditSummary"></div>
+      <div class="table-wrap">
+        <table class="pro-table compact-table">
+          <thead><tr><th>Ticker</th><th>Señal</th><th>Score</th><th>Riesgo</th><th>R/R</th><th>Motivo</th><th>Regla</th></tr></thead>
+          <tbody id="tablaBloqueos"><tr><td colspan="7">Cargando...</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card risk-card" id="riesgoDesempenoCard">
+      <div class="section-head">
+        <div><h2>Riesgo y desempeño</h2><p>Resumen de drawdown, profit factor y desempeño histórico.</p></div>
+        <span class="mini-badge" id="riskBadge">Riesgo</span>
+      </div>
+      <div class="metric-grid" id="riesgoResumen"></div>
+      <div id="diagnosticoBot" class="diagnostico-box">Cargando diagnóstico...</div>
+    </section>
+
+    <details class="advanced-details" id="paperTradingDetails">
+      <summary>Paper Trading Engine detallado</summary>
+      <section class="card advanced-card">
+        <div class="metric-grid" id="paperV4Resumen"></div>
+        <div class="paper-v4-warnings" id="paperV4Warnings"></div>
+      </section>
+    </details>
+
+    <details class="advanced-details" id="equityDetails">
+      <summary>Curva de capital</summary>
+      <section class="card advanced-card"><canvas id="equityChart" width="1200" height="320"></canvas></section>
+    </details>
+
+    <details class="advanced-details" id="rankingCompletoDetails">
+      <summary>Ranking completo de acciones</summary>
+      <section class="card advanced-card">
+        <div class="filters-row">
+          <input type="text" id="buscarAccion" placeholder="Buscar ticker o sector..." oninput="renderRankingDebounced()" />
+          <label><input type="checkbox" id="soloCompra" onchange="renderRanking()" /> Solo BUY</label>
+          <label><input type="checkbox" id="soloHot" onchange="renderRanking()" /> Solo HOT</label>
+          <label><input type="checkbox" id="ocultarAlto" onchange="renderRanking()" /> Ocultar riesgo alto</label>
+        </div>
+        <div class="table-wrap"><table class="pro-table"><thead><tr><th>Ticker</th><th>Sector</th><th>Precio</th><th>Bot</th><th>Score</th><th>Riesgo</th><th>R/R</th><th>Entrada</th><th>Stop</th><th>Objetivo</th><th>Contexto</th></tr></thead><tbody id="tabla"><tr><td colspan="11">Abre esta vista para cargar ranking.</td></tr></tbody></table></div>
+      </section>
+    </details>
+
+    <details class="advanced-details" id="historialCard">
+      <summary>Historial completo</summary>
+      <section class="card advanced-card">
+        <div class="filters-row">
+          <input type="text" id="buscarHistorial" placeholder="Buscar ticker o resultado..." oninput="renderHistorialDebounced()" />
+          <select id="filtroEstadoHistorial" onchange="renderHistorial()"><option value="TODOS">Todos</option><option value="ABIERTA">Abiertas</option><option value="CERRADA">Cerradas</option></select>
+          <select id="filtroResultadoHistorial" onchange="renderHistorial()"><option value="TODOS">Todos</option><option value="GANADA">Ganadas</option><option value="PERDIDA">Perdidas</option><option value="EN SEGUIMIENTO">En seguimiento</option></select>
+          <span id="historialFecha">Cargando...</span>
+        </div>
+        <div class="metric-grid" id="historialResumen"></div>
+        <div class="table-wrap"><table class="pro-table"><thead><tr><th>Estado</th><th>Ticker</th><th>Sector</th><th>Entrada</th><th>Actual/Cierre</th><th>G/P USD</th><th>G/P %</th><th>Stop</th><th>Objetivo</th><th>Señal</th><th>Resultado</th></tr></thead><tbody id="tablaHistorial"><tr><td colspan="11">Abre esta vista para cargar historial.</td></tr></tbody></table></div>
+      </section>
+    </details>
+
+    <details class="advanced-details" id="metricasAvanzadasDetails">
+      <summary>Métricas avanzadas y sectores</summary>
+      <section class="card advanced-card">
+        <div class="advanced-grid">
+          <div><h3>Sectores</h3><div class="table-wrap small-table"><table><thead><tr><th>Sector</th><th>Ops</th><th>Win</th><th>Neta %</th><th>PF</th></tr></thead><tbody id="tablaSectores"></tbody></table></div></div>
+          <div><h3>Mercado</h3><div class="table-wrap small-table"><table><thead><tr><th>Mercado</th><th>Ops</th><th>Win</th><th>Neta %</th><th>PF</th></tr></thead><tbody id="tablaMercados"></tbody></table></div></div>
+          <div><h3>Mejores</h3><div class="table-wrap small-table"><table><thead><tr><th>Ticker</th><th>%</th><th>USD</th><th>Cierre</th></tr></thead><tbody id="tablaMejores"></tbody></table></div></div>
+          <div><h3>Peores</h3><div class="table-wrap small-table"><table><thead><tr><th>Ticker</th><th>%</th><th>USD</th><th>Cierre</th></tr></thead><tbody id="tablaPeores"></tbody></table></div></div>
+        </div>
+      </section>
+    </details>
+
+    <details class="advanced-details" id="configTecnicaDetails">
+      <summary>Configuración técnica y diagnóstico</summary>
+      <section class="card advanced-card"><pre id="configTecnica">Cargando...</pre></section>
+    </details>
+
+    <section class="notice">BOT-ARQ es un sistema de análisis y paper trading simulado. No ejecuta dinero real ni reemplaza asesoría financiera profesional.</section>
+  </main>
+
+  <script src="script.js?v=4.4.5"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+secrets.json
+
+# Local generated reports - not consumed by GitHub Pages
+analisis_acciones.xlsx
+historial_senales.xlsx
+
+# Large generated paper detail files - dashboard uses paper/paper_state.json
+paper/paper_orders.json
+paper/paper_trades.json
+paper/paper_portfolio.json
+paper/paper_risk.json
+paper/paper_status.json
+
+# Temporary folders
+tmp/
+_tmp/
+logs/*.log

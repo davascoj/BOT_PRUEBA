@@ -1,0 +1,62 @@
+{
+  "version": "4.4.5",
+  "name": "BOT-ARQ V4.4.5 - Limpieza repo docs",
+  "mode": "PAPER_TRADING_SIMULATED",
+  "data_source": "yfinance",
+  "dashboard": {
+    "mode": "executive_cleanup",
+    "top_oportunidades": 10,
+    "cartera_abierta_max_visible": 40,
+    "historial_max_visible": 120,
+    "ranking_completo": "vista_avanzada",
+    "historial": "vista_avanzada"
+  },
+  "simulation_config": {
+    "capital_inicial": 5000.0,
+    "riesgo_por_operacion_pct": 1.0,
+    "max_posicion_pct": 20.0,
+    "max_operaciones_abiertas": 20,
+    "max_exposicion_total_pct": 80.0,
+    "comision_por_operacion_pct": 0.05,
+    "slippage_pct": 0.05,
+    "spread_pct": 0.03,
+    "pausar_si_perdidas_seguidas": 8,
+    "bloquear_si_perdidas_seguidas": 12,
+    "rr_minimo": 1.5,
+    "volumen_relativo_minimo": 0.8,
+    "permitir_buy_strong_en_mercado_debil": false,
+    "max_riesgo_total_abierto_pct": 10.0,
+    "modo_defensivo_drawdown_pct": 12.0,
+    "bloquear_entradas_drawdown_pct": 25.0,
+    "activar_reglas_operativas": true,
+    "usar_exposicion_como_bloqueo": true,
+    "usar_riesgo_abierto_como_bloqueo": true,
+    "usar_drawdown_como_bloqueo": true,
+    "permitir_buy_strong_en_modo_defensivo_drawdown": true,
+    "permitir_buy_strong_sobre_exposicion": false,
+    "permitir_buy_strong_sobre_riesgo": false
+  },
+  "paper_trading": {
+    "enabled": true,
+    "real_broker_enabled": false,
+    "portfolio_file": "paper/paper_portfolio.json",
+    "orders_file": "paper/paper_orders.json",
+    "trades_file": "paper/paper_trades.json",
+    "risk_file": "paper/paper_risk.json",
+    "status_file": "paper/paper_status.json",
+    "state_file": "paper/paper_state.json"
+  },
+  "automation": {
+    "github_actions": true,
+    "cron": "*/5 13-21 * * 1-5",
+    "market_calendar": "NYSE",
+    "force_manual_supported": true
+  },
+  "notes": [
+    "Hotfix visual: corrige bloqueo de script.js que dejaba la página en Cargando.",
+    "V4.4 convierte métricas existentes en reglas operativas configurables.",
+    "No crea otro motor de riesgo paralelo; usa la simulación y métricas existentes.",
+    "Puede bloquear nuevas entradas por exposición, riesgo abierto o drawdown.",
+    "No ejecuta dinero real. Broker real permanece deshabilitado."
+  ]
+}
