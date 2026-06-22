@@ -1,7 +1,7 @@
 "use strict";
 
-const APP_VERSION = "V4.5";
-const APP_BUILD = "V4.5";
+const APP_VERSION = "V4.8";
+const APP_BUILD = "V4.8";
 const AUTO_REFRESH_MS = 5 * 60 * 1000;
 
 let datosGlobales = [];
@@ -25,6 +25,8 @@ let operationalRulesV44 = null;
 let configOperativa = null;
 let tickerHealth = null;
 let positionSizing = null;
+let backtestReport = null;
+let executiveReport = null;
 let ultimaActualizacionDatos = "";
 let rankingRenderizado = false;
 let historialRenderizado = false;
@@ -176,6 +178,8 @@ async function cargarDatos(force = false) {
   try {
     const data = await fetchJson("datos_acciones.json", force);
     paperTradingV4 = await cargarPaperTradingV4(force);
+    backtestReport = await cargarJsonOpcional("reports/backtest_summary.json", force);
+    executiveReport = await cargarJsonOpcional("reports/executive_report.json", force);
 
     const nuevaActualizacion = data.actualizado || "";
     ultimaActualizacionDatos = nuevaActualizacion;
@@ -206,12 +210,14 @@ async function cargarDatos(force = false) {
     ejecutarBloqueSeguro("Mercado", renderMarket);
     ejecutarBloqueSeguro("Reglas operativas", renderOperationalRules);
     ejecutarBloqueSeguro("Alertas", renderAlerts);
+    ejecutarBloqueSeguro("Reporte ejecutivo", renderExecutiveReport);
     ejecutarBloqueSeguro("Position sizing", renderPositionSizing);
     ejecutarBloqueSeguro("Salud de tickers", renderTickerHealth);
     ejecutarBloqueSeguro("Top oportunidades", renderTopOportunidades);
     ejecutarBloqueSeguro("Cartera abierta", renderCarteraAbierta);
     ejecutarBloqueSeguro("Auditoría", renderAudit);
     ejecutarBloqueSeguro("Riesgo y desempeño", renderRiskPerformance);
+    ejecutarBloqueSeguro("Backtesting", renderBacktesting);
     ejecutarBloqueSeguro("Render avanzado", renderAdvancedIfOpen);
     initLazyRender();
     updateMarketSessionBadge();
@@ -228,6 +234,14 @@ async function cargarPaperTradingV4(force = false) {
   try { return await fetchJson("paper/paper_state.json", force); }
   catch (error) {
     console.warn("BOT-ARQ: paper_state no disponible; dashboard seguirá sin bloquearse", error);
+    return null;
+  }
+}
+
+async function cargarJsonOpcional(path, force = false) {
+  try { return await fetchJson(path, force); }
+  catch (error) {
+    console.warn(`BOT-ARQ: ${path} no disponible`, error);
     return null;
   }
 }
@@ -333,6 +347,40 @@ function accionSugerida(r) {
 }
 
 
+
+
+function renderExecutiveReport() {
+  const box = $("executiveReportPanel");
+  const badge = $("executiveReportBadge");
+  if (!box) return;
+  if (!executiveReport) {
+    box.innerHTML = metric("Reporte ejecutivo", "Pendiente", "se genera al correr Actions");
+    if (badge) badge.textContent = "Pendiente";
+    return;
+  }
+  const s = executiveReport.summary || {};
+  const alerts = executiveReport.alerts || [];
+  const top = executiveReport.top_opportunities || [];
+  if (badge) badge.textContent = executiveReport.status || "Reporte";
+  const topHtml = top.length ? top.slice(0,5).map(x => `<li><strong>${safe(x.ticker)}</strong><span>${safe(x.senal_bot)} · score ${numero(x.score,1)} · R/R ${numero(x.rr,2)}</span></li>`).join("") : `<li>Sin oportunidades BUY/BUY STRONG.</li>`;
+  const alertHtml = alerts.length ? alerts.slice(0,5).map(a => `<span class="alert-chip warning">${safe(a)}</span>`).join("") : `<span class="alert-ok">Sin alertas críticas.</span>`;
+  box.innerHTML = `
+    <div class="executive-narrative">
+      <h3>${safe(executiveReport.headline || "Reporte ejecutivo")}</h3>
+      <p>${safe(executiveReport.conclusion || "Sin conclusión automática.")}</p>
+      <div class="executive-alerts">${alertHtml}</div>
+    </div>
+    <div class="metric-grid report-metrics">
+      ${metric("Estado", safe(s.estado_operativo || executiveReport.status || "NORMAL"), "operativo")}
+      ${metric("Mercado", safe(s.mercado || "SIN DATO"), "contexto")}
+      ${metric("G/P estimada", money(s.ganancia_total_estimada_usd ?? 0), "total", claseValor(s.ganancia_total_estimada_usd))}
+      ${metric("Abiertas", safe(s.operaciones_abiertas ?? 0), "posiciones")}
+      ${metric("Backtest win", pct(s.backtest_win_rate_pct ?? 0), "cerradas")}
+      ${metric("Profit factor", numero(s.backtest_profit_factor ?? 0, 2), "backtest")}
+    </div>
+    <div class="executive-top"><h3>Top vigilancia</h3><ul>${topHtml}</ul></div>
+  `;
+}
 
 function renderPositionSizing() {
   const box = $("positionSizingResumen");
@@ -507,9 +555,48 @@ function renderAdvancedIfOpen() {
   if ($("configTecnicaDetails")?.open) renderConfigTecnica();
 }
 
+
+function renderBacktesting() {
+  const box = $("backtestResumen");
+  const badge = $("backtestBadge");
+  if (!box) return;
+  if (!backtestReport) {
+    box.innerHTML = metric("Backtesting", "Pendiente", "se genera al correr Actions");
+    if (badge) badge.textContent = "Pendiente";
+    return;
+  }
+  const s = backtestReport.summary || {};
+  if (badge) badge.textContent = `${safe(s.operaciones_cerradas_evaluadas ?? s.operaciones ?? 0)} ops`;
+  box.innerHTML = [
+    metric("Ops evaluadas", safe(s.operaciones_cerradas_evaluadas ?? s.operaciones ?? 0), "cerradas simuladas"),
+    metric("Win rate", pct(s.win_rate_pct ?? 0), "histórico"),
+    metric("Profit factor", numero(s.profit_factor ?? 0, 2), "gross profit / gross loss"),
+    metric("P/L total", money(s.pnl_total_usd ?? 0), "cerradas", claseValor(s.pnl_total_usd)),
+    metric("Expectativa", money(s.pnl_promedio_usd ?? 0), "promedio por trade", claseValor(s.pnl_promedio_usd)),
+    metric("Max drawdown", pct(s.max_drawdown_pct ?? 0), "curva histórica")
+  ].join("");
+}
+
+function renderBacktestDetails() {
+  if (!backtestReport) return;
+  const fill = (id, rows, keyName) => {
+    const tb = $(id); if (!tb) return;
+    tb.innerHTML = rows?.length ? rows.slice(0, 12).map(r => `<tr><td>${safe(r[keyName] || r.month || "SIN DATO")}</td><td>${safe(r.operaciones)}</td><td>${pct(r.win_rate_pct)}</td><td>${numero(r.profit_factor,2)}</td><td class="num ${claseValor(r.pnl_total_usd)}">${money(r.pnl_total_usd)}</td></tr>`).join("") : `<tr><td colspan="5">Sin datos.</td></tr>`;
+  };
+  fill("tablaBacktestSector", backtestReport.by_sector || [], "sector");
+  fill("tablaBacktestSignal", backtestReport.by_signal || [], "senal_bot_entrada");
+  fill("tablaBacktestMonth", backtestReport.by_month || [], "month");
+  const tb = $("tablaBacktestTrades");
+  if (tb) {
+    const rows = [...(backtestReport.best_trades || []).slice(0, 5), ...(backtestReport.worst_trades || []).slice(0, 5)];
+    tb.innerHTML = rows.length ? rows.map(r => `<tr><td>${safe(r.ticker)}</td><td class="num ${claseValor(r.pnl_usd)}">${money(r.pnl_usd)}</td><td class="num ${claseValor(r.pnl_pct)}">${pct(r.pnl_pct)}</td><td>${safe(r.tipo_cierre || r.fecha_cierre || "")}</td></tr>`).join("") : `<tr><td colspan="4">Sin operaciones.</td></tr>`;
+  }
+}
+
 function initLazyRender() {
   const bind = (id, fn) => { const el = $(id); if (el && !el.dataset.bound) { el.dataset.bound = "1"; el.addEventListener("toggle", () => { if (el.open) ejecutarBloqueSeguro(id, fn); }); } };
   bind("paperTradingDetails", renderPaperDetail);
+  bind("backtestDetails", renderBacktestDetails);
   bind("equityDetails", dibujarEquityCurve);
   bind("rankingCompletoDetails", renderRanking);
   bind("historialCard", renderHistorial);

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BOT-ARQ · Dashboard Profesional</title>
-  <link rel="stylesheet" href="style.css?v=4.5" />
+  <link rel="stylesheet" href="style.css?v=4.8" />
 </head>
 <body>
   <header class="top-shell">
@@ -14,7 +14,7 @@
       <p>Dashboard profesional de señales, riesgo operativo y cartera simulada.</p>
     </div>
     <div class="status-strip" aria-label="Estado general del sistema">
-      <div class="status-pill"><span>Versión</span><strong id="appVersion">V4.5</strong></div>
+      <div class="status-pill"><span>Versión</span><strong id="appVersion">V4.8</strong></div>
       <div class="status-pill"><span>Actualización</span><strong id="fecha">Cargando...</strong></div>
       <div class="status-pill"><span>Modo</span><strong id="paperModeText">Paper</strong></div>
       <div class="status-pill off"><span>Broker real</span><strong id="brokerStateText">OFF</strong></div>
@@ -62,6 +62,16 @@
     </section>
 
 
+
+
+
+    <section class="card executive-report-card" id="executiveReportCard">
+      <div class="section-head">
+        <div><h2>Reporte ejecutivo automático V4.8</h2><p>Resumen diario del estado del bot, mercado, oportunidades, riesgo y conclusión.</p></div>
+        <span class="mini-badge" id="executiveReportBadge">Reporte</span>
+      </div>
+      <div class="executive-report-layout" id="executiveReportPanel"><div class="metric-box"><span>Cargando reporte...</span><strong>...</strong></div></div>
+    </section>
 
     <section class="card position-sizing-card" id="positionSizingCard">
       <div class="section-head">
@@ -138,6 +148,28 @@
       <div id="diagnosticoBot" class="diagnostico-box">Cargando diagnóstico...</div>
     </section>
 
+
+
+    <section class="card backtest-card" id="backtestingCard">
+      <div class="section-head">
+        <div><h2>Backtesting histórico V4.7</h2><p>Evaluación de operaciones cerradas, profit factor, win rate y desempeño por señal.</p></div>
+        <span class="mini-badge" id="backtestBadge">Backtest</span>
+      </div>
+      <div class="metric-grid" id="backtestResumen"><div class="metric-box"><span>Cargando backtesting...</span><strong>...</strong></div></div>
+    </section>
+
+    <details class="advanced-details" id="backtestDetails">
+      <summary>Backtesting avanzado por sector, señal y mes</summary>
+      <section class="card advanced-card">
+        <div class="advanced-grid">
+          <div><h3>Por sector</h3><div class="table-wrap small-table"><table><thead><tr><th>Sector</th><th>Ops</th><th>Win</th><th>PF</th><th>USD</th></tr></thead><tbody id="tablaBacktestSector"></tbody></table></div></div>
+          <div><h3>Por señal</h3><div class="table-wrap small-table"><table><thead><tr><th>Señal</th><th>Ops</th><th>Win</th><th>PF</th><th>USD</th></tr></thead><tbody id="tablaBacktestSignal"></tbody></table></div></div>
+          <div><h3>Por mes</h3><div class="table-wrap small-table"><table><thead><tr><th>Mes</th><th>Ops</th><th>Win</th><th>PF</th><th>USD</th></tr></thead><tbody id="tablaBacktestMonth"></tbody></table></div></div>
+          <div><h3>Mejores / peores</h3><div class="table-wrap small-table"><table><thead><tr><th>Ticker</th><th>USD</th><th>%</th><th>Cierre</th></tr></thead><tbody id="tablaBacktestTrades"></tbody></table></div></div>
+        </div>
+      </section>
+    </details>
+
     <details class="advanced-details" id="paperTradingDetails">
       <summary>Paper Trading Engine detallado</summary>
       <section class="card advanced-card">
@@ -198,6 +230,6 @@
     <section class="notice">BOT-ARQ es un sistema de análisis y paper trading simulado. No ejecuta dinero real ni reemplaza asesoría financiera profesional.</section>
   </main>
 
-  <script src="script.js?v=4.5"></script>
+  <script src="script.js?v=4.8"></script>
 </body>
 </html>

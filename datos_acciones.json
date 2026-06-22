@@ -1,6 +1,6 @@
 {
   "actualizado": "21-06-2026 11:15 PM Colombia",
-  "version_bot": "V4.5 POSITION SIZING PRO",
+  "version_bot": "V4.5.1 TICKERS ACTUALIZADOS",
   "contexto_mercado": {
     "estado": "ALCISTA",
     "score": 8,
@@ -167,40 +167,12 @@
     "cooldown_days": 7,
     "total_registrados": 278,
     "ok": 275,
-    "fallidos": 3,
+    "fallidos": 0,
     "en_cooldown": 0,
     "omitidos_en_ejecucion": 0,
     "omitidos": [],
-    "fallos_recientes": [
-      {
-        "ticker": "CYBR",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:13 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      },
-      {
-        "ticker": "WOLF",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:13 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      },
-      {
-        "ticker": "FI",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:14 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      }
-    ],
-    "nota": "Tickers con muchos fallos se omiten temporalmente para acelerar el análisis y limpiar logs."
+    "fallos_recientes": [],
+    "nota": "Tickers con muchos fallos se omiten temporalmente para acelerar el análisis y limpiar logs. V4.5.1 limpia CYBR/FI/WOLF del universo activo."
   },
   "resultados": [
     {
@@ -19874,5 +19846,10 @@
         "distancia_objetivo_pct": 0.0
       }
     ]
+  },
+  "ticker_updates_v451": {
+    "CYBR": "REMOVIDO: CyberArk adquirido por Palo Alto Networks; usar PANW ya existente.",
+    "FI": "REEMPLAZADO por FISV para compatibilidad Yahoo/yfinance.",
+    "WOLF": "OMITIDO temporalmente: ticker activo, pero yfinance/historial no cumple regla actual del bot."
   }
 }

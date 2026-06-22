@@ -1,5 +1,12 @@
 # Changelog
 
+## V4.5.1 Tickers Actualizados
+- CYBR removido porque CyberArk fue adquirido por PANW.
+- FI reemplazado por FISV para compatibilidad con Yahoo/yfinance.
+- WOLF omitido temporalmente por historial/yfinance.
+- Limpieza de ticker_health y datos_acciones para quitar alertas antiguas.
+
+
 ## V4.4.5
 - Dashboard profesional consolidado.
 - Auto-refresh cada 5 minutos.

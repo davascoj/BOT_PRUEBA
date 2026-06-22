@@ -26,6 +26,30 @@ else:
     PAPER_ENGINE_IMPORT_ERROR = ""
 
 # ============================================================
+# BOT-ARQ V4.7 - BACKTESTING HISTORICO
+# Evalua operaciones simuladas ya guardadas, sin tocar motor de señales.
+# ============================================================
+try:
+    from engine.backtesting_engine import export_backtest_reports
+except Exception as e:
+    export_backtest_reports = None
+    BACKTEST_ENGINE_IMPORT_ERROR = str(e)
+else:
+    BACKTEST_ENGINE_IMPORT_ERROR = ""
+
+# ============================================================
+# BOT-ARQ V4.8 - REPORTE EJECUTIVO AUTOMATICO
+# Resume estado del bot, mercado, riesgo y oportunidades.
+# ============================================================
+try:
+    from engine.executive_report_engine import export_executive_report
+except Exception as e:
+    export_executive_report = None
+    EXECUTIVE_REPORT_IMPORT_ERROR = str(e)
+else:
+    EXECUTIVE_REPORT_IMPORT_ERROR = ""
+
+# ============================================================
 # BOT-ARQ V4.2 - CONFIGURACIÓN REAL DEL MOTOR
 # Carga config/system_config.json y la aplica al motor actual.
 # ============================================================
@@ -109,13 +133,13 @@ ACCIONES_INFO = {
     "DOCU": "Tecnología", "ZM": "Tecnología", "PATH": "IA / Software",
     "U": "Software", "ESTC": "Datos / Software", "DT": "Software",
     "GTLB": "Software", "S": "Ciberseguridad", "TENB": "Ciberseguridad",
-    "CYBR": "Ciberseguridad", "GEN": "Ciberseguridad",
+    "GEN": "Ciberseguridad",
 
     # Chips, data centers y hardware IA
     "VRT": "Data Center / IA", "COHR": "Fotónica / IA", "LITE": "Fotónica / IA",
     "CIEN": "Redes / IA", "WDC": "Almacenamiento", "STX": "Almacenamiento",
     "SNDK": "Almacenamiento", "GFS": "Chips", "TER": "Equipos chips",
-    "ENTG": "Equipos chips", "WOLF": "Chips", "ALAB": "Data Center / IA",
+    "ENTG": "Equipos chips", "ALAB": "Data Center / IA",
 
     # IA especulativa, robótica y automatización
     "BBAI": "IA", "SERV": "Robótica", "SYM": "Robótica",
@@ -128,7 +152,7 @@ ACCIONES_INFO = {
     "QS": "Baterías", "ENVX": "Baterías", "ALB": "Litio", "LAC": "Litio",
 
     # Fintech, bancos, seguros y mercados
-    "AXP": "Pagos", "FI": "Pagos", "FIS": "Pagos", "GPN": "Pagos",
+    "AXP": "Pagos", "FISV": "Pagos", "FIS": "Pagos", "GPN": "Pagos",
     "NU": "Fintech", "AFRM": "Fintech", "TOST": "Fintech", "BILL": "Fintech",
     "KKR": "Finanzas", "ARES": "Finanzas", "BX": "Finanzas", "APO": "Finanzas",
     "CME": "Trading", "ICE": "Trading", "SPGI": "Finanzas", "MCO": "Finanzas",
@@ -233,6 +257,21 @@ else:
 
 # Contexto externo por tipo de acción.
 # Estos tickers no necesariamente se muestran en tabla; son drivers para confirmar si el sector acompaña.
+
+# ============================================================
+# BOT-ARQ V4.5.1 - TICKERS ACTUALIZADOS
+# CYBR se retira porque CyberArk fue adquirido por PANW; PANW ya está en la lista.
+# FI se reemplaza por FISV para compatibilidad con Yahoo/yfinance.
+# WOLF mantiene ticker activo, pero se retira temporalmente del universo
+# porque el bot exige historial suficiente para MA200/periodo 1y y yfinance
+# lo reportó sin datos en esta ejecución.
+# ============================================================
+TICKERS_ACTUALIZADOS_V451 = {
+    "CYBR": {"accion": "REMOVIDO", "reemplazo": "PANW", "motivo": "CyberArk adquirido por Palo Alto Networks; PANW ya existe en la lista."},
+    "FI": {"accion": "REEMPLAZADO", "reemplazo": "FISV", "motivo": "Compatibilidad Yahoo/yfinance para Fiserv."},
+    "WOLF": {"accion": "OMITIDO_TEMPORAL", "reemplazo": None, "motivo": "Ticker activo, pero insuficiente/inestable para la regla de historial del bot."},
+}
+
 DRIVERS_CONTEXTO = {
     "chips": ["SOXX", "QQQ"],
     "energia": ["XLE", "CL=F"],
@@ -2151,15 +2190,35 @@ def main():
     if export_paper_state:
         try:
             paper_state = export_paper_state(historial, resultados, mercado, CONFIG_SIMULACION)
-            print("PAPER TRADING V4.4.5 EXPORTADO")
+            print("PAPER TRADING V4.8 EXPORTADO")
         except Exception as e:
             print("ADVERTENCIA: no se pudo exportar paper trading V4:", e)
     else:
         print("ADVERTENCIA: paper trading engine V4 no disponible:", PAPER_ENGINE_IMPORT_ERROR)
 
+    backtest_report = None
+    if export_backtest_reports:
+        try:
+            backtest_report = export_backtest_reports(historial, resultados, mercado, CONFIG_SIMULACION)
+            print("BACKTESTING V4.7 EXPORTADO")
+        except Exception as e:
+            print("ADVERTENCIA: no se pudo exportar backtesting V4.7:", e)
+    else:
+        print("ADVERTENCIA: backtesting engine V4.7 no disponible:", BACKTEST_ENGINE_IMPORT_ERROR)
+
+    executive_report = None
+    if export_executive_report:
+        try:
+            executive_report = export_executive_report(historial, resultados, mercado, CONFIG_SIMULACION, paper_state, backtest_report, ticker_health_resumen)
+            print("REPORTE EJECUTIVO V4.8 EXPORTADO")
+        except Exception as e:
+            print("ADVERTENCIA: no se pudo exportar reporte ejecutivo V4.8:", e)
+    else:
+        print("ADVERTENCIA: executive report engine V4.8 no disponible:", EXECUTIVE_REPORT_IMPORT_ERROR)
+
     salida = {
         "actualizado": fecha_visible(),
-        "version_bot": "V4.5 POSITION SIZING PRO",
+        "version_bot": "V4.8 REPORTE EJECUTIVO",
         "contexto_mercado": mercado,
         "config_operativa": resumen_config_operativa(CONFIG_SISTEMA, CONFIG_SIMULACION) if resumen_config_operativa else {"simulation_config": CONFIG_SIMULACION},
         "ticker_health": ticker_health_resumen,
@@ -2169,6 +2228,8 @@ def main():
             "health": "NO_EXPORT",
             "error": PAPER_ENGINE_IMPORT_ERROR
         },
+        "backtesting": backtest_report.get("status", {}) if backtest_report else {"health": "NO_EXPORT"},
+        "executive_report": executive_report.get("summary", {}) if executive_report else {"health": "NO_EXPORT"},
         "historial": {
             "actualizado": historial.get("actualizado", ""),
             "resumen": historial.get("resumen", {}),

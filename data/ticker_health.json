@@ -1,6 +1,6 @@
 {
   "version": "V4.4.6",
-  "actualizado": "21-06-2026 11:15 PM Colombia",
+  "actualizado": "V4.5.1 - tickers actualizados",
   "tickers": {
     "NVDA": {
       "status": "OK",
@@ -1106,14 +1106,6 @@
       "fail_count": 0,
       "action": "ALLOW"
     },
-    "CYBR": {
-      "status": "ERROR",
-      "fail_count": 2,
-      "last_failure_date": "2026-06-21",
-      "last_failure_at": "21-06-2026 11:13 PM Colombia",
-      "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-      "action": "RETRY"
-    },
     "GEN": {
       "status": "OK",
       "last_success_date": "2026-06-21",
@@ -1201,14 +1193,6 @@
       "success_count": 2,
       "fail_count": 0,
       "action": "ALLOW"
-    },
-    "WOLF": {
-      "status": "ERROR",
-      "fail_count": 2,
-      "last_failure_date": "2026-06-21",
-      "last_failure_at": "21-06-2026 11:13 PM Colombia",
-      "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-      "action": "RETRY"
     },
     "ALAB": {
       "status": "OK",
@@ -1385,14 +1369,6 @@
       "success_count": 2,
       "fail_count": 0,
       "action": "ALLOW"
-    },
-    "FI": {
-      "status": "ERROR",
-      "fail_count": 2,
-      "last_failure_date": "2026-06-21",
-      "last_failure_at": "21-06-2026 11:14 PM Colombia",
-      "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-      "action": "RETRY"
     },
     "FIS": {
       "status": "OK",
@@ -2232,41 +2208,27 @@
     "enabled": true,
     "fail_threshold": 3,
     "cooldown_days": 7,
-    "total_registrados": 278,
+    "total_registrados": 275,
     "ok": 275,
-    "fallidos": 3,
+    "fallidos": 0,
     "en_cooldown": 0,
     "omitidos_en_ejecucion": 0,
     "omitidos": [],
-    "fallos_recientes": [
-      {
-        "ticker": "CYBR",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:13 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      },
-      {
-        "ticker": "WOLF",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:13 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      },
-      {
-        "ticker": "FI",
-        "status": "ERROR",
-        "fail_count": 2,
-        "last_failure_date": "2026-06-21",
-        "last_failure_at": "21-06-2026 11:14 PM Colombia",
-        "last_error": "SIN DATOS EN YAHOO/YFINANCE",
-        "action": "RETRY"
-      }
-    ],
-    "nota": "Tickers con muchos fallos se omiten temporalmente para acelerar el análisis y limpiar logs."
+    "fallos_recientes": [],
+    "nota": "Tickers con muchos fallos se omiten temporalmente para acelerar el análisis y limpiar logs. V4.5.1 limpia CYBR/FI/WOLF del universo activo."
+  },
+  "ticker_replacements_v451": {
+    "CYBR": {
+      "replacement": "PANW",
+      "status": "REMOVED_ACQUIRED"
+    },
+    "FI": {
+      "replacement": "FISV",
+      "status": "REPLACED_FOR_YFINANCE"
+    },
+    "WOLF": {
+      "replacement": null,
+      "status": "TEMPORARILY_OMITTED"
+    }
   }
 }

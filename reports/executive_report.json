@@ -1,0 +1,151 @@
+{
+  "updated": "2026-06-22T04:31:16Z",
+  "version": "V4.8",
+  "status": "BLOQUEADO",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
+  "summary": {
+    "mercado": "ALCISTA",
+    "estado_operativo": "BLOQUEADO",
+    "capital_total_estimado_usd": 6188.5,
+    "ganancia_total_estimada_usd": 1188.5,
+    "operaciones_abiertas": 20,
+    "exposicion_abierta_pct": 369.54,
+    "riesgo_abierto_pct": 14.61,
+    "drawdown_pct": 27.55,
+    "backtest_win_rate_pct": 33.93,
+    "backtest_profit_factor": 1.16,
+    "backtest_operaciones": 280
+  },
+  "top_opportunities": [
+    {
+      "ticker": "ADI",
+      "sector": "Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 100.0,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 434.46,
+      "objetivo": 478.2
+    },
+    {
+      "ticker": "TSM",
+      "sector": "Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 100.0,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 462.12,
+      "objetivo": 508.01
+    },
+    {
+      "ticker": "CAT",
+      "sector": "Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 97.8,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 985.82,
+      "objetivo": 1067.86
+    },
+    {
+      "ticker": "VMC",
+      "sector": "Materiales",
+      "senal_bot": "BUY STRONG",
+      "score": 97.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 302.84,
+      "objetivo": 323.26
+    },
+    {
+      "ticker": "ROK",
+      "sector": "Automatización",
+      "senal_bot": "BUY STRONG",
+      "score": 96.8,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 473.79,
+      "objetivo": 503.88
+    }
+  ],
+  "open_positions": [
+    {
+      "ticker": "VOO",
+      "sector": "ETF Mercado",
+      "pnl_usd": -1.89,
+      "pnl_pct": -0.16,
+      "senal_actual": "BUY",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "ROK",
+      "sector": "Automatización",
+      "pnl_usd": 36.1,
+      "pnl_pct": 3.06,
+      "senal_actual": "BUY STRONG",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "JNJ",
+      "sector": "Salud",
+      "pnl_usd": -7.08,
+      "pnl_pct": -0.6,
+      "senal_actual": "BUY",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "FTNT",
+      "sector": "Ciberseguridad",
+      "pnl_usd": 8.19,
+      "pnl_pct": 0.86,
+      "senal_actual": "BUY",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "ASML",
+      "sector": "Chips",
+      "pnl_usd": 16.32,
+      "pnl_pct": 1.9,
+      "senal_actual": "BUY STRONG",
+      "riesgo": "MEDIO"
+    },
+    {
+      "ticker": "ABBNY",
+      "sector": "Automatización",
+      "pnl_usd": 31.14,
+      "pnl_pct": 2.64,
+      "senal_actual": "BUY",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "ARKK",
+      "sector": "ETF Innovación",
+      "pnl_usd": 7.05,
+      "pnl_pct": 0.63,
+      "senal_actual": "BUY",
+      "riesgo": "MEDIO"
+    },
+    {
+      "ticker": "XLK",
+      "sector": "ETF Tecnología",
+      "pnl_usd": 36.8,
+      "pnl_pct": 3.12,
+      "senal_actual": "BUY",
+      "riesgo": "BAJO"
+    }
+  ],
+  "alerts": [
+    "Estado operativo BLOQUEADO: Sin capital disponible o límite sectorial alcanzado",
+    "Exposicion abierta por encima del limite configurado.",
+    "Máximo de posiciones abiertas alcanzado.",
+    "Exposición estimada supera el límite configurado.",
+    "Riesgo abierto total elevado."
+  ],
+  "conclusion": "No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.",
+  "recommendations": [
+    "Revisar primero estado operativo y limites de exposicion/riesgo.",
+    "Usar Top oportunidades como lista de vigilancia, no como orden real.",
+    "Validar tickers omitidos antes de interpretar ausencia de senales."
+  ],
+  "nota": "Reporte ejecutivo automatico para paper trading simulado. No es asesoria financiera."
+}

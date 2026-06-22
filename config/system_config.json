@@ -1,6 +1,6 @@
 {
-  "version": "4.5",
-  "name": "BOT-ARQ 4.5 - Position Sizing Pro",
+  "version": "4.8",
+  "name": "BOT-ARQv4 8 REPORTE EJECUTIVO",
   "mode": "PAPER_TRADING_SIMULATED",
   "data_source": "yfinance",
   "dashboard": {
@@ -67,16 +67,33 @@
     "V4.4.6 agrega filtro de salud de tickers para saltar temporalmente símbolos que Yahoo no entrega.",
     "No cambia la lógica de señales ni compra/venta; solo evita pérdida de tiempo por tickers fallidos.",
     "V4.5 mejora el tamaño de posición con capital disponible, reserva de efectivo y concentración por sector.",
-    "Sigue siendo paper trading. No ejecuta dinero real."
+    "Sigue siendo paper trading. No ejecuta dinero real.",
+    "V4.5.1 actualiza tickers problemáticos: CYBR se retira por adquisición de PANW; FI se reemplaza por FISV; WOLF se omite temporalmente por historial/yfinance.",
+    "El objetivo es evitar errores repetidos SIN DATOS EN YAHOO/YFINANCE sin tocar el motor de señales.",
+    "Agrega engine/backtesting_engine.py.",
+    "Genera reports/backtest_summary.json y cortes por sector, señal y mes.",
+    "Agrega panel Backtesting histórico V4.7 en el dashboard.",
+    "No toca broker real ni ejecuta dinero real.",
+    "Incluye V4.7 Backtesting histórico.",
+    "Agrega engine/executive_report_engine.py.",
+    "Genera reports/executive_report.json y reports/executive_report.md.",
+    "Agrega panel Reporte ejecutivo automático V4.8 en el dashboard."
   ],
   "ticker_health": {
     "enabled": true,
     "file": "data/ticker_health.json",
     "fail_threshold": 3,
     "cooldown_days": 7,
-    "manual_blocklist": [],
+    "manual_blocklist": [
+      "WOLF"
+    ],
     "manual_allowlist": [],
     "reset_on_success": true,
-    "show_in_dashboard": true
+    "show_in_dashboard": true,
+    "ticker_replacements": {
+      "CYBR": "PANW",
+      "FI": "FISV",
+      "WOLF": null
+    }
   }
 }

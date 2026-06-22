@@ -1,17 +1,17 @@
 {
-  "version_actual": "4.5",
-  "nombre": "BOT-ARQv4_5_POSITION_SIZING_PRO",
-  "base": "BOT-ARQ V4.4",
-  "fecha_generacion": "2026-06-22 03:55:27 UTC",
+  "version_actual": "V4.8",
+  "nombre": "BOT-ARQv4_8_REPORTE_EJECUTIVO",
+  "base": "V4.7",
+  "fecha_generacion": "2026-06-22 04:31:16 UTC",
   "cambios": [
-    "Dashboard profesional consolidado",
-    "Refresh inteligente cada 5 minutos",
-    "paper_state.json ligero",
-    "Limpieza de workflow y .gitignore",
-    "Documentación actualizada"
+    "Incluye V4.7 Backtesting histórico.",
+    "Agrega engine/executive_report_engine.py.",
+    "Genera reports/executive_report.json y reports/executive_report.md.",
+    "Agrega panel Reporte ejecutivo automático V4.8 en el dashboard.",
+    "No toca broker real ni ejecuta dinero real."
   ],
-  "siguiente_version_recomendada": "V4.4.2 Ticker Health Filter",
-  "tipo": "HOTFIX",
-  "estado": "estable",
-  "nota": "Position Sizing Pro"
+  "siguiente_version_recomendada": "V4.9 Preparación Broker Paper API o V4.6 Concentración sectorial",
+  "tipo": "EVOLUCION FUNCIONAL",
+  "estado": "PAPER_TRADING_SIMULADO",
+  "nota": "No ejecuta dinero real. Mantiene GitHub Pages y GitHub Actions."
 }
