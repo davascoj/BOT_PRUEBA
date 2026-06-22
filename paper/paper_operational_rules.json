@@ -1,14 +1,14 @@
 {
   "version": "V4.4",
   "estado": "BLOQUEADO",
-  "exposicion_abierta_pct": 369.54,
-  "riesgo_abierto_pct": 14.61,
+  "exposicion_abierta_pct": 338.97,
+  "riesgo_abierto_pct": 13.02,
   "drawdown_pct": 27.55,
   "max_exposicion_total_pct": 80.0,
   "max_riesgo_total_abierto_pct": 10.0,
   "modo_defensivo_drawdown_pct": 12.0,
   "bloquear_entradas_drawdown_pct": 25.0,
-  "bloqueos_generados": 84,
+  "bloqueos_generados": 70,
   "motivo_principal": "Sin capital disponible o límite sectorial alcanzado",
   "reglas_activas": {
     "exposicion": true,
