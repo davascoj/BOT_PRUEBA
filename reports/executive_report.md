@@ -1,13 +1,13 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-06-22T17:24:32Z
+**Actualizado:** 2026-06-22T20:20:07Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
 ## Resumen
 - Mercado: ALCISTA
-- Capital total estimado USD: 6200.54
-- G/P total estimada USD: 1200.54
+- Capital total estimado USD: 6228.14
+- G/P total estimada USD: 1228.14
 - Operaciones abiertas: 18
 - Exposicion abierta %: 338.97
 - Riesgo abierto %: 13.02
@@ -22,11 +22,11 @@
 - Diagnóstico general marca riesgo ALTO.
 
 ## Top oportunidades
-- ADI · BUY · score 88.6 · R/R 1.63
-- ANET · BUY · score 88.2 · R/R 1.63
-- PANW · BUY · score 86.1 · R/R 1.63
-- SOXX · BUY · score 86.1 · R/R 1.63
-- XLK · BUY · score 85.6 · R/R 1.63
+- VRTX · BUY STRONG · score 96.3 · R/R 1.63
+- XBI · BUY STRONG · score 96.0 · R/R 1.63
+- IBB · BUY STRONG · score 94.7 · R/R 1.63
+- NVO · BUY STRONG · score 94.2 · R/R 1.63
+- DIA · BUY STRONG · score 90.9 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.

@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-22T17:24:32Z",
+  "updated": "2026-06-22T20:20:07Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
   "summary": {
     "mercado": "ALCISTA",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 6200.54,
-    "ganancia_total_estimada_usd": 1200.54,
+    "capital_total_estimado_usd": 6228.14,
+    "ganancia_total_estimada_usd": 1228.14,
     "operaciones_abiertas": 18,
     "exposicion_abierta_pct": 338.97,
     "riesgo_abierto_pct": 13.02,
@@ -18,118 +18,118 @@
   },
   "top_opportunities": [
     {
-      "ticker": "ADI",
-      "sector": "Chips",
-      "senal_bot": "BUY",
-      "score": 88.6,
+      "ticker": "VRTX",
+      "sector": "Salud",
+      "senal_bot": "BUY STRONG",
+      "score": 96.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 442.45,
-      "objetivo": 485.55
+      "precio": 466.79,
+      "objetivo": 494.05
     },
     {
-      "ticker": "ANET",
-      "sector": "Redes / IA",
-      "senal_bot": "BUY",
-      "score": 88.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 171.36,
-      "objetivo": 190.02
-    },
-    {
-      "ticker": "PANW",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 86.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 285.31,
-      "objetivo": 313.26
-    },
-    {
-      "ticker": "SOXX",
-      "sector": "ETF Chips",
-      "senal_bot": "BUY",
-      "score": 86.1,
+      "ticker": "XBI",
+      "sector": "ETF Biotech",
+      "senal_bot": "BUY STRONG",
+      "score": 96.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 649.38,
-      "objetivo": 732.96
+      "precio": 145.86,
+      "objetivo": 155.75
     },
     {
-      "ticker": "XLK",
-      "sector": "ETF Tecnología",
-      "senal_bot": "BUY",
-      "score": 85.6,
+      "ticker": "IBB",
+      "sector": "ETF Biotech",
+      "senal_bot": "BUY STRONG",
+      "score": 94.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 191.68,
-      "objetivo": 206.2
+      "precio": 177.0,
+      "objetivo": 185.98
+    },
+    {
+      "ticker": "NVO",
+      "sector": "Salud",
+      "senal_bot": "BUY STRONG",
+      "score": 94.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 45.9,
+      "objetivo": 49.42
+    },
+    {
+      "ticker": "DIA",
+      "sector": "ETF Dow",
+      "senal_bot": "BUY STRONG",
+      "score": 90.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 517.02,
+      "objetivo": 532.87
     }
   ],
   "open_positions": [
     {
       "ticker": "VOO",
       "sector": "ETF Mercado",
-      "pnl_usd": -4.57,
-      "pnl_pct": -0.39,
+      "pnl_usd": -5.27,
+      "pnl_pct": -0.45,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "ROK",
       "sector": "Automatización",
-      "pnl_usd": 48.52,
-      "pnl_pct": 4.14,
+      "pnl_usd": 46.41,
+      "pnl_pct": 3.96,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     },
     {
       "ticker": "FTNT",
       "sector": "Ciberseguridad",
-      "pnl_usd": 2.36,
-      "pnl_pct": 0.25,
+      "pnl_usd": 12.49,
+      "pnl_pct": 1.32,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     },
     {
       "ticker": "ASML",
       "sector": "Chips",
-      "pnl_usd": 0.09,
-      "pnl_pct": 0.01,
+      "pnl_usd": 16.05,
+      "pnl_pct": 1.88,
       "senal_actual": "BUY",
       "riesgo": "MEDIO"
     },
     {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 39.38,
-      "pnl_pct": 3.36,
+      "pnl_usd": 45.94,
+      "pnl_pct": 3.92,
       "senal_actual": "BUY",
       "riesgo": "MEDIO"
     },
     {
       "ticker": "ARKK",
       "sector": "ETF Innovación",
-      "pnl_usd": -11.9,
-      "pnl_pct": -1.07,
+      "pnl_usd": -17.68,
+      "pnl_pct": -1.59,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLK",
       "sector": "ETF Tecnología",
-      "pnl_usd": 38.09,
-      "pnl_pct": 3.25,
+      "pnl_usd": 41.02,
+      "pnl_pct": 3.5,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 35.75,
-      "pnl_pct": 3.05,
+      "pnl_usd": 34.81,
+      "pnl_pct": 2.97,
       "senal_actual": "BUY",
       "riesgo": "MEDIO"
     }
