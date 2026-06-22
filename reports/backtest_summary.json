@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T04:31:16Z",
+  "updated": "2026-06-22T04:43:06Z",
   "version": "V4.7",
   "status": {
     "health": "OK",
@@ -353,7 +353,7 @@
       "win_rate_pct": 25.0,
       "profit_factor": 1.18,
       "pnl_total_usd": 6.7,
-      "pnl_promedio_usd": 1.68,
+      "pnl_promedio_usd": 1.67,
       "ganancia_promedio_usd": 44.49,
       "perdida_promedio_usd": -12.6,
       "rentabilidad_promedio_pct": 0.21,
@@ -580,7 +580,7 @@
       "pnl_total_usd": -33.97,
       "pnl_promedio_usd": -3.77,
       "ganancia_promedio_usd": 48.19,
-      "perdida_promedio_usd": -29.75,
+      "perdida_promedio_usd": -29.76,
       "rentabilidad_promedio_pct": 0.21,
       "mejor_pnl_usd": 69.66,
       "peor_pnl_usd": -58.62,
