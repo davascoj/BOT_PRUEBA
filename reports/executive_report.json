@@ -1,94 +1,94 @@
 {
-  "updated": "2026-06-23T15:46:00Z",
+  "updated": "2026-06-23T17:32:14Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
     "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5815.87,
-    "ganancia_total_estimada_usd": 815.87,
-    "operaciones_abiertas": 13,
-    "exposicion_abierta_pct": 239.99,
-    "riesgo_abierto_pct": 9.26,
+    "capital_total_estimado_usd": 5863.93,
+    "ganancia_total_estimada_usd": 863.93,
+    "operaciones_abiertas": 11,
+    "exposicion_abierta_pct": 200.0,
+    "riesgo_abierto_pct": 8.03,
     "drawdown_pct": 27.55,
-    "backtest_win_rate_pct": 33.45,
-    "backtest_profit_factor": 1.14,
-    "backtest_operaciones": 287
+    "backtest_win_rate_pct": 33.56,
+    "backtest_profit_factor": 1.15,
+    "backtest_operaciones": 289
   },
   "top_opportunities": [],
   "open_positions": [
     {
       "ticker": "ROK",
       "sector": "Automatización",
-      "pnl_usd": 0.23,
-      "pnl_pct": 0.02,
+      "pnl_usd": 3.97,
+      "pnl_pct": 0.34,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "FTNT",
       "sector": "Ciberseguridad",
-      "pnl_usd": 17.73,
-      "pnl_pct": 1.9,
+      "pnl_usd": 31.07,
+      "pnl_pct": 3.3,
       "senal_actual": "HOLD",
-      "riesgo": "MEDIO"
+      "riesgo": "BAJO"
     },
     {
       "ticker": "ASML",
       "sector": "Chips",
-      "pnl_usd": -52.96,
-      "pnl_pct": -6.29,
+      "pnl_usd": -49.36,
+      "pnl_pct": -5.81,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 7.05,
-      "pnl_pct": 0.61,
+      "pnl_usd": 7.35,
+      "pnl_pct": 0.63,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 14.8,
-      "pnl_pct": 1.28,
+      "pnl_usd": 18.55,
+      "pnl_pct": 1.59,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLB",
       "sector": "ETF Materiales",
-      "pnl_usd": -25.44,
-      "pnl_pct": -2.2,
+      "pnl_usd": -25.43,
+      "pnl_pct": -2.18,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
-      "ticker": "UNH",
-      "sector": "Salud",
-      "pnl_usd": -1.85,
-      "pnl_pct": -0.16,
+      "ticker": "TRV",
+      "sector": "Seguros",
+      "pnl_usd": 31.61,
+      "pnl_pct": 2.71,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     },
     {
-      "ticker": "TRV",
-      "sector": "Seguros",
-      "pnl_usd": 34.57,
-      "pnl_pct": 2.99,
+      "ticker": "IWM",
+      "sector": "ETF Russell",
+      "pnl_usd": 10.15,
+      "pnl_pct": 0.87,
       "senal_actual": "HOLD",
-      "riesgo": "ALTO"
+      "riesgo": "BAJO"
     }
   ],
   "alerts": [
     "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Exposicion abierta por encima del limite configurado.",
     "Exposición estimada supera el límite configurado.",
-    "Riesgo abierto total elevado.",
-    "Diagnóstico general marca riesgo ALTO."
+    "Diagnóstico general marca riesgo ALTO.",
+    "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
   "conclusion": "No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.",
   "recommendations": [
