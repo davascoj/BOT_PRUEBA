@@ -1,5 +1,5 @@
 {
-  "actualizado": "23-06-2026 04:13 PM Colombia",
+  "actualizado": "23-06-2026 05:24 PM Colombia",
   "version_bot": "V4.8 REPORTE EJECUTIVO",
   "contexto_mercado": {
     "estado": "DÉBIL",
@@ -18,22 +18,22 @@
         "ticker": "BTC-USD",
         "estado": "DÉBIL",
         "score": -6,
-        "mom20": -2.46,
-        "mom5": -0.73
+        "mom20": -2.16,
+        "mom5": -0.42
       },
       "CL=F": {
         "ticker": "CL=F",
         "estado": "DÉBIL",
         "score": -6,
-        "mom20": -24.38,
-        "mom5": -9.54
+        "mom20": -24.32,
+        "mom5": -9.46
       },
       "ETH-USD": {
         "ticker": "ETH-USD",
         "estado": "DÉBIL",
         "score": -6,
-        "mom20": -8.22,
-        "mom5": -2.73
+        "mom20": -7.95,
+        "mom5": -2.45
       },
       "QQQ": {
         "ticker": "QQQ",
@@ -78,8 +78,8 @@
       "energia": {
         "estado": "NO ACOMPAÑA",
         "score": -8,
-        "mom20_prom": -16.09,
-        "detalle": "XLE -7.8% · CL=F -24.38%",
+        "mom20_prom": -16.06,
+        "detalle": "XLE -7.8% · CL=F -24.32%",
         "drivers": [
           "XLE",
           "CL=F"
@@ -88,8 +88,8 @@
       "cripto": {
         "estado": "NO ACOMPAÑA",
         "score": -8,
-        "mom20_prom": -5.34,
-        "detalle": "BTC-USD -2.46% · ETH-USD -8.22%",
+        "mom20_prom": -5.05,
+        "detalle": "BTC-USD -2.16% · ETH-USD -7.95%",
         "drivers": [
           "BTC-USD",
           "ETH-USD"
@@ -2534,13 +2534,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "BTC-USD -2.46% · ETH-USD -8.22%",
+      "Drivers sector": "BTC-USD -2.16% · ETH-USD -7.95%",
       "Riesgo": "MEDIO",
       "Hot Score": "🔥",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
       "Razones": "Precio sobre MA20; MA20 sobre MA50; Tendencia larga positiva; RSI saludable; MACD positivo",
-      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.46% · ETH-USD -8.22%; Volatilidad alta",
+      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.16% · ETH-USD -7.95%; Volatilidad alta",
       "Score calidad": 53.5
     },
     {
@@ -2566,13 +2566,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "BTC-USD -2.46% · ETH-USD -8.22%",
+      "Drivers sector": "BTC-USD -2.16% · ETH-USD -7.95%",
       "Riesgo": "MEDIO",
       "Hot Score": "🔥",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
       "Razones": "Precio sobre MA20; MA20 sobre MA50; Tendencia larga positiva; RSI saludable; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.46% · ETH-USD -8.22%; MACD sin confirmar; Volumen bajo; Volatilidad alta",
+      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.16% · ETH-USD -7.95%; MACD sin confirmar; Volumen bajo; Volatilidad alta",
       "Score calidad": 52.0
     },
     {
@@ -2662,13 +2662,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
       "Razones": "Precio sobre MA20; Tendencia larga positiva; RSI saludable; MACD positivo; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%",
       "Score calidad": 41.0
     },
     {
@@ -2694,13 +2694,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
       "Razones": "Precio sobre MA20; Tendencia larga positiva; RSI saludable; MACD positivo; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Volumen bajo; Débil vs QQQ",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Volumen bajo; Débil vs QQQ",
       "Score calidad": 40.7
     },
     {
@@ -3430,13 +3430,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
       "Razones": "Precio sobre MA20; MA20 sobre MA50; Tendencia larga positiva; RSI saludable; MACD positivo",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Subida muy extendida 5D; Muy alejada de MA20; Volatilidad alta",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Subida muy extendida 5D; Muy alejada de MA20; Volatilidad alta",
       "Score calidad": 39.3
     },
     {
@@ -6182,13 +6182,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva; MACD mejorando; Momentum 5D sano",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; MACD sin confirmar; Débil vs QQQ",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; MACD sin confirmar; Débil vs QQQ",
       "Score calidad": 25.6
     },
     {
@@ -6246,13 +6246,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Precio sobre MA20; Tendencia larga positiva; RSI saludable; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; MACD sin confirmar; Débil vs QQQ",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; MACD sin confirmar; Débil vs QQQ",
       "Score calidad": 24.6
     },
     {
@@ -6278,13 +6278,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD positivo; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20",
       "Score calidad": 23.5
     },
     {
@@ -6534,13 +6534,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 13.7
     },
     {
@@ -6726,13 +6726,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 9.5
     },
     {
@@ -6822,13 +6822,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 8.6
     },
     {
@@ -6982,13 +6982,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; MACD sin confirmar; Débil vs QQQ",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; MACD sin confirmar; Débil vs QQQ",
       "Score calidad": 4.8
     },
     {
@@ -7110,13 +7110,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 3.1
     },
     {
@@ -7142,13 +7142,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; MACD sin confirmar; Volumen bajo",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; MACD sin confirmar; Volumen bajo",
       "Score calidad": 2.7
     },
     {
@@ -7174,13 +7174,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 2.6
     },
     {
@@ -7206,13 +7206,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; MACD mejorando; Momentum 5D sano",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; Tendencia larga débil; RSI débil",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; Tendencia larga débil; RSI débil",
       "Score calidad": 2.6
     },
     {
@@ -7302,13 +7302,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 1.6
     },
     {
@@ -7366,13 +7366,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.8
     },
     {
@@ -7462,13 +7462,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -7622,13 +7622,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -7910,13 +7910,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -7942,13 +7942,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8102,13 +8102,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "BTC-USD -2.46% · ETH-USD -8.22%",
+      "Drivers sector": "BTC-USD -2.16% · ETH-USD -7.95%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MACD positivo",
-      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.46% · ETH-USD -8.22%; Precio bajo MA20; Tendencia larga débil; Momentum negativo",
+      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.16% · ETH-USD -7.95%; Precio bajo MA20; Tendencia larga débil; Momentum negativo",
       "Score calidad": 0.0
     },
     {
@@ -8198,13 +8198,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8230,13 +8230,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8454,13 +8454,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "MEDIO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Tendencia larga positiva; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8710,13 +8710,13 @@
       "Confirmacion": "MEDIA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Precio sobre MA20; Tendencia larga positiva; MACD positivo; MACD mejorando",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; RSI sobrecomprado; Momentum 5D extendido",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; RSI sobrecomprado; Momentum 5D extendido",
       "Score calidad": 17.4
     },
     {
@@ -8902,13 +8902,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8966,13 +8966,13 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "XLE -7.8% · CL=F -24.38%",
+      "Drivers sector": "XLE -7.8% · CL=F -24.32%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "MA20 sobre MA50; Tendencia larga positiva",
-      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.38%; Precio bajo MA20; RSI débil; MACD sin confirmar",
+      "Alertas": "Mercado débil; Sector no acompaña: XLE -7.8% · CL=F -24.32%; Precio bajo MA20; RSI débil; MACD sin confirmar",
       "Score calidad": 0.0
     },
     {
@@ -8998,18 +8998,18 @@
       "Confirmacion": "BAJA",
       "Mercado": "DÉBIL",
       "Contexto sector": "NO ACOMPAÑA",
-      "Drivers sector": "BTC-USD -2.46% · ETH-USD -8.22%",
+      "Drivers sector": "BTC-USD -2.16% · ETH-USD -7.95%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
       "Razones": "",
-      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.46% · ETH-USD -8.22%; Precio bajo MA20; Tendencia larga débil; RSI débil",
+      "Alertas": "Mercado débil; Sector no acompaña: BTC-USD -2.16% · ETH-USD -7.95%; Precio bajo MA20; Tendencia larga débil; RSI débil",
       "Score calidad": 0.0
     }
   ],
   "paper_trading": {
-    "updated": "23-06-2026 04:13 PM Colombia",
+    "updated": "23-06-2026 05:24 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -9037,22 +9037,22 @@
           "ticker": "BTC-USD",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -2.46,
-          "mom5": -0.73
+          "mom20": -2.16,
+          "mom5": -0.42
         },
         "CL=F": {
           "ticker": "CL=F",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -24.38,
-          "mom5": -9.54
+          "mom20": -24.32,
+          "mom5": -9.46
         },
         "ETH-USD": {
           "ticker": "ETH-USD",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -8.22,
-          "mom5": -2.73
+          "mom20": -7.95,
+          "mom5": -2.45
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -9097,8 +9097,8 @@
         "energia": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -16.09,
-          "detalle": "XLE -7.8% · CL=F -24.38%",
+          "mom20_prom": -16.06,
+          "detalle": "XLE -7.8% · CL=F -24.32%",
           "drivers": [
             "XLE",
             "CL=F"
@@ -9107,8 +9107,8 @@
         "cripto": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -5.34,
-          "detalle": "BTC-USD -2.46% · ETH-USD -8.22%",
+          "mom20_prom": -5.05,
+          "detalle": "BTC-USD -2.16% · ETH-USD -7.95%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -9163,7 +9163,7 @@
     "backtest_operaciones": 291
   },
   "historial": {
-    "actualizado": "23-06-2026 04:13 PM Colombia",
+    "actualizado": "23-06-2026 05:24 PM Colombia",
     "resumen": {
       "total_operaciones": 300,
       "abiertas": 9,
