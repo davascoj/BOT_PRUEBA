@@ -1,141 +1,90 @@
 {
-  "updated": "2026-06-22T22:19:49Z",
+  "updated": "2026-06-23T15:46:00Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "ALCISTA",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 6228.85,
-    "ganancia_total_estimada_usd": 1228.85,
-    "operaciones_abiertas": 18,
-    "exposicion_abierta_pct": 338.97,
-    "riesgo_abierto_pct": 13.02,
+    "capital_total_estimado_usd": 5815.87,
+    "ganancia_total_estimada_usd": 815.87,
+    "operaciones_abiertas": 13,
+    "exposicion_abierta_pct": 239.99,
+    "riesgo_abierto_pct": 9.26,
     "drawdown_pct": 27.55,
-    "backtest_win_rate_pct": 34.04,
-    "backtest_profit_factor": 1.15,
-    "backtest_operaciones": 282
+    "backtest_win_rate_pct": 33.45,
+    "backtest_profit_factor": 1.14,
+    "backtest_operaciones": 287
   },
-  "top_opportunities": [
-    {
-      "ticker": "VRTX",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 96.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 466.79,
-      "objetivo": 494.05
-    },
-    {
-      "ticker": "XBI",
-      "sector": "ETF Biotech",
-      "senal_bot": "BUY STRONG",
-      "score": 96.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 145.86,
-      "objetivo": 155.75
-    },
-    {
-      "ticker": "IBB",
-      "sector": "ETF Biotech",
-      "senal_bot": "BUY STRONG",
-      "score": 94.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 177.0,
-      "objetivo": 185.98
-    },
-    {
-      "ticker": "NVO",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 94.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 45.88,
-      "objetivo": 49.4
-    },
-    {
-      "ticker": "DIA",
-      "sector": "ETF Dow",
-      "senal_bot": "BUY STRONG",
-      "score": 90.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 517.08,
-      "objetivo": 532.93
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [
-    {
-      "ticker": "VOO",
-      "sector": "ETF Mercado",
-      "pnl_usd": -5.27,
-      "pnl_pct": -0.45,
-      "senal_actual": "HOLD",
-      "riesgo": "BAJO"
-    },
     {
       "ticker": "ROK",
       "sector": "Automatización",
-      "pnl_usd": 46.88,
-      "pnl_pct": 4.0,
-      "senal_actual": "BUY",
+      "pnl_usd": 0.23,
+      "pnl_pct": 0.02,
+      "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "FTNT",
       "sector": "Ciberseguridad",
-      "pnl_usd": 12.49,
-      "pnl_pct": 1.32,
-      "senal_actual": "BUY",
-      "riesgo": "BAJO"
+      "pnl_usd": 17.73,
+      "pnl_pct": 1.9,
+      "senal_actual": "HOLD",
+      "riesgo": "MEDIO"
     },
     {
       "ticker": "ASML",
       "sector": "Chips",
-      "pnl_usd": 16.05,
-      "pnl_pct": 1.88,
-      "senal_actual": "BUY",
-      "riesgo": "MEDIO"
+      "pnl_usd": -52.96,
+      "pnl_pct": -6.29,
+      "senal_actual": "HOLD",
+      "riesgo": "BAJO"
     },
     {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 45.94,
-      "pnl_pct": 3.92,
-      "senal_actual": "BUY",
-      "riesgo": "MEDIO"
-    },
-    {
-      "ticker": "ARKK",
-      "sector": "ETF Innovación",
-      "pnl_usd": -17.68,
-      "pnl_pct": -1.59,
-      "senal_actual": "BUY",
-      "riesgo": "BAJO"
-    },
-    {
-      "ticker": "XLK",
-      "sector": "ETF Tecnología",
-      "pnl_usd": 41.02,
-      "pnl_pct": 3.5,
-      "senal_actual": "BUY",
+      "pnl_usd": 7.05,
+      "pnl_pct": 0.61,
+      "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 34.81,
-      "pnl_pct": 2.97,
-      "senal_actual": "BUY",
-      "riesgo": "MEDIO"
+      "pnl_usd": 14.8,
+      "pnl_pct": 1.28,
+      "senal_actual": "HOLD",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "XLB",
+      "sector": "ETF Materiales",
+      "pnl_usd": -25.44,
+      "pnl_pct": -2.2,
+      "senal_actual": "HOLD",
+      "riesgo": "BAJO"
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Salud",
+      "pnl_usd": -1.85,
+      "pnl_pct": -0.16,
+      "senal_actual": "HOLD",
+      "riesgo": "ALTO"
+    },
+    {
+      "ticker": "TRV",
+      "sector": "Seguros",
+      "pnl_usd": 34.57,
+      "pnl_pct": 2.99,
+      "senal_actual": "HOLD",
+      "riesgo": "ALTO"
     }
   ],
   "alerts": [
-    "Estado operativo BLOQUEADO: Sin capital disponible o límite sectorial alcanzado",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Exposicion abierta por encima del limite configurado.",
     "Exposición estimada supera el límite configurado.",
     "Riesgo abierto total elevado.",

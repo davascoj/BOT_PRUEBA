@@ -1,33 +1,33 @@
 {
-  "updated": "2026-06-22T22:19:49Z",
+  "updated": "2026-06-23T15:46:00Z",
   "version": "V4.7",
   "status": {
     "health": "OK",
-    "closed_trades_evaluated": 282,
-    "open_trades": 18
+    "closed_trades_evaluated": 287,
+    "open_trades": 13
   },
   "summary": {
-    "operaciones": 282,
+    "operaciones": 287,
     "ganadas": 96,
-    "perdidas": 186,
-    "win_rate_pct": 34.04,
-    "profit_factor": 1.15,
-    "pnl_total_usd": 859.76,
-    "pnl_promedio_usd": 3.05,
+    "perdidas": 191,
+    "win_rate_pct": 33.45,
+    "profit_factor": 1.14,
+    "pnl_total_usd": 780.71,
+    "pnl_promedio_usd": 2.72,
     "ganancia_promedio_usd": 67.59,
-    "perdida_promedio_usd": -30.26,
-    "rentabilidad_promedio_pct": 0.77,
+    "perdida_promedio_usd": -29.88,
+    "rentabilidad_promedio_pct": 0.74,
     "mejor_pnl_usd": 228.69,
     "peor_pnl_usd": -133.76,
     "version": "V4.7",
     "evaluacion": "BACKTEST_HISTORICO_SIMULADO",
     "operaciones_totales_historial": 300,
-    "operaciones_abiertas": 18,
-    "operaciones_cerradas_evaluadas": 282,
+    "operaciones_abiertas": 13,
+    "operaciones_cerradas_evaluadas": 287,
     "capital_inicial_usd": 5000.0,
-    "capital_final_estimado_usd": 5859.87,
+    "capital_final_estimado_usd": 5801.34,
     "max_drawdown_pct": 27.55,
-    "mercado_actual": "ALCISTA",
+    "mercado_actual": "DÉBIL",
     "nota": "Backtesting sobre operaciones simuladas guardadas. No es recomendación financiera ni ejecución real."
   },
   "by_sector": [
@@ -137,16 +137,16 @@
       "sector": "Ciberseguridad"
     },
     {
-      "operaciones": 4,
+      "operaciones": 6,
       "ganadas": 3,
-      "perdidas": 1,
-      "win_rate_pct": 75.0,
-      "profit_factor": 4.75,
-      "pnl_total_usd": 136.33,
-      "pnl_promedio_usd": 34.08,
+      "perdidas": 3,
+      "win_rate_pct": 50.0,
+      "profit_factor": 3.53,
+      "pnl_total_usd": 123.68,
+      "pnl_promedio_usd": 20.61,
       "ganancia_promedio_usd": 57.55,
-      "perdida_promedio_usd": -36.32,
-      "rentabilidad_promedio_pct": 2.92,
+      "perdida_promedio_usd": -16.32,
+      "rentabilidad_promedio_pct": 1.84,
       "mejor_pnl_usd": 64.96,
       "peor_pnl_usd": -36.32,
       "sector": "ETF Tecnología"
@@ -302,16 +302,16 @@
       "sector": "IA / Chips"
     },
     {
-      "operaciones": 4,
+      "operaciones": 5,
       "ganadas": 3,
-      "perdidas": 1,
-      "win_rate_pct": 75.0,
-      "profit_factor": 2.26,
-      "pnl_total_usd": 32.45,
-      "pnl_promedio_usd": 8.11,
+      "perdidas": 2,
+      "win_rate_pct": 60.0,
+      "profit_factor": 1.48,
+      "pnl_total_usd": 19.01,
+      "pnl_promedio_usd": 3.8,
       "ganancia_promedio_usd": 19.41,
-      "perdida_promedio_usd": -25.77,
-      "rentabilidad_promedio_pct": 0.96,
+      "perdida_promedio_usd": -19.61,
+      "rentabilidad_promedio_pct": 0.58,
       "mejor_pnl_usd": 39.71,
       "peor_pnl_usd": -25.77,
       "sector": "ETF Nasdaq"
@@ -360,21 +360,6 @@
       "mejor_pnl_usd": 44.49,
       "peor_pnl_usd": -22.62,
       "sector": "ETF Salud"
-    },
-    {
-      "operaciones": 1,
-      "ganadas": 1,
-      "perdidas": 0,
-      "win_rate_pct": 100.0,
-      "profit_factor": 0.46,
-      "pnl_total_usd": 0.46,
-      "pnl_promedio_usd": 0.46,
-      "ganancia_promedio_usd": 0.46,
-      "perdida_promedio_usd": 0.0,
-      "rentabilidad_promedio_pct": 0.27,
-      "mejor_pnl_usd": 0.46,
-      "peor_pnl_usd": 0.46,
-      "sector": "ETF Innovación"
     },
     {
       "operaciones": 3,
@@ -467,21 +452,6 @@
       "sector": "Autos / Tech"
     },
     {
-      "operaciones": 6,
-      "ganadas": 3,
-      "perdidas": 3,
-      "win_rate_pct": 50.0,
-      "profit_factor": 0.75,
-      "pnl_total_usd": -14.02,
-      "pnl_promedio_usd": -2.34,
-      "ganancia_promedio_usd": 13.89,
-      "perdida_promedio_usd": -18.56,
-      "rentabilidad_promedio_pct": 0.17,
-      "mejor_pnl_usd": 20.79,
-      "peor_pnl_usd": -20.12,
-      "sector": "ETF Mercado"
-    },
-    {
       "operaciones": 1,
       "ganadas": 0,
       "perdidas": 1,
@@ -572,6 +542,21 @@
       "sector": "ETF Materiales"
     },
     {
+      "operaciones": 2,
+      "ganadas": 1,
+      "perdidas": 1,
+      "win_rate_pct": 50.0,
+      "profit_factor": 0.01,
+      "pnl_total_usd": -32.34,
+      "pnl_promedio_usd": -16.17,
+      "ganancia_promedio_usd": 0.46,
+      "perdida_promedio_usd": -32.8,
+      "rentabilidad_promedio_pct": -1.23,
+      "mejor_pnl_usd": 0.46,
+      "peor_pnl_usd": -32.8,
+      "sector": "ETF Innovación"
+    },
+    {
       "operaciones": 9,
       "ganadas": 3,
       "perdidas": 6,
@@ -585,6 +570,21 @@
       "mejor_pnl_usd": 69.66,
       "peor_pnl_usd": -58.62,
       "sector": "Industrial"
+    },
+    {
+      "operaciones": 7,
+      "ganadas": 3,
+      "perdidas": 4,
+      "win_rate_pct": 42.86,
+      "profit_factor": 0.55,
+      "pnl_total_usd": -34.18,
+      "pnl_promedio_usd": -4.88,
+      "ganancia_promedio_usd": 13.89,
+      "perdida_promedio_usd": -18.96,
+      "rentabilidad_promedio_pct": -0.07,
+      "mejor_pnl_usd": 20.79,
+      "peor_pnl_usd": -20.16,
+      "sector": "ETF Mercado"
     },
     {
       "operaciones": 1,
@@ -904,16 +904,16 @@
   ],
   "by_signal": [
     {
-      "operaciones": 282,
+      "operaciones": 287,
       "ganadas": 96,
-      "perdidas": 186,
-      "win_rate_pct": 34.04,
-      "profit_factor": 1.15,
-      "pnl_total_usd": 859.76,
-      "pnl_promedio_usd": 3.05,
+      "perdidas": 191,
+      "win_rate_pct": 33.45,
+      "profit_factor": 1.14,
+      "pnl_total_usd": 780.71,
+      "pnl_promedio_usd": 2.72,
       "ganancia_promedio_usd": 67.59,
-      "perdida_promedio_usd": -30.26,
-      "rentabilidad_promedio_pct": 0.77,
+      "perdida_promedio_usd": -29.88,
+      "rentabilidad_promedio_pct": 0.74,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
       "senal_bot_entrada": "BUY"
@@ -936,57 +936,22 @@
       "month": "2026-05"
     },
     {
-      "operaciones": 171,
+      "operaciones": 176,
       "ganadas": 53,
-      "perdidas": 118,
-      "win_rate_pct": 30.99,
-      "profit_factor": 0.9,
-      "pnl_total_usd": -420.04,
-      "pnl_promedio_usd": -2.46,
+      "perdidas": 123,
+      "win_rate_pct": 30.11,
+      "profit_factor": 0.89,
+      "pnl_total_usd": -499.09,
+      "pnl_promedio_usd": -2.84,
       "ganancia_promedio_usd": 72.49,
-      "perdida_promedio_usd": -36.12,
-      "rentabilidad_promedio_pct": -0.05,
+      "perdida_promedio_usd": -35.29,
+      "rentabilidad_promedio_pct": -0.08,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
       "month": "2026-06"
     }
   ],
   "equity_curve": [
-    {
-      "fecha": "2026-06-03",
-      "accion": "SOXX",
-      "capital": 7342.25,
-      "pnl_usd": 114.97,
-      "drawdown_pct": 4.56
-    },
-    {
-      "fecha": "2026-06-03",
-      "accion": "TMO",
-      "capital": 7314.17,
-      "pnl_usd": -59.73,
-      "drawdown_pct": 4.92
-    },
-    {
-      "fecha": "2026-06-03",
-      "accion": "UPST",
-      "capital": 7431.95,
-      "pnl_usd": -30.28,
-      "drawdown_pct": 3.39
-    },
-    {
-      "fecha": "2026-06-03",
-      "accion": "WFC",
-      "capital": 7556.87,
-      "pnl_usd": 6.34,
-      "drawdown_pct": 1.77
-    },
-    {
-      "fecha": "2026-06-03",
-      "accion": "XLV",
-      "capital": 7670.43,
-      "pnl_usd": -22.62,
-      "drawdown_pct": 0.29
-    },
     {
       "fecha": "2026-06-03",
       "accion": "XYZ",
@@ -1791,6 +1756,41 @@
       "capital": 5859.87,
       "pnl_usd": -40.29,
       "drawdown_pct": 24.04
+    },
+    {
+      "fecha": "2026-06-23",
+      "accion": "ARKK",
+      "capital": 5806.91,
+      "pnl_usd": -32.8,
+      "drawdown_pct": 24.73
+    },
+    {
+      "fecha": "2026-06-23",
+      "accion": "QQQ",
+      "capital": 5780.82,
+      "pnl_usd": -13.44,
+      "drawdown_pct": 25.07
+    },
+    {
+      "fecha": "2026-06-23",
+      "accion": "VGT",
+      "capital": 5794.26,
+      "pnl_usd": -7.08,
+      "drawdown_pct": 24.9
+    },
+    {
+      "fecha": "2026-06-23",
+      "accion": "VOO",
+      "capital": 5839.72,
+      "pnl_usd": -20.16,
+      "drawdown_pct": 24.31
+    },
+    {
+      "fecha": "2026-06-23",
+      "accion": "XLK",
+      "capital": 5801.34,
+      "pnl_usd": -5.57,
+      "drawdown_pct": 24.8
     }
   ],
   "best_trades": [

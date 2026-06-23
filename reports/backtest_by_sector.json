@@ -105,16 +105,16 @@
     "sector": "Ciberseguridad"
   },
   {
-    "operaciones": 4,
+    "operaciones": 6,
     "ganadas": 3,
-    "perdidas": 1,
-    "win_rate_pct": 75.0,
-    "profit_factor": 4.75,
-    "pnl_total_usd": 136.33,
-    "pnl_promedio_usd": 34.08,
+    "perdidas": 3,
+    "win_rate_pct": 50.0,
+    "profit_factor": 3.53,
+    "pnl_total_usd": 123.68,
+    "pnl_promedio_usd": 20.61,
     "ganancia_promedio_usd": 57.55,
-    "perdida_promedio_usd": -36.32,
-    "rentabilidad_promedio_pct": 2.92,
+    "perdida_promedio_usd": -16.32,
+    "rentabilidad_promedio_pct": 1.84,
     "mejor_pnl_usd": 64.96,
     "peor_pnl_usd": -36.32,
     "sector": "ETF Tecnología"
@@ -270,16 +270,16 @@
     "sector": "IA / Chips"
   },
   {
-    "operaciones": 4,
+    "operaciones": 5,
     "ganadas": 3,
-    "perdidas": 1,
-    "win_rate_pct": 75.0,
-    "profit_factor": 2.26,
-    "pnl_total_usd": 32.45,
-    "pnl_promedio_usd": 8.11,
+    "perdidas": 2,
+    "win_rate_pct": 60.0,
+    "profit_factor": 1.48,
+    "pnl_total_usd": 19.01,
+    "pnl_promedio_usd": 3.8,
     "ganancia_promedio_usd": 19.41,
-    "perdida_promedio_usd": -25.77,
-    "rentabilidad_promedio_pct": 0.96,
+    "perdida_promedio_usd": -19.61,
+    "rentabilidad_promedio_pct": 0.58,
     "mejor_pnl_usd": 39.71,
     "peor_pnl_usd": -25.77,
     "sector": "ETF Nasdaq"
@@ -328,21 +328,6 @@
     "mejor_pnl_usd": 44.49,
     "peor_pnl_usd": -22.62,
     "sector": "ETF Salud"
-  },
-  {
-    "operaciones": 1,
-    "ganadas": 1,
-    "perdidas": 0,
-    "win_rate_pct": 100.0,
-    "profit_factor": 0.46,
-    "pnl_total_usd": 0.46,
-    "pnl_promedio_usd": 0.46,
-    "ganancia_promedio_usd": 0.46,
-    "perdida_promedio_usd": 0.0,
-    "rentabilidad_promedio_pct": 0.27,
-    "mejor_pnl_usd": 0.46,
-    "peor_pnl_usd": 0.46,
-    "sector": "ETF Innovación"
   },
   {
     "operaciones": 3,
@@ -435,21 +420,6 @@
     "sector": "Autos / Tech"
   },
   {
-    "operaciones": 6,
-    "ganadas": 3,
-    "perdidas": 3,
-    "win_rate_pct": 50.0,
-    "profit_factor": 0.75,
-    "pnl_total_usd": -14.02,
-    "pnl_promedio_usd": -2.34,
-    "ganancia_promedio_usd": 13.89,
-    "perdida_promedio_usd": -18.56,
-    "rentabilidad_promedio_pct": 0.17,
-    "mejor_pnl_usd": 20.79,
-    "peor_pnl_usd": -20.12,
-    "sector": "ETF Mercado"
-  },
-  {
     "operaciones": 1,
     "ganadas": 0,
     "perdidas": 1,
@@ -540,6 +510,21 @@
     "sector": "ETF Materiales"
   },
   {
+    "operaciones": 2,
+    "ganadas": 1,
+    "perdidas": 1,
+    "win_rate_pct": 50.0,
+    "profit_factor": 0.01,
+    "pnl_total_usd": -32.34,
+    "pnl_promedio_usd": -16.17,
+    "ganancia_promedio_usd": 0.46,
+    "perdida_promedio_usd": -32.8,
+    "rentabilidad_promedio_pct": -1.23,
+    "mejor_pnl_usd": 0.46,
+    "peor_pnl_usd": -32.8,
+    "sector": "ETF Innovación"
+  },
+  {
     "operaciones": 9,
     "ganadas": 3,
     "perdidas": 6,
@@ -553,6 +538,21 @@
     "mejor_pnl_usd": 69.66,
     "peor_pnl_usd": -58.62,
     "sector": "Industrial"
+  },
+  {
+    "operaciones": 7,
+    "ganadas": 3,
+    "perdidas": 4,
+    "win_rate_pct": 42.86,
+    "profit_factor": 0.55,
+    "pnl_total_usd": -34.18,
+    "pnl_promedio_usd": -4.88,
+    "ganancia_promedio_usd": 13.89,
+    "perdida_promedio_usd": -18.96,
+    "rentabilidad_promedio_pct": -0.07,
+    "mejor_pnl_usd": 20.79,
+    "peor_pnl_usd": -20.16,
+    "sector": "ETF Mercado"
   },
   {
     "operaciones": 1,
