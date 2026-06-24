@@ -225,6 +225,21 @@
     "sector": "Servidores IA"
   },
   {
+    "operaciones": 2,
+    "ganadas": 1,
+    "perdidas": 1,
+    "win_rate_pct": 50.0,
+    "profit_factor": 6.8,
+    "pnl_total_usd": 49.13,
+    "pnl_promedio_usd": 24.57,
+    "ganancia_promedio_usd": 57.6,
+    "perdida_promedio_usd": -8.47,
+    "rentabilidad_promedio_pct": 2.34,
+    "mejor_pnl_usd": 57.6,
+    "peor_pnl_usd": -8.47,
+    "sector": "Seguros"
+  },
+  {
     "operaciones": 6,
     "ganadas": 2,
     "perdidas": 4,
@@ -373,21 +388,6 @@
     "mejor_pnl_usd": -5.87,
     "peor_pnl_usd": -5.87,
     "sector": "ETF Real Estate"
-  },
-  {
-    "operaciones": 1,
-    "ganadas": 0,
-    "perdidas": 1,
-    "win_rate_pct": 0.0,
-    "profit_factor": 0.0,
-    "pnl_total_usd": -8.47,
-    "pnl_promedio_usd": -8.47,
-    "ganancia_promedio_usd": 0.0,
-    "perdida_promedio_usd": -8.47,
-    "rentabilidad_promedio_pct": -0.52,
-    "mejor_pnl_usd": -8.47,
-    "peor_pnl_usd": -8.47,
-    "sector": "Seguros"
   },
   {
     "operaciones": 1,

@@ -1,18 +1,18 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-06-23T22:24:39Z
+**Actualizado:** 2026-06-24T15:31:00Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.
 
 ## Resumen
 - Mercado: DÉBIL
-- Capital total estimado USD: 5828.92
-- G/P total estimada USD: 828.92
-- Operaciones abiertas: 9
-- Exposicion abierta %: 160.0
-- Riesgo abierto %: 6.78
-- Backtest win rate %: 33.33
-- Backtest profit factor: 1.14
+- Capital total estimado USD: 5916.05
+- G/P total estimada USD: 916.05
+- Operaciones abiertas: 8
+- Exposicion abierta %: 140.0
+- Riesgo abierto %: 6.21
+- Backtest win rate %: 33.56
+- Backtest profit factor: 1.15
 
 ## Alertas
 - Estado operativo BLOQUEADO: SIN BLOQUEOS
