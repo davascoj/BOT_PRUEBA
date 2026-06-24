@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "24-06-2026 03:56 PM Colombia",
+  "actualizado": "24-06-2026 05:06 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-17-ABBNY",
@@ -135,7 +135,7 @@
       "contexto_sector_entrada": "GENERAL",
       "volumen_relativo_entrada": 0.8,
       "score_calidad_entrada": 82.7,
-      "score_calidad_actual": 66.8,
+      "score_calidad_actual": 66.9,
       "costo_total_estimado_pct": 0.23,
       "posicion_usd_estimada": 1157.14,
       "posicion_pct_cuenta_estimada": 20.0,
@@ -153,7 +153,7 @@
       "costo_usd_estimado": 2.66,
       "mercado_actual": "DÉBIL",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 0.95
+      "volumen_relativo_actual": 0.96
     },
     {
       "id": "2026-06-12-DIA",
@@ -204,7 +204,7 @@
       "costo_usd_estimado": 2.66,
       "mercado_actual": "DÉBIL",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 0.77
+      "volumen_relativo_actual": 0.78
     },
     {
       "id": "2026-06-12-CCL",
