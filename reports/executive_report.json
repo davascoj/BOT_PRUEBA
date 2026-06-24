@@ -1,68 +1,60 @@
 {
-  "updated": "2026-06-24T17:28:36Z",
+  "updated": "2026-06-24T19:10:24Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
     "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5822.5,
-    "ganancia_total_estimada_usd": 822.5,
-    "operaciones_abiertas": 6,
-    "exposicion_abierta_pct": 114.6,
-    "riesgo_abierto_pct": 4.21,
+    "capital_total_estimado_usd": 5817.25,
+    "ganancia_total_estimada_usd": 817.25,
+    "operaciones_abiertas": 5,
+    "exposicion_abierta_pct": 98.46,
+    "riesgo_abierto_pct": 3.21,
     "drawdown_pct": 27.55,
-    "backtest_win_rate_pct": 33.33,
+    "backtest_win_rate_pct": 33.56,
     "backtest_profit_factor": 1.13,
-    "backtest_operaciones": 294
+    "backtest_operaciones": 295
   },
   "top_opportunities": [],
   "open_positions": [
     {
-      "ticker": "FTNT",
-      "sector": "Ciberseguridad",
-      "pnl_usd": 10.91,
-      "pnl_pct": 1.17,
-      "senal_actual": "HOLD",
-      "riesgo": "MEDIO"
-    },
-    {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 4.39,
-      "pnl_pct": 0.38,
+      "pnl_usd": 0.69,
+      "pnl_pct": 0.06,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 20.34,
-      "pnl_pct": 1.76,
+      "pnl_usd": 22.91,
+      "pnl_pct": 1.98,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 8.2,
-      "pnl_pct": 0.71,
+      "pnl_usd": 2.89,
+      "pnl_pct": 0.25,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 5.55,
-      "pnl_pct": 0.48,
+      "pnl_usd": 5.67,
+      "pnl_pct": 0.49,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "CCL",
       "sector": "Cruceros",
-      "pnl_usd": -4.69,
-      "pnl_pct": -0.44,
+      "pnl_usd": -0.64,
+      "pnl_pct": -0.06,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     }
