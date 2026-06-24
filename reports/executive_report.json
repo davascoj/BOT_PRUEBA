@@ -1,86 +1,70 @@
 {
-  "updated": "2026-06-24T15:31:00Z",
+  "updated": "2026-06-24T17:28:36Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
     "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5916.05,
-    "ganancia_total_estimada_usd": 916.05,
-    "operaciones_abiertas": 8,
-    "exposicion_abierta_pct": 140.0,
-    "riesgo_abierto_pct": 6.21,
+    "capital_total_estimado_usd": 5822.5,
+    "ganancia_total_estimada_usd": 822.5,
+    "operaciones_abiertas": 6,
+    "exposicion_abierta_pct": 114.6,
+    "riesgo_abierto_pct": 4.21,
     "drawdown_pct": 27.55,
-    "backtest_win_rate_pct": 33.56,
-    "backtest_profit_factor": 1.15,
-    "backtest_operaciones": 292
+    "backtest_win_rate_pct": 33.33,
+    "backtest_profit_factor": 1.13,
+    "backtest_operaciones": 294
   },
   "top_opportunities": [],
   "open_positions": [
     {
       "ticker": "FTNT",
       "sector": "Ciberseguridad",
-      "pnl_usd": 21.16,
-      "pnl_pct": 2.24,
+      "pnl_usd": 10.91,
+      "pnl_pct": 1.17,
       "senal_actual": "HOLD",
       "riesgo": "MEDIO"
     },
     {
-      "ticker": "ASML",
-      "sector": "Chips",
-      "pnl_usd": -59.08,
-      "pnl_pct": -6.93,
-      "senal_actual": "HOLD",
-      "riesgo": "BAJO"
-    },
-    {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 6.55,
-      "pnl_pct": 0.56,
+      "pnl_usd": 4.39,
+      "pnl_pct": 0.38,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 35.0,
-      "pnl_pct": 2.99,
+      "pnl_usd": 20.34,
+      "pnl_pct": 1.76,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 19.31,
-      "pnl_pct": 1.65,
+      "pnl_usd": 8.2,
+      "pnl_pct": 0.71,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 14.28,
-      "pnl_pct": 1.22,
+      "pnl_usd": 5.55,
+      "pnl_pct": 0.48,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "CCL",
       "sector": "Cruceros",
-      "pnl_usd": 20.63,
-      "pnl_pct": 1.91,
+      "pnl_usd": -4.69,
+      "pnl_pct": -0.44,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
-    },
-    {
-      "ticker": "AMD",
-      "sector": "IA / Chips",
-      "pnl_usd": 5.89,
-      "pnl_pct": 0.93,
-      "senal_actual": "HOLD",
-      "riesgo": "MEDIO"
     }
   ],
   "alerts": [
