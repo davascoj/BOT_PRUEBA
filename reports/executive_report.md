@@ -1,13 +1,13 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-06-24T19:10:24Z
+**Actualizado:** 2026-06-24T20:56:13Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.
 
 ## Resumen
 - Mercado: DÉBIL
-- Capital total estimado USD: 5817.25
-- G/P total estimada USD: 817.25
+- Capital total estimado USD: 5820.51
+- G/P total estimada USD: 820.51
 - Operaciones abiertas: 5
 - Exposicion abierta %: 98.46
 - Riesgo abierto %: 3.21

@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-24T19:10:24Z",
+  "updated": "2026-06-24T20:56:13Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
     "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5817.25,
-    "ganancia_total_estimada_usd": 817.25,
+    "capital_total_estimado_usd": 5820.51,
+    "ganancia_total_estimada_usd": 820.51,
     "operaciones_abiertas": 5,
     "exposicion_abierta_pct": 98.46,
     "riesgo_abierto_pct": 3.21,
@@ -21,40 +21,40 @@
     {
       "ticker": "ABBNY",
       "sector": "Automatización",
-      "pnl_usd": 0.69,
-      "pnl_pct": 0.06,
+      "pnl_usd": 1.85,
+      "pnl_pct": 0.16,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "XLI",
       "sector": "ETF Industrial",
-      "pnl_usd": 22.91,
-      "pnl_pct": 1.98,
+      "pnl_usd": 23.84,
+      "pnl_pct": 2.06,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 2.89,
-      "pnl_pct": 0.25,
+      "pnl_usd": 8.1,
+      "pnl_pct": 0.7,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 5.67,
-      "pnl_pct": 0.49,
+      "pnl_usd": 6.02,
+      "pnl_pct": 0.52,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     },
     {
       "ticker": "CCL",
       "sector": "Cruceros",
-      "pnl_usd": -0.64,
-      "pnl_pct": -0.06,
+      "pnl_usd": -5.02,
+      "pnl_pct": -0.47,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     }
