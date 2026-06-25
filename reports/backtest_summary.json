@@ -1,29 +1,29 @@
 {
-  "updated": "2026-06-25T15:38:07Z",
+  "updated": "2026-06-25T17:39:42Z",
   "version": "V4.7",
   "status": {
     "health": "OK",
-    "closed_trades_evaluated": 296,
-    "open_trades": 4
+    "closed_trades_evaluated": 297,
+    "open_trades": 3
   },
   "summary": {
-    "operaciones": 296,
+    "operaciones": 297,
     "ganadas": 100,
-    "perdidas": 196,
-    "win_rate_pct": 33.78,
+    "perdidas": 197,
+    "win_rate_pct": 33.67,
     "profit_factor": 1.14,
-    "pnl_total_usd": 836.07,
-    "pnl_promedio_usd": 2.82,
+    "pnl_total_usd": 823.57,
+    "pnl_promedio_usd": 2.77,
     "ganancia_promedio_usd": 66.59,
-    "perdida_promedio_usd": -29.71,
-    "rentabilidad_promedio_pct": 0.73,
+    "perdida_promedio_usd": -29.62,
+    "rentabilidad_promedio_pct": 0.72,
     "mejor_pnl_usd": 228.69,
     "peor_pnl_usd": -133.76,
     "version": "V4.7",
     "evaluacion": "BACKTEST_HISTORICO_SIMULADO",
     "operaciones_totales_historial": 300,
-    "operaciones_abiertas": 4,
-    "operaciones_cerradas_evaluadas": 296,
+    "operaciones_abiertas": 3,
+    "operaciones_cerradas_evaluadas": 297,
     "capital_inicial_usd": 5000.0,
     "capital_final_estimado_usd": 5836.18,
     "max_drawdown_pct": 27.55,
@@ -752,21 +752,6 @@
       "sector": "Baterías"
     },
     {
-      "operaciones": 2,
-      "ganadas": 0,
-      "perdidas": 2,
-      "win_rate_pct": 0.0,
-      "profit_factor": 0.0,
-      "pnl_total_usd": -63.73,
-      "pnl_promedio_usd": -31.86,
-      "ganancia_promedio_usd": 0.0,
-      "perdida_promedio_usd": -31.86,
-      "rentabilidad_promedio_pct": -2.82,
-      "mejor_pnl_usd": -2.18,
-      "peor_pnl_usd": -61.55,
-      "sector": "Cruceros"
-    },
-    {
       "operaciones": 1,
       "ganadas": 0,
       "perdidas": 1,
@@ -780,6 +765,21 @@
       "mejor_pnl_usd": -74.26,
       "peor_pnl_usd": -74.26,
       "sector": "Minería"
+    },
+    {
+      "operaciones": 3,
+      "ganadas": 0,
+      "perdidas": 3,
+      "win_rate_pct": 0.0,
+      "profit_factor": 0.0,
+      "pnl_total_usd": -76.23,
+      "pnl_promedio_usd": -25.41,
+      "ganancia_promedio_usd": 0.0,
+      "perdida_promedio_usd": -25.41,
+      "rentabilidad_promedio_pct": -2.19,
+      "mejor_pnl_usd": -2.18,
+      "peor_pnl_usd": -61.55,
+      "sector": "Cruceros"
     },
     {
       "operaciones": 1,
@@ -904,16 +904,16 @@
   ],
   "by_signal": [
     {
-      "operaciones": 296,
+      "operaciones": 297,
       "ganadas": 100,
-      "perdidas": 196,
-      "win_rate_pct": 33.78,
+      "perdidas": 197,
+      "win_rate_pct": 33.67,
       "profit_factor": 1.14,
-      "pnl_total_usd": 836.07,
-      "pnl_promedio_usd": 2.82,
+      "pnl_total_usd": 823.57,
+      "pnl_promedio_usd": 2.77,
       "ganancia_promedio_usd": 66.59,
-      "perdida_promedio_usd": -29.71,
-      "rentabilidad_promedio_pct": 0.73,
+      "perdida_promedio_usd": -29.62,
+      "rentabilidad_promedio_pct": 0.72,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
       "senal_bot_entrada": "BUY"
@@ -936,29 +936,22 @@
       "month": "2026-05"
     },
     {
-      "operaciones": 185,
+      "operaciones": 186,
       "ganadas": 57,
-      "perdidas": 128,
-      "win_rate_pct": 30.81,
+      "perdidas": 129,
+      "win_rate_pct": 30.65,
       "profit_factor": 0.9,
-      "pnl_total_usd": -443.73,
-      "pnl_promedio_usd": -2.4,
+      "pnl_total_usd": -456.23,
+      "pnl_promedio_usd": -2.45,
       "ganancia_promedio_usd": 70.4,
-      "perdida_promedio_usd": -34.82,
-      "rentabilidad_promedio_pct": -0.05,
+      "perdida_promedio_usd": -34.65,
+      "rentabilidad_promedio_pct": -0.06,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
       "month": "2026-06"
     }
   ],
   "equity_curve": [
-    {
-      "fecha": "2026-06-04",
-      "accion": "FIX",
-      "capital": 7577.66,
-      "pnl_usd": -77.02,
-      "drawdown_pct": 1.5
-    },
     {
       "fecha": "2026-06-04",
       "accion": "HIMS",
@@ -1784,6 +1777,13 @@
       "capital": 5791.18,
       "pnl_usd": 57.0,
       "drawdown_pct": 24.94
+    },
+    {
+      "fecha": "2026-06-25",
+      "accion": "CCL",
+      "capital": 5823.68,
+      "pnl_usd": -12.5,
+      "drawdown_pct": 24.51
     },
     {
       "fecha": "2026-06-25",

@@ -720,21 +720,6 @@
     "sector": "Baterías"
   },
   {
-    "operaciones": 2,
-    "ganadas": 0,
-    "perdidas": 2,
-    "win_rate_pct": 0.0,
-    "profit_factor": 0.0,
-    "pnl_total_usd": -63.73,
-    "pnl_promedio_usd": -31.86,
-    "ganancia_promedio_usd": 0.0,
-    "perdida_promedio_usd": -31.86,
-    "rentabilidad_promedio_pct": -2.82,
-    "mejor_pnl_usd": -2.18,
-    "peor_pnl_usd": -61.55,
-    "sector": "Cruceros"
-  },
-  {
     "operaciones": 1,
     "ganadas": 0,
     "perdidas": 1,
@@ -748,6 +733,21 @@
     "mejor_pnl_usd": -74.26,
     "peor_pnl_usd": -74.26,
     "sector": "Minería"
+  },
+  {
+    "operaciones": 3,
+    "ganadas": 0,
+    "perdidas": 3,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "pnl_total_usd": -76.23,
+    "pnl_promedio_usd": -25.41,
+    "ganancia_promedio_usd": 0.0,
+    "perdida_promedio_usd": -25.41,
+    "rentabilidad_promedio_pct": -2.19,
+    "mejor_pnl_usd": -2.18,
+    "peor_pnl_usd": -61.55,
+    "sector": "Cruceros"
   },
   {
     "operaciones": 1,

@@ -1,15 +1,15 @@
 [
   {
-    "operaciones": 296,
+    "operaciones": 297,
     "ganadas": 100,
-    "perdidas": 196,
-    "win_rate_pct": 33.78,
+    "perdidas": 197,
+    "win_rate_pct": 33.67,
     "profit_factor": 1.14,
-    "pnl_total_usd": 836.07,
-    "pnl_promedio_usd": 2.82,
+    "pnl_total_usd": 823.57,
+    "pnl_promedio_usd": 2.77,
     "ganancia_promedio_usd": 66.59,
-    "perdida_promedio_usd": -29.71,
-    "rentabilidad_promedio_pct": 0.73,
+    "perdida_promedio_usd": -29.62,
+    "rentabilidad_promedio_pct": 0.72,
     "mejor_pnl_usd": 228.69,
     "peor_pnl_usd": -133.76,
     "senal_bot_entrada": "BUY"
