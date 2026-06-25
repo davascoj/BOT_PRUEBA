@@ -1,11 +1,11 @@
 {
-  "updated": "24-06-2026 05:06 PM Colombia",
+  "updated": "25-06-2026 10:38 AM Colombia",
   "version": "V4.4.4",
   "mode": "AUDITORIA_BLOQUEOS_EXISTENTES",
   "summary": {
     "blocked_count": 0,
     "buy_candidates_count": 0,
-    "open_positions_count": 5,
+    "open_positions_count": 4,
     "warnings_count": 3,
     "main_block_reason": "SIN BLOQUEOS REGISTRADOS"
   },

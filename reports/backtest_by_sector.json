@@ -255,6 +255,21 @@
     "sector": "Fintech"
   },
   {
+    "operaciones": 2,
+    "ganadas": 1,
+    "perdidas": 1,
+    "win_rate_pct": 50.0,
+    "profit_factor": 2.98,
+    "pnl_total_usd": 33.52,
+    "pnl_promedio_usd": 16.76,
+    "ganancia_promedio_usd": 50.45,
+    "perdida_promedio_usd": -16.93,
+    "rentabilidad_promedio_pct": 1.67,
+    "mejor_pnl_usd": 50.45,
+    "peor_pnl_usd": -16.93,
+    "sector": "ETF Industrial"
+  },
+  {
     "operaciones": 27,
     "ganadas": 10,
     "perdidas": 17,
@@ -433,21 +448,6 @@
     "mejor_pnl_usd": -16.01,
     "peor_pnl_usd": -16.01,
     "sector": "Biotecnología"
-  },
-  {
-    "operaciones": 1,
-    "ganadas": 0,
-    "perdidas": 1,
-    "win_rate_pct": 0.0,
-    "profit_factor": 0.0,
-    "pnl_total_usd": -16.93,
-    "pnl_promedio_usd": -16.93,
-    "ganancia_promedio_usd": 0.0,
-    "perdida_promedio_usd": -16.93,
-    "rentabilidad_promedio_pct": -1.26,
-    "mejor_pnl_usd": -16.93,
-    "peor_pnl_usd": -16.93,
-    "sector": "ETF Industrial"
   },
   {
     "operaciones": 2,
