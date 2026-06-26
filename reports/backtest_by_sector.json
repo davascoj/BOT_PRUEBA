@@ -795,21 +795,6 @@
     "sector": "Fintech IA"
   },
   {
-    "operaciones": 3,
-    "ganadas": 0,
-    "perdidas": 3,
-    "win_rate_pct": 0.0,
-    "profit_factor": 0.0,
-    "pnl_total_usd": -101.44,
-    "pnl_promedio_usd": -33.81,
-    "ganancia_promedio_usd": 0.0,
-    "perdida_promedio_usd": -33.81,
-    "rentabilidad_promedio_pct": -2.39,
-    "mejor_pnl_usd": -6.66,
-    "peor_pnl_usd": -51.07,
-    "sector": "Automatización"
-  },
-  {
     "operaciones": 2,
     "ganadas": 0,
     "perdidas": 2,
@@ -823,6 +808,21 @@
     "mejor_pnl_usd": -40.29,
     "peor_pnl_usd": -76.89,
     "sector": "Autos eléctricos"
+  },
+  {
+    "operaciones": 4,
+    "ganadas": 0,
+    "perdidas": 4,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "pnl_total_usd": -120.08,
+    "pnl_promedio_usd": -30.02,
+    "ganancia_promedio_usd": 0.0,
+    "perdida_promedio_usd": -30.02,
+    "rentabilidad_promedio_pct": -2.13,
+    "mejor_pnl_usd": -6.66,
+    "peor_pnl_usd": -51.07,
+    "sector": "Automatización"
   },
   {
     "operaciones": 2,

@@ -1,31 +1,31 @@
 {
-  "updated": "2026-06-25T22:46:31Z",
+  "updated": "2026-06-26T15:21:52Z",
   "version": "V4.7",
   "status": {
     "health": "OK",
-    "closed_trades_evaluated": 297,
-    "open_trades": 3
+    "closed_trades_evaluated": 298,
+    "open_trades": 2
   },
   "summary": {
-    "operaciones": 297,
+    "operaciones": 298,
     "ganadas": 100,
-    "perdidas": 197,
-    "win_rate_pct": 33.67,
+    "perdidas": 198,
+    "win_rate_pct": 33.56,
     "profit_factor": 1.14,
-    "pnl_total_usd": 823.57,
-    "pnl_promedio_usd": 2.77,
+    "pnl_total_usd": 804.93,
+    "pnl_promedio_usd": 2.7,
     "ganancia_promedio_usd": 66.59,
-    "perdida_promedio_usd": -29.62,
+    "perdida_promedio_usd": -29.57,
     "rentabilidad_promedio_pct": 0.72,
     "mejor_pnl_usd": 228.69,
     "peor_pnl_usd": -133.76,
     "version": "V4.7",
     "evaluacion": "BACKTEST_HISTORICO_SIMULADO",
     "operaciones_totales_historial": 300,
-    "operaciones_abiertas": 3,
-    "operaciones_cerradas_evaluadas": 297,
+    "operaciones_abiertas": 2,
+    "operaciones_cerradas_evaluadas": 298,
     "capital_inicial_usd": 5000.0,
-    "capital_final_estimado_usd": 5836.18,
+    "capital_final_estimado_usd": 5805.04,
     "max_drawdown_pct": 27.55,
     "mercado_actual": "DÉBIL",
     "nota": "Backtesting sobre operaciones simuladas guardadas. No es recomendación financiera ni ejecución real."
@@ -827,21 +827,6 @@
       "sector": "Fintech IA"
     },
     {
-      "operaciones": 3,
-      "ganadas": 0,
-      "perdidas": 3,
-      "win_rate_pct": 0.0,
-      "profit_factor": 0.0,
-      "pnl_total_usd": -101.44,
-      "pnl_promedio_usd": -33.81,
-      "ganancia_promedio_usd": 0.0,
-      "perdida_promedio_usd": -33.81,
-      "rentabilidad_promedio_pct": -2.39,
-      "mejor_pnl_usd": -6.66,
-      "peor_pnl_usd": -51.07,
-      "sector": "Automatización"
-    },
-    {
       "operaciones": 2,
       "ganadas": 0,
       "perdidas": 2,
@@ -855,6 +840,21 @@
       "mejor_pnl_usd": -40.29,
       "peor_pnl_usd": -76.89,
       "sector": "Autos eléctricos"
+    },
+    {
+      "operaciones": 4,
+      "ganadas": 0,
+      "perdidas": 4,
+      "win_rate_pct": 0.0,
+      "profit_factor": 0.0,
+      "pnl_total_usd": -120.08,
+      "pnl_promedio_usd": -30.02,
+      "ganancia_promedio_usd": 0.0,
+      "perdida_promedio_usd": -30.02,
+      "rentabilidad_promedio_pct": -2.13,
+      "mejor_pnl_usd": -6.66,
+      "peor_pnl_usd": -51.07,
+      "sector": "Automatización"
     },
     {
       "operaciones": 2,
@@ -904,15 +904,15 @@
   ],
   "by_signal": [
     {
-      "operaciones": 297,
+      "operaciones": 298,
       "ganadas": 100,
-      "perdidas": 197,
-      "win_rate_pct": 33.67,
+      "perdidas": 198,
+      "win_rate_pct": 33.56,
       "profit_factor": 1.14,
-      "pnl_total_usd": 823.57,
-      "pnl_promedio_usd": 2.77,
+      "pnl_total_usd": 804.93,
+      "pnl_promedio_usd": 2.7,
       "ganancia_promedio_usd": 66.59,
-      "perdida_promedio_usd": -29.62,
+      "perdida_promedio_usd": -29.57,
       "rentabilidad_promedio_pct": 0.72,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
@@ -936,15 +936,15 @@
       "month": "2026-05"
     },
     {
-      "operaciones": 186,
+      "operaciones": 187,
       "ganadas": 57,
-      "perdidas": 129,
-      "win_rate_pct": 30.65,
-      "profit_factor": 0.9,
-      "pnl_total_usd": -456.23,
-      "pnl_promedio_usd": -2.45,
+      "perdidas": 130,
+      "win_rate_pct": 30.48,
+      "profit_factor": 0.89,
+      "pnl_total_usd": -474.87,
+      "pnl_promedio_usd": -2.54,
       "ganancia_promedio_usd": 70.4,
-      "perdida_promedio_usd": -34.65,
+      "perdida_promedio_usd": -34.52,
       "rentabilidad_promedio_pct": -0.06,
       "mejor_pnl_usd": 228.69,
       "peor_pnl_usd": -133.76,
@@ -952,13 +952,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "fecha": "2026-06-04",
-      "accion": "HIMS",
-      "capital": 7654.68,
-      "pnl_usd": 90.92,
-      "drawdown_pct": 0.5
-    },
     {
       "fecha": "2026-06-04",
       "accion": "IBKR",
@@ -1791,6 +1784,13 @@
       "capital": 5836.18,
       "pnl_usd": 50.45,
       "drawdown_pct": 24.35
+    },
+    {
+      "fecha": "2026-06-26",
+      "accion": "ABBNY",
+      "capital": 5805.04,
+      "pnl_usd": -18.64,
+      "drawdown_pct": 24.76
     }
   ],
   "best_trades": [
