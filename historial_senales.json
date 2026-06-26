@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "26-06-2026 03:52 PM Colombia",
+  "actualizado": "26-06-2026 04:57 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-12-IWM",
@@ -33,7 +33,7 @@
       "contexto_sector_entrada": "GENERAL",
       "volumen_relativo_entrada": 0.8,
       "score_calidad_entrada": 82.7,
-      "score_calidad_actual": 57.2,
+      "score_calidad_actual": 57.3,
       "costo_total_estimado_pct": 0.23,
       "posicion_usd_estimada": 1161.01,
       "posicion_pct_cuenta_estimada": 20.0,
@@ -51,7 +51,7 @@
       "costo_usd_estimado": 2.67,
       "mercado_actual": "DÉBIL",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 1.24
+      "volumen_relativo_actual": 1.26
     },
     {
       "id": "2026-06-12-DIA",
