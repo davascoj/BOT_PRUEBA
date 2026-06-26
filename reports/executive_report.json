@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-26T17:14:09Z",
+  "updated": "2026-06-26T19:05:02Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
     "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5831.98,
-    "ganancia_total_estimada_usd": 831.98,
+    "capital_total_estimado_usd": 5818.98,
+    "ganancia_total_estimada_usd": 818.98,
     "operaciones_abiertas": 2,
     "exposicion_abierta_pct": 40.0,
     "riesgo_abierto_pct": 0.91,
@@ -21,16 +21,16 @@
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 16.95,
-      "pnl_pct": 1.46,
+      "pnl_usd": 8.24,
+      "pnl_pct": 0.71,
       "senal_actual": "HOLD",
-      "riesgo": "ALTO"
+      "riesgo": "MEDIO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 9.98,
-      "pnl_pct": 0.86,
+      "pnl_usd": 5.69,
+      "pnl_pct": 0.49,
       "senal_actual": "HOLD",
       "riesgo": "BAJO"
     }
