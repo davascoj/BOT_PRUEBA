@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "29-06-2026 11:33 AM Colombia",
+  "actualizado": "29-06-2026 01:32 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-12-IWM",
@@ -12,7 +12,7 @@
       "probabilidad_entrada": 96,
       "riesgo_entrada": "BAJO",
       "precio_entrada": 293.95,
-      "precio_actual": 296.63,
+      "precio_actual": 297.81,
       "entrada_min": 291.77,
       "entrada_max": 294.88,
       "stop": 285.54,
@@ -20,7 +20,7 @@
       "rr": 1.63,
       "estado": "ABIERTA",
       "resultado": "EN SEGUIMIENTO",
-      "ganancia_pct": 0.91,
+      "ganancia_pct": 1.31,
       "ganancia_pct_final": null,
       "max_ganancia_pct": 2.0,
       "max_perdida_pct": -1.67,
@@ -33,7 +33,7 @@
       "contexto_sector_entrada": "GENERAL",
       "volumen_relativo_entrada": 0.8,
       "score_calidad_entrada": 82.7,
-      "score_calidad_actual": 55.7,
+      "score_calidad_actual": 56.6,
       "costo_total_estimado_pct": 0.23,
       "posicion_usd_estimada": 1161.01,
       "posicion_pct_cuenta_estimada": 20.0,
@@ -41,17 +41,17 @@
       "riesgo_pct_cuenta_estimado": 0.57,
       "distancia_stop_pct": 2.86,
       "acciones_estimadas": 3.4019,
-      "valor_cartera_usd": 1168.9,
-      "ganancia_abierta_usd_estimada": 7.89,
+      "valor_cartera_usd": 1173.55,
+      "ganancia_abierta_usd_estimada": 12.54,
       "perdida_maxima_stop_usd": 33.22,
-      "distancia_stop_actual_pct": 3.74,
-      "distancia_objetivo_pct": 3.72,
-      "ganancia_pct_neta_estimada": 0.68,
-      "pnl_usd_estimado": 7.89,
+      "distancia_stop_actual_pct": 4.12,
+      "distancia_objetivo_pct": 3.3,
+      "ganancia_pct_neta_estimada": 1.08,
+      "pnl_usd_estimado": 12.54,
       "costo_usd_estimado": 2.67,
       "mercado_actual": "DÉBIL",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 0.44
+      "volumen_relativo_actual": 0.57
     },
     {
       "id": "2026-06-12-DIA",
@@ -63,7 +63,7 @@
       "probabilidad_entrada": 96,
       "riesgo_entrada": "BAJO",
       "precio_entrada": 514.65,
-      "precio_actual": 520.97,
+      "precio_actual": 522.25,
       "entrada_min": 512.37,
       "entrada_max": 515.63,
       "stop": 505.84,
@@ -71,7 +71,7 @@
       "rr": 1.63,
       "estado": "ABIERTA",
       "resultado": "EN SEGUIMIENTO",
-      "ganancia_pct": 1.23,
+      "ganancia_pct": 1.48,
       "ganancia_pct_final": null,
       "max_ganancia_pct": 1.82,
       "max_perdida_pct": -0.58,
@@ -79,12 +79,12 @@
       "senal_actual": "VIGILAR",
       "senal_bot_actual": "HOLD",
       "probabilidad_actual": 96,
-      "riesgo_actual": "BAJO",
+      "riesgo_actual": "MEDIO",
       "mercado_entrada": "NEUTRO +",
       "contexto_sector_entrada": "GENERAL",
       "volumen_relativo_entrada": 0.83,
       "score_calidad_entrada": 80.5,
-      "score_calidad_actual": 64.3,
+      "score_calidad_actual": 60.5,
       "costo_total_estimado_pct": 0.23,
       "posicion_usd_estimada": 1161.01,
       "posicion_pct_cuenta_estimada": 20.0,
@@ -92,17 +92,17 @@
       "riesgo_pct_cuenta_estimado": 0.34,
       "distancia_stop_pct": 1.71,
       "acciones_estimadas": 1.9431,
-      "valor_cartera_usd": 1172.62,
-      "ganancia_abierta_usd_estimada": 11.61,
+      "valor_cartera_usd": 1175.52,
+      "ganancia_abierta_usd_estimada": 14.51,
       "perdida_maxima_stop_usd": 19.87,
-      "distancia_stop_actual_pct": 2.9,
-      "distancia_objetivo_pct": 1.54,
-      "ganancia_pct_neta_estimada": 1.0,
-      "pnl_usd_estimado": 11.61,
+      "distancia_stop_actual_pct": 3.14,
+      "distancia_objetivo_pct": 1.29,
+      "ganancia_pct_neta_estimada": 1.25,
+      "pnl_usd_estimado": 14.51,
       "costo_usd_estimado": 2.67,
       "mercado_actual": "DÉBIL",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 0.61
+      "volumen_relativo_actual": 0.8
     },
     {
       "id": "2026-06-18-VOO",
@@ -14325,7 +14325,7 @@
     "perdidas": 193,
     "win_rate": 35.23,
     "rentabilidad_cerrada_pct": 213.58,
-    "rentabilidad_abierta_pct": 2.14,
+    "rentabilidad_abierta_pct": 2.79,
     "promedio_cerradas_pct": 0.72,
     "nuevas_bloqueadas": [],
     "reglas_operativas": {
@@ -14361,14 +14361,14 @@
       "sectores": [
         {
           "sector": "ETF Dow",
-          "exposicion_usd": 1172.62,
-          "exposicion_pct": 23.45,
+          "exposicion_usd": 1175.52,
+          "exposicion_pct": 23.51,
           "operaciones": 1
         },
         {
           "sector": "ETF Russell",
-          "exposicion_usd": 1168.9,
-          "exposicion_pct": 23.38,
+          "exposicion_usd": 1173.55,
+          "exposicion_pct": 23.47,
           "operaciones": 1
         }
       ],
@@ -14409,17 +14409,17 @@
     "simulacion": {
       "capital_inicial": 5000.0,
       "capital_actual_cerrado": 5805.04,
-      "capital_actual_total_estimado": 5824.55,
+      "capital_actual_total_estimado": 5832.09,
       "ganancia_neta_usd": 805.04,
-      "ganancia_total_estimada_usd": 824.55,
+      "ganancia_total_estimada_usd": 832.09,
       "rentabilidad_neta_pct": 16.1,
-      "rentabilidad_total_estimada_pct": 16.49,
+      "rentabilidad_total_estimada_pct": 16.64,
       "rentabilidad_bruta_pct": 213.58,
       "rentabilidad_neta_senales_pct": 145.04,
       "costos_totales_usd": 729.58,
       "costo_total_estimado_pct_por_operacion": 0.23,
-      "ganancia_abierta_neta_usd": 19.5,
-      "valor_total_en_cartera_usd": 2341.52,
+      "ganancia_abierta_neta_usd": 27.05,
+      "valor_total_en_cartera_usd": 2349.07,
       "modo": "SIMULACIÓN"
     },
     "riesgo": {
@@ -17322,20 +17322,20 @@
       {
         "fecha": "2026-06-29",
         "capital_cerrado_usd": 5805.04,
-        "capital_total_estimado_usd": 5824.55,
-        "ganancia_total_estimada_usd": 824.55,
-        "rentabilidad_total_estimada_pct": 16.49
+        "capital_total_estimado_usd": 5832.09,
+        "ganancia_total_estimada_usd": 832.09,
+        "rentabilidad_total_estimada_pct": 16.64
       }
     ],
     "benchmark": {
       "fecha_inicio": "2026-05-18",
       "bot_rentabilidad_neta_pct": 16.1,
-      "spy_rentabilidad_pct": 0.19,
-      "qqq_rentabilidad_pct": 1.99,
-      "bot_vs_spy_alpha_pct": 15.91,
-      "bot_vs_qqq_alpha_pct": 14.11,
-      "capital_si_spy_usd": 5009.5,
-      "capital_si_qqq_usd": 5099.5
+      "spy_rentabilidad_pct": 0.5,
+      "qqq_rentabilidad_pct": 2.54,
+      "bot_vs_spy_alpha_pct": 15.6,
+      "bot_vs_qqq_alpha_pct": 13.56,
+      "capital_si_spy_usd": 5025.0,
+      "capital_si_qqq_usd": 5127.0
     },
     "rendimiento_por_sector": [
       {
