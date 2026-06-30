@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-30T15:24:40Z",
+  "updated": "2026-06-30T17:21:47Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
     "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5841.27,
-    "ganancia_total_estimada_usd": 841.27,
+    "capital_total_estimado_usd": 5843.7,
+    "ganancia_total_estimada_usd": 843.7,
     "operaciones_abiertas": 2,
     "exposicion_abierta_pct": 40.0,
     "riesgo_abierto_pct": 0.91,
@@ -21,67 +21,67 @@
       "ticker": "SOXX",
       "sector": "ETF Chips",
       "senal_bot": "BUY",
-      "score": 88.2,
+      "score": 89.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 634.86,
-      "objetivo": 712.09
+      "precio": 638.84,
+      "objetivo": 716.34
     },
     {
       "ticker": "SMH",
       "sector": "ETF Chips",
       "senal_bot": "BUY",
-      "score": 86.8,
+      "score": 87.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 650.76,
-      "objetivo": 717.97
-    },
-    {
-      "ticker": "AMD",
-      "sector": "IA / Chips",
-      "senal_bot": "BUY",
-      "score": 85.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 565.42,
-      "objetivo": 641.21
-    },
-    {
-      "ticker": "XLV",
-      "sector": "ETF Salud",
-      "senal_bot": "BUY",
-      "score": 84.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 159.29,
-      "objetivo": 164.94
+      "precio": 654.3,
+      "objetivo": 721.67
     },
     {
       "ticker": "TSM",
       "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 84.3,
+      "score": 85.3,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 469.03,
-      "objetivo": 511.31
+      "precio": 469.82,
+      "objetivo": 512.1
+    },
+    {
+      "ticker": "XLV",
+      "sector": "ETF Salud",
+      "senal_bot": "BUY",
+      "score": 84.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 159.35,
+      "objetivo": 165.0
+    },
+    {
+      "ticker": "PM",
+      "sector": "Consumo defensivo",
+      "senal_bot": "BUY",
+      "score": 83.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 182.09,
+      "objetivo": 192.57
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 21.01,
-      "pnl_pct": 1.81,
+      "pnl_usd": 22.99,
+      "pnl_pct": 1.98,
       "senal_actual": "BUY",
       "riesgo": "MEDIO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 15.21,
-      "pnl_pct": 1.31,
+      "pnl_usd": 15.67,
+      "pnl_pct": 1.35,
       "senal_actual": "BUY",
       "riesgo": "MEDIO"
     }
