@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-01T19:21:29Z",
+  "updated": "2026-07-01T20:59:42Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
     "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5844.98,
-    "ganancia_total_estimada_usd": 844.98,
+    "capital_total_estimado_usd": 5838.48,
+    "ganancia_total_estimada_usd": 838.48,
     "operaciones_abiertas": 2,
     "exposicion_abierta_pct": 40.0,
     "riesgo_abierto_pct": 0.91,
@@ -18,70 +18,70 @@
   },
   "top_opportunities": [
     {
+      "ticker": "XLY",
+      "sector": "ETF Consumo",
+      "senal_bot": "BUY STRONG",
+      "score": 93.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 118.09,
+      "objetivo": 123.18
+    },
+    {
+      "ticker": "META",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 89.9,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 612.91,
+      "objetivo": 660.97
+    },
+    {
       "ticker": "ASML",
       "sector": "Chips",
+      "senal_bot": "BUY",
+      "score": 87.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 1843.04,
+      "objetivo": 2067.56
+    },
+    {
+      "ticker": "IBKR",
+      "sector": "Trading",
       "senal_bot": "BUY",
       "score": 86.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 1842.85,
-      "objetivo": 2067.37
+      "precio": 93.25,
+      "objetivo": 101.23
     },
     {
-      "ticker": "KLAC",
-      "sector": "Equipos chips",
+      "ticker": "UPST",
+      "sector": "Fintech IA",
       "senal_bot": "BUY",
-      "score": 85.0,
+      "score": 86.1,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 263.17,
-      "objetivo": 311.85
-    },
-    {
-      "ticker": "UNH",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 84.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 427.09,
-      "objetivo": 449.09
-    },
-    {
-      "ticker": "SCHW",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 84.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 95.52,
-      "objetivo": 101.07
-    },
-    {
-      "ticker": "GD",
-      "sector": "Defensa",
-      "senal_bot": "BUY",
-      "score": 84.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 362.3,
-      "objetivo": 382.68
+      "precio": 35.74,
+      "objetivo": 40.78
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 23.57,
-      "pnl_pct": 2.03,
+      "pnl_usd": 18.58,
+      "pnl_pct": 1.6,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 16.37,
-      "pnl_pct": 1.41,
+      "pnl_usd": 14.86,
+      "pnl_pct": 1.28,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     }
