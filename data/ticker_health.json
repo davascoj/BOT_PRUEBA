@@ -1,44 +1,44 @@
 {
   "version": "V4.4.6",
-  "actualizado": "01-07-2026 03:59 PM Colombia",
+  "actualizado": "01-07-2026 05:15 PM Colombia",
   "tickers": {
     "NVDA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AMD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MSFT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AVGO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AAPL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 41,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 42,
       "fail_count": 0,
       "action": "ALLOW",
       "last_failure_date": "2026-06-21",
@@ -48,688 +48,688 @@
     "META": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AMZN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GOOGL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TSLA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ORCL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CRM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NOW": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SNOW": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DDOG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NET": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "APP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "UBER": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NFLX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ADBE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SHOP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RDDT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:56 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "IBM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ACN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:12 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "INTU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TEAM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HUBS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TTD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DELL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PLTR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SMCI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SOUN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "UPST": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CRWD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PANW": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ZS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FTNT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "OKTA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CHKP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MDB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ANET": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ARM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "QCOM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "INTC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TSM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ASML": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AMAT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LRCX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "KLAC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MRVL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ON": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NXPI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MPWR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TXN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ADI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MCHP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SOFI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "COIN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HOOD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PYPL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XYZ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "V": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "JPM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BAC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "C": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "WFC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BLK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SCHW": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "IBKR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MSTR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MARA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RIOT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XOM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CVX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "OXY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SLB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "COP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LNG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "EOG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FANG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DVN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HAL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CAT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LLY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 41,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 42,
       "fail_count": 0,
       "action": "ALLOW",
       "last_failure_date": "2026-06-24",
@@ -739,1480 +739,1480 @@
     "NVO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "UNH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ABBV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "JNJ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PFE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MRK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TMO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ABT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "COST": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "WMT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MCD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LOW": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SBUX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SPY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "QQQ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VOO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SOXX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SMH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VGT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "IWM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:57 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DIA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLF": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ARKK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RKLB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "IONQ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "QBTS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RGTI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "JOBY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ACHR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CSCO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HPE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HPQ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FSLY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TWLO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DOCU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ZM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PATH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "U": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ESTC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GTLB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:13 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "S": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TENB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GEN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VRT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "COHR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LITE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CIEN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "WDC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "STX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SNDK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GFS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TER": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ENTG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ALAB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BBAI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SERV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SYM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ISRG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ROK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ABBNY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RIVN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LCID": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NIO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XPEV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BYDDY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "F": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HMC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "QS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ENVX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ALB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LAC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AXP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FIS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GPN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AFRM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TOST": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BILL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "KKR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ARES": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "APO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CME": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ICE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SPGI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MCO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AFL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TRV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PGR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VLO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MPC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PSX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "KMI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "WMB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "OKE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BKR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RIG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NEE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ENPH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SEDG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FSLR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RUN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VRTX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "REGN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AMGN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GILD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SYK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MDT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BSX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DHR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ZTS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HIMS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TDOC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VEEV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ALNY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MRNA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DIS": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ROKU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SPOT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ABNB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BKNG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "EXPE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "DAL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "UAL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "AAL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CCL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RCL": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NKE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LULU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TGT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TJX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CMG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "YUM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PEP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "KO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "LMT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "RTX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NOC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HON": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ETN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "PH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "EMR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FIX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "URI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BLDR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VMC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "MLM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CRH": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "NEM": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FCX": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLU": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLY": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLP": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLC": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLRE": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XLB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "IBB": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "XBI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "BOTZ": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ROBO": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "CIBR": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HACK": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TAN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "ICLN": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "URA": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "GLD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SLV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "TLT": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "HYG": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "VTI": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "SCHD": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:59 PM Colombia",
-      "success_count": 42,
+      "last_success_at": "01-07-2026 05:15 PM Colombia",
+      "success_count": 43,
       "fail_count": 0,
       "action": "ALLOW"
     },
     "FISV": {
       "status": "OK",
       "last_success_date": "2026-07-01",
-      "last_success_at": "01-07-2026 03:58 PM Colombia",
-      "success_count": 40,
+      "last_success_at": "01-07-2026 05:14 PM Colombia",
+      "success_count": 41,
       "fail_count": 0,
       "action": "ALLOW"
     }

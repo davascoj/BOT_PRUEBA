@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-01T20:59:42Z
+**Actualizado:** 2026-07-01T22:15:18Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -22,7 +22,7 @@
 ## Top oportunidades
 - XLY · BUY STRONG · score 93.6 · R/R 1.63
 - META · BUY · score 89.9 · R/R 1.63
-- ASML · BUY · score 87.7 · R/R 1.63
+- ASML · BUY · score 87.9 · R/R 1.63
 - IBKR · BUY · score 86.5 · R/R 1.63
 - UPST · BUY · score 86.1 · R/R 1.63
 
