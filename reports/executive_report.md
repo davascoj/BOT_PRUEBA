@@ -1,13 +1,13 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-06-30T22:22:46Z
+**Actualizado:** 2026-07-01T15:36:20Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
 ## Resumen
 - Mercado: NEUTRO +
-- Capital total estimado USD: 5842.78
-- G/P total estimada USD: 842.78
+- Capital total estimado USD: 5855.9
+- G/P total estimada USD: 855.9
 - Operaciones abiertas: 2
 - Exposicion abierta %: 40.0
 - Riesgo abierto %: 0.91
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- VTI · BUY STRONG · score 91.8 · R/R 1.63
-- SMH · BUY · score 89.9 · R/R 1.63
-- TSM · BUY · score 88.8 · R/R 1.63
-- HMC · BUY · score 87.3 · R/R 1.62
-- XLV · BUY · score 86.4 · R/R 1.63
+- ASML · BUY · score 85.1 · R/R 1.63
+- TSM · BUY · score 84.2 · R/R 1.63
+- MRK · BUY · score 83.1 · R/R 1.63
+- GD · BUY · score 83.1 · R/R 1.63
+- JNJ · BUY · score 83.0 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
