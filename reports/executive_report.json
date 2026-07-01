@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-01T15:36:20Z",
+  "updated": "2026-07-01T17:33:40Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
     "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5855.9,
-    "ganancia_total_estimada_usd": 855.9,
+    "capital_total_estimado_usd": 5851.37,
+    "ganancia_total_estimada_usd": 851.37,
     "operaciones_abiertas": 2,
     "exposicion_abierta_pct": 40.0,
     "riesgo_abierto_pct": 0.91,
@@ -21,67 +21,67 @@
       "ticker": "ASML",
       "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 85.1,
+      "score": 89.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 1849.34,
+      "objetivo": 2072.14
+    },
+    {
+      "ticker": "AMAT",
+      "sector": "Equipos chips",
+      "senal_bot": "BUY",
+      "score": 87.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 1883.16,
-      "objetivo": 2103.67
+      "precio": 647.63,
+      "objetivo": 757.39
+    },
+    {
+      "ticker": "LLY",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 84.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 1179.75,
+      "objetivo": 1262.13
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 84.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 426.3,
+      "objetivo": 448.13
     },
     {
       "ticker": "TSM",
       "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 84.2,
+      "score": 84.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 451.43,
-      "objetivo": 496.44
-    },
-    {
-      "ticker": "MRK",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 83.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 126.4,
-      "objetivo": 133.8
-    },
-    {
-      "ticker": "GD",
-      "sector": "Defensa",
-      "senal_bot": "BUY",
-      "score": 83.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 362.35,
-      "objetivo": 382.33
-    },
-    {
-      "ticker": "JNJ",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 83.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 252.18,
-      "objetivo": 264.98
+      "precio": 444.93,
+      "objetivo": 490.48
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 31.23,
-      "pnl_pct": 2.69,
+      "pnl_usd": 27.52,
+      "pnl_pct": 2.37,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 19.62,
-      "pnl_pct": 1.69,
+      "pnl_usd": 18.81,
+      "pnl_pct": 1.62,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     }
