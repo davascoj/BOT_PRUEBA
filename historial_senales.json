@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "03-07-2026 01:57 PM Colombia",
+  "actualizado": "03-07-2026 03:09 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-12-IWM",
@@ -102,7 +102,7 @@
       "costo_usd_estimado": 2.67,
       "mercado_actual": "NEUTRO",
       "contexto_sector_actual": "GENERAL",
-      "volumen_relativo_actual": 0.64
+      "volumen_relativo_actual": 0.65
     },
     {
       "id": "2026-06-18-VOO",
