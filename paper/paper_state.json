@@ -1,8 +1,8 @@
 {
-  "updated": "03-07-2026 03:09 PM Colombia",
+  "updated": "03-07-2026 04:21 PM Colombia",
   "version": "V4.4.4",
   "status": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -27,10 +27,10 @@
         },
         "BTC-USD": {
           "ticker": "BTC-USD",
-          "estado": "DÉBIL",
-          "score": -6,
-          "mom20": -3.48,
-          "mom5": 4.45
+          "estado": "NEUTRO",
+          "score": 0,
+          "mom20": -2.84,
+          "mom5": 5.14
         },
         "CL=F": {
           "ticker": "CL=F",
@@ -43,8 +43,8 @@
           "ticker": "ETH-USD",
           "estado": "POSITIVO",
           "score": 3,
-          "mom20": 3.8,
-          "mom5": 11.06
+          "mom20": 5.02,
+          "mom5": 12.36
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -97,10 +97,10 @@
           ]
         },
         "cripto": {
-          "estado": "NEUTRO",
-          "score": 0,
-          "mom20_prom": 0.16,
-          "detalle": "BTC-USD -3.48% · ETH-USD 3.8%",
+          "estado": "NEUTRO +",
+          "score": 3,
+          "mom20_prom": 1.09,
+          "detalle": "BTC-USD -2.84% · ETH-USD 5.02%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -137,7 +137,7 @@
     }
   },
   "portfolio": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "version": "V4.4.4",
     "mode": "PAPER_TRADING_SIMULATED",
     "capital_initial_usd": 5000.0,
@@ -213,7 +213,7 @@
     ]
   },
   "orders": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "mode": "PAPER_ONLY",
     "total": 598,
     "detail_file": "paper/paper_orders.json",
@@ -221,7 +221,7 @@
     "note": "V4.4.4: detalle no embebido para aligerar paper_state.json."
   },
   "trades": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "mode": "PAPER_ONLY",
     "total": 298,
     "detail_file": "paper/paper_trades.json",
@@ -229,7 +229,7 @@
     "note": "V4.4.4: detalle no embebido para aligerar paper_state.json."
   },
   "risk": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "version": "V4.4.4",
     "mode": "PAPER_TRADING_SIMULATED",
     "market_state": {
@@ -247,10 +247,10 @@
         },
         "BTC-USD": {
           "ticker": "BTC-USD",
-          "estado": "DÉBIL",
-          "score": -6,
-          "mom20": -3.48,
-          "mom5": 4.45
+          "estado": "NEUTRO",
+          "score": 0,
+          "mom20": -2.84,
+          "mom5": 5.14
         },
         "CL=F": {
           "ticker": "CL=F",
@@ -263,8 +263,8 @@
           "ticker": "ETH-USD",
           "estado": "POSITIVO",
           "score": 3,
-          "mom20": 3.8,
-          "mom5": 11.06
+          "mom20": 5.02,
+          "mom5": 12.36
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -317,10 +317,10 @@
           ]
         },
         "cripto": {
-          "estado": "NEUTRO",
-          "score": 0,
-          "mom20_prom": 0.16,
-          "detalle": "BTC-USD -3.48% · ETH-USD 3.8%",
+          "estado": "NEUTRO +",
+          "score": 3,
+          "mom20_prom": 1.09,
+          "detalle": "BTC-USD -2.84% · ETH-USD 5.02%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -429,7 +429,7 @@
     }
   },
   "audit": {
-    "updated": "03-07-2026 03:09 PM Colombia",
+    "updated": "03-07-2026 04:21 PM Colombia",
     "version": "V4.4.4",
     "mode": "AUDITORIA_BLOQUEOS_EXISTENTES",
     "summary": {
