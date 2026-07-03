@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-03T21:21:55Z
+**Actualizado:** 2026-07-03T22:20:30Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
 
