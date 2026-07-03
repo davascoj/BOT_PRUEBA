@@ -1,5 +1,5 @@
 {
-  "actualizado": "03-07-2026 12:56 PM Colombia",
+  "actualizado": "03-07-2026 01:57 PM Colombia",
   "version_bot": "V4.8 REPORTE EJECUTIVO",
   "contexto_mercado": {
     "estado": "NEUTRO",
@@ -32,8 +32,8 @@
         "ticker": "ETH-USD",
         "estado": "POSITIVO",
         "score": 3,
-        "mom20": 3.38,
-        "mom5": 10.61
+        "mom20": 3.39,
+        "mom5": 10.62
       },
       "QQQ": {
         "ticker": "QQQ",
@@ -88,8 +88,8 @@
       "cripto": {
         "estado": "NEUTRO",
         "score": 0,
-        "mom20_prom": -0.07,
-        "detalle": "BTC-USD -3.52% · ETH-USD 3.38%",
+        "mom20_prom": -0.06,
+        "detalle": "BTC-USD -3.52% · ETH-USD 3.39%",
         "drivers": [
           "BTC-USD",
           "ETH-USD"
@@ -4742,7 +4742,7 @@
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO",
       "Contexto sector": "NEUTRO",
-      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.38%",
+      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.39%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "VIGILAR",
@@ -8518,7 +8518,7 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO",
       "Contexto sector": "NEUTRO",
-      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.38%",
+      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.39%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
@@ -8614,7 +8614,7 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO",
       "Contexto sector": "NEUTRO",
-      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.38%",
+      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.39%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
@@ -8678,7 +8678,7 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO",
       "Contexto sector": "NEUTRO",
-      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.38%",
+      "Drivers sector": "BTC-USD -3.52% · ETH-USD 3.39%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
@@ -9009,7 +9009,7 @@
     }
   ],
   "paper_trading": {
-    "updated": "03-07-2026 12:56 PM Colombia",
+    "updated": "03-07-2026 01:57 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -9050,8 +9050,8 @@
           "ticker": "ETH-USD",
           "estado": "POSITIVO",
           "score": 3,
-          "mom20": 3.38,
-          "mom5": 10.61
+          "mom20": 3.39,
+          "mom5": 10.62
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -9106,8 +9106,8 @@
         "cripto": {
           "estado": "NEUTRO",
           "score": 0,
-          "mom20_prom": -0.07,
-          "detalle": "BTC-USD -3.52% · ETH-USD 3.38%",
+          "mom20_prom": -0.06,
+          "detalle": "BTC-USD -3.52% · ETH-USD 3.39%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -9162,7 +9162,7 @@
     "backtest_operaciones": 298
   },
   "historial": {
-    "actualizado": "03-07-2026 12:56 PM Colombia",
+    "actualizado": "03-07-2026 01:57 PM Colombia",
     "resumen": {
       "total_operaciones": 300,
       "abiertas": 2,
