@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-06T20:20:01Z
+**Actualizado:** 2026-07-06T21:51:37Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- XLV · BUY STRONG · score 91.6 · R/R 1.63
-- ANET · BUY · score 87.9 · R/R 1.63
+- BA · BUY STRONG · score 95.4 · R/R 1.63
+- XLV · BUY STRONG · score 91.5 · R/R 1.63
+- ANET · BUY · score 88.2 · R/R 1.63
 - FTNT · BUY · score 86.7 · R/R 1.63
 - DDOG · BUY · score 85.9 · R/R 1.63
-- U · BUY · score 85.3 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
