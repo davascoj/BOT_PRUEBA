@@ -28,5 +28,20 @@
     "mejor_pnl_usd": 228.69,
     "peor_pnl_usd": -133.76,
     "month": "2026-06"
+  },
+  {
+    "operaciones": 1,
+    "ganadas": 1,
+    "perdidas": 0,
+    "win_rate_pct": 100.0,
+    "profit_factor": 29.72,
+    "pnl_total_usd": 29.72,
+    "pnl_promedio_usd": 29.72,
+    "ganancia_promedio_usd": 29.72,
+    "perdida_promedio_usd": 0.0,
+    "rentabilidad_promedio_pct": 2.79,
+    "mejor_pnl_usd": 29.72,
+    "peor_pnl_usd": 29.72,
+    "month": "2026-07"
   }
 ]
