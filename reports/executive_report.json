@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-03T22:20:30Z",
+  "updated": "2026-07-06T16:18:10Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5843.82,
-    "ganancia_total_estimada_usd": 843.82,
+    "capital_total_estimado_usd": 5853.34,
+    "ganancia_total_estimada_usd": 853.34,
     "operaciones_abiertas": 2,
     "exposicion_abierta_pct": 40.0,
     "riesgo_abierto_pct": 0.91,
@@ -18,76 +18,76 @@
   },
   "top_opportunities": [
     {
-      "ticker": "XLP",
-      "sector": "ETF Consumo defensivo",
-      "senal_bot": "BUY STRONG",
-      "score": 90.2,
+      "ticker": "DDOG",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 84.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 258.96,
+      "objetivo": 284.76
+    },
+    {
+      "ticker": "FTNT",
+      "sector": "Ciberseguridad",
+      "senal_bot": "BUY",
+      "score": 84.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 162.92,
+      "objetivo": 176.14
+    },
+    {
+      "ticker": "IBKR",
+      "sector": "Trading",
+      "senal_bot": "BUY",
+      "score": 84.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 84.99,
-      "objetivo": 87.63
+      "precio": 94.84,
+      "objetivo": 103.23
     },
     {
-      "ticker": "BKNG",
-      "sector": "Viajes",
-      "senal_bot": "BUY STRONG",
-      "score": 88.9,
-      "riesgo": "MEDIO",
+      "ticker": "ASML",
+      "sector": "Chips",
+      "senal_bot": "BUY",
+      "score": 82.7,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 184.56,
-      "objetivo": 199.57
+      "precio": 1857.88,
+      "objetivo": 2079.24
     },
     {
-      "ticker": "ISRG",
-      "sector": "Robótica / Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 88.2,
-      "riesgo": "MEDIO",
+      "ticker": "ROKU",
+      "sector": "Entretenimiento",
+      "senal_bot": "BUY",
+      "score": 82.4,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 426.01,
-      "objetivo": 452.32
-    },
-    {
-      "ticker": "HMC",
-      "sector": "Autos",
-      "senal_bot": "BUY STRONG",
-      "score": 88.2,
-      "riesgo": "MEDIO",
-      "rr": 1.62,
-      "precio": 28.02,
-      "objetivo": 29.25
-    },
-    {
-      "ticker": "XLV",
-      "sector": "ETF Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 88.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 163.74,
-      "objetivo": 169.58
+      "precio": 141.46,
+      "objetivo": 147.51
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 11.61,
-      "pnl_pct": 1.0,
+      "pnl_usd": 21.48,
+      "pnl_pct": 1.85,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     },
     {
       "ticker": "DIA",
       "sector": "ETF Dow",
-      "pnl_usd": 27.17,
-      "pnl_pct": 2.34,
+      "pnl_usd": 26.82,
+      "pnl_pct": 2.31,
       "senal_actual": "HOLD",
       "riesgo": "ALTO"
     }
   ],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
