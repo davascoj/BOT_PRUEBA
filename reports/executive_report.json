@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-06T22:52:08Z",
+  "updated": "2026-07-07T15:40:21Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
     "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5851.69,
-    "ganancia_total_estimada_usd": 851.69,
+    "capital_total_estimado_usd": 5842.35,
+    "ganancia_total_estimada_usd": 842.35,
     "operaciones_abiertas": 1,
     "exposicion_abierta_pct": 20.0,
     "riesgo_abierto_pct": 0.57,
@@ -18,62 +18,62 @@
   },
   "top_opportunities": [
     {
-      "ticker": "BA",
-      "sector": "Industrial",
-      "senal_bot": "BUY STRONG",
-      "score": 95.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 234.54,
-      "objetivo": 248.9
-    },
-    {
-      "ticker": "XLV",
-      "sector": "ETF Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 91.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 161.96,
-      "objetivo": 168.07
-    },
-    {
-      "ticker": "ANET",
-      "sector": "Redes / IA",
+      "ticker": "ARKK",
+      "sector": "ETF Innovación",
       "senal_bot": "BUY",
-      "score": 88.2,
-      "riesgo": "MEDIO",
+      "score": 85.3,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 173.28,
-      "objetivo": 194.49
+      "precio": 81.08,
+      "objetivo": 86.74
     },
     {
-      "ticker": "FTNT",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 86.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 162.35,
-      "objetivo": 175.6
-    },
-    {
-      "ticker": "DDOG",
+      "ticker": "SHOP",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 85.9,
+      "score": 85.3,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 255.37,
-      "objetivo": 281.17
+      "precio": 122.0,
+      "objetivo": 133.74
+    },
+    {
+      "ticker": "IBKR",
+      "sector": "Trading",
+      "senal_bot": "BUY",
+      "score": 84.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 93.16,
+      "objetivo": 101.86
+    },
+    {
+      "ticker": "SNOW",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 84.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 269.52,
+      "objetivo": 297.3
+    },
+    {
+      "ticker": "CMG",
+      "sector": "Consumo",
+      "senal_bot": "BUY",
+      "score": 84.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 34.58,
+      "objetivo": 37.06
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 16.92,
-      "pnl_pct": 1.45,
+      "pnl_usd": 7.59,
+      "pnl_pct": 0.65,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     }
