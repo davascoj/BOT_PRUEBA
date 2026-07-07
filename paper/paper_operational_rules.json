@@ -8,8 +8,8 @@
   "max_riesgo_total_abierto_pct": 10.0,
   "modo_defensivo_drawdown_pct": 12.0,
   "bloquear_entradas_drawdown_pct": 25.0,
-  "bloqueos_generados": 94,
-  "motivo_principal": "Volumen relativo bajo",
+  "bloqueos_generados": 95,
+  "motivo_principal": "Bloqueo operativo por drawdown máximo: 27.55%",
   "reglas_activas": {
     "exposicion": true,
     "riesgo_abierto": true,

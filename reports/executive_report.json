@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T21:02:41Z",
+  "updated": "2026-07-07T22:13:28Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -41,7 +41,7 @@
       "ticker": "SHOP",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 87.9,
+      "score": 88.5,
       "riesgo": "MEDIO",
       "rr": 1.63,
       "precio": 121.88,
@@ -51,7 +51,7 @@
       "ticker": "PATH",
       "sector": "IA / Software",
       "senal_bot": "BUY",
-      "score": 87.2,
+      "score": 87.4,
       "riesgo": "MEDIO",
       "rr": 1.63,
       "precio": 11.65,
@@ -61,7 +61,7 @@
       "ticker": "ARKK",
       "sector": "ETF Innovación",
       "senal_bot": "BUY",
-      "score": 87.0,
+      "score": 87.1,
       "riesgo": "BAJO",
       "rr": 1.63,
       "precio": 81.19,
@@ -79,7 +79,7 @@
     }
   ],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
