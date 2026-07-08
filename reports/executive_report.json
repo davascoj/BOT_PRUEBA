@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-07T22:13:28Z",
+  "updated": "2026-07-08T15:07:41Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5840.95,
-    "ganancia_total_estimada_usd": 840.95,
+    "capital_total_estimado_usd": 5826.13,
+    "ganancia_total_estimada_usd": 826.13,
     "operaciones_abiertas": 1,
     "exposicion_abierta_pct": 20.0,
     "riesgo_abierto_pct": 0.57,
@@ -18,68 +18,68 @@
   },
   "top_opportunities": [
     {
-      "ticker": "FTNT",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 88.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 158.67,
-      "objetivo": 172.23
-    },
-    {
       "ticker": "ANET",
       "sector": "Redes / IA",
       "senal_bot": "BUY",
-      "score": 88.6,
+      "score": 77.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 166.46,
-      "objetivo": 188.41
+      "precio": 174.74,
+      "objetivo": 197.55
     },
     {
-      "ticker": "SHOP",
-      "sector": "Tecnología",
+      "ticker": "GD",
+      "sector": "Defensa",
       "senal_bot": "BUY",
-      "score": 88.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 121.88,
-      "objetivo": 133.63
-    },
-    {
-      "ticker": "PATH",
-      "sector": "IA / Software",
-      "senal_bot": "BUY",
-      "score": 87.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 11.65,
-      "objetivo": 12.94
-    },
-    {
-      "ticker": "ARKK",
-      "sector": "ETF Innovación",
-      "senal_bot": "BUY",
-      "score": 87.1,
+      "score": 77.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 81.19,
-      "objetivo": 86.84
+      "precio": 371.83,
+      "objetivo": 390.49
+    },
+    {
+      "ticker": "SYK",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 76.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 328.55,
+      "objetivo": 352.54
+    },
+    {
+      "ticker": "XLF",
+      "sector": "ETF Finanzas",
+      "senal_bot": "BUY",
+      "score": 76.3,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 55.08,
+      "objetivo": 56.87
+    },
+    {
+      "ticker": "RTX",
+      "sector": "Defensa",
+      "senal_bot": "BUY",
+      "score": 76.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 197.12,
+      "objetivo": 207.81
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 6.18,
-      "pnl_pct": 0.53,
-      "senal_actual": "BUY",
+      "pnl_usd": -8.64,
+      "pnl_pct": -0.74,
+      "senal_actual": "HOLD",
       "riesgo": "BAJO"
     }
   ],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
