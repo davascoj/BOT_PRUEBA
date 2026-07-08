@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-08T19:52:32Z",
+  "updated": "2026-07-08T20:51:17Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
     "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5828.58,
-    "ganancia_total_estimada_usd": 828.58,
+    "capital_total_estimado_usd": 5830.21,
+    "ganancia_total_estimada_usd": 830.21,
     "operaciones_abiertas": 1,
     "exposicion_abierta_pct": 20.0,
     "riesgo_abierto_pct": 0.57,
@@ -21,60 +21,60 @@
       "ticker": "ANET",
       "sector": "Redes / IA",
       "senal_bot": "BUY STRONG",
-      "score": 87.2,
+      "score": 89.7,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 178.21,
-      "objetivo": 201.63
+      "precio": 181.05,
+      "objetivo": 204.7
     },
     {
       "ticker": "YUM",
       "sector": "Consumo",
       "senal_bot": "BUY",
-      "score": 79.2,
+      "score": 79.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 165.18,
-      "objetivo": 172.85
-    },
-    {
-      "ticker": "GD",
-      "sector": "Defensa",
-      "senal_bot": "BUY",
-      "score": 79.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 373.44,
-      "objetivo": 392.13
+      "precio": 165.25,
+      "objetivo": 172.93
     },
     {
       "ticker": "SYK",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 78.7,
+      "score": 79.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 326.77,
-      "objetivo": 350.92
+      "precio": 326.85,
+      "objetivo": 351.0
     },
     {
       "ticker": "XLF",
       "sector": "ETF Finanzas",
       "senal_bot": "BUY",
-      "score": 78.3,
+      "score": 79.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 55.04,
-      "objetivo": 56.83
+      "precio": 54.97,
+      "objetivo": 56.76
+    },
+    {
+      "ticker": "EXPE",
+      "sector": "Viajes",
+      "senal_bot": "BUY",
+      "score": 78.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 260.31,
+      "objetivo": 284.16
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": -6.18,
-      "pnl_pct": -0.53,
-      "senal_actual": "HOLD",
+      "pnl_usd": -4.55,
+      "pnl_pct": -0.39,
+      "senal_actual": "BUY",
       "riesgo": "BAJO"
     }
   ],
