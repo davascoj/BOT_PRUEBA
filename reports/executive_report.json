@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-09T17:46:07Z",
+  "updated": "2026-07-09T19:14:47Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
   "summary": {
     "mercado": "ALCISTA",
     "estado_operativo": "BLOQUEADO",
-    "capital_total_estimado_usd": 5847.13,
-    "ganancia_total_estimada_usd": 847.13,
+    "capital_total_estimado_usd": 5846.55,
+    "ganancia_total_estimada_usd": 846.55,
     "operaciones_abiertas": 1,
     "exposicion_abierta_pct": 20.0,
     "riesgo_abierto_pct": 0.57,
@@ -21,59 +21,59 @@
       "ticker": "NU",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 86.0,
+      "score": 88.1,
       "riesgo": "BAJO",
       "rr": 1.62,
-      "precio": 13.72,
-      "objetivo": 14.81
+      "precio": 13.66,
+      "objetivo": 14.76
     },
     {
       "ticker": "DELL",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 85.9,
+      "score": 86.3,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 455.1,
-      "objetivo": 526.28
-    },
-    {
-      "ticker": "ARKK",
-      "sector": "ETF Innovación",
-      "senal_bot": "BUY",
-      "score": 83.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 81.69,
-      "objetivo": 87.34
+      "precio": 452.98,
+      "objetivo": 524.71
     },
     {
       "ticker": "META",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 83.4,
+      "score": 85.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 612.16,
-      "objetivo": 663.94
+      "precio": 619.12,
+      "objetivo": 671.38
     },
     {
       "ticker": "RIVN",
       "sector": "Autos eléctricos",
       "senal_bot": "BUY",
-      "score": 83.2,
+      "score": 84.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 18.08,
-      "objetivo": 21.17
+      "precio": 18.13,
+      "objetivo": 21.23
+    },
+    {
+      "ticker": "ARKK",
+      "sector": "ETF Innovación",
+      "senal_bot": "BUY",
+      "score": 84.0,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 81.62,
+      "objetivo": 87.27
     }
   ],
   "open_positions": [
     {
       "ticker": "IWM",
       "sector": "ETF Russell",
-      "pnl_usd": 12.37,
-      "pnl_pct": 1.06,
+      "pnl_usd": 11.79,
+      "pnl_pct": 1.01,
       "senal_actual": "BUY",
       "riesgo": "BAJO"
     }
