@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-09T20:58:10Z
+**Actualizado:** 2026-07-09T22:13:55Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
@@ -22,7 +22,7 @@
 ## Top oportunidades
 - META · BUY STRONG · score 95.1 · R/R 1.63
 - NU · BUY · score 88.7 · R/R 1.64
-- DELL · BUY · score 86.4 · R/R 1.63
+- DELL · BUY · score 86.9 · R/R 1.63
 - RIVN · BUY · score 85.6 · R/R 1.63
 - EXPE · BUY · score 85.1 · R/R 1.63
 
