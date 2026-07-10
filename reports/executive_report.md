@@ -1,13 +1,13 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-10T20:08:43Z
+**Actualizado:** 2026-07-10T21:17:55Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
 ## Resumen
 - Mercado: ALCISTA
-- Capital total estimado USD: 5840.02
-- G/P total estimada USD: 840.02
+- Capital total estimado USD: 5840.13
+- G/P total estimada USD: 840.13
 - Operaciones abiertas: 1
 - Exposicion abierta %: 20.0
 - Riesgo abierto %: 0.57
@@ -21,8 +21,8 @@
 
 ## Top oportunidades
 - U · BUY · score 89.5 · R/R 1.63
-- SOFI · BUY · score 86.7 · R/R 1.62
-- AMD · BUY · score 86.5 · R/R 1.63
+- SOFI · BUY · score 86.8 · R/R 1.62
+- AMD · BUY · score 86.6 · R/R 1.63
 - FTNT · BUY · score 86.0 · R/R 1.63
 - TSLA · BUY · score 85.4 · R/R 1.63
 
