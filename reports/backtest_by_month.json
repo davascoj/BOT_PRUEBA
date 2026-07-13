@@ -30,18 +30,18 @@
     "month": "2026-06"
   },
   {
-    "operaciones": 1,
+    "operaciones": 2,
     "ganadas": 1,
-    "perdidas": 0,
-    "win_rate_pct": 100.0,
-    "profit_factor": 29.72,
-    "pnl_total_usd": 29.72,
-    "pnl_promedio_usd": 29.72,
+    "perdidas": 1,
+    "win_rate_pct": 50.0,
+    "profit_factor": 63.23,
+    "pnl_total_usd": 29.25,
+    "pnl_promedio_usd": 14.62,
     "ganancia_promedio_usd": 29.72,
-    "perdida_promedio_usd": 0.0,
-    "rentabilidad_promedio_pct": 2.79,
+    "perdida_promedio_usd": -0.47,
+    "rentabilidad_promedio_pct": 1.49,
     "mejor_pnl_usd": 29.72,
-    "peor_pnl_usd": 29.72,
+    "peor_pnl_usd": -0.47,
     "month": "2026-07"
   }
 ]

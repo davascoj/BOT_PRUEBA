@@ -1,17 +1,17 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-10T22:18:31Z
+**Actualizado:** 2026-07-13T15:40:29Z
 **Estado:** BLOQUEADO
-**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
+**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
 ## Resumen
-- Mercado: ALCISTA
-- Capital total estimado USD: 5840.13
-- G/P total estimada USD: 840.13
-- Operaciones abiertas: 1
-- Exposicion abierta %: 20.0
-- Riesgo abierto %: 0.57
-- Backtest win rate %: 33.78
+- Mercado: NEUTRO +
+- Capital total estimado USD: 5834.3
+- G/P total estimada USD: 834.3
+- Operaciones abiertas: 0
+- Exposicion abierta %: 0.0
+- Riesgo abierto %: 0.0
+- Backtest win rate %: 33.67
 - Backtest profit factor: 1.14
 
 ## Alertas
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- U · BUY · score 89.5 · R/R 1.63
-- SOFI · BUY · score 86.8 · R/R 1.62
-- AMD · BUY · score 86.6 · R/R 1.63
-- FTNT · BUY · score 86.0 · R/R 1.63
-- TSLA · BUY · score 85.4 · R/R 1.63
+- WMB · BUY · score 81.6 · R/R 1.63
+- UBER · BUY · score 81.5 · R/R 1.63
+- ANET · BUY · score 81.0 · R/R 1.63
+- AXP · BUY · score 80.6 · R/R 1.63
+- FTNT · BUY · score 80.0 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
