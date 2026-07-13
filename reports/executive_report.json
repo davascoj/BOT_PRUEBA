@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T19:00:24Z",
+  "updated": "2026-07-13T20:11:04Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "ANET",
+      "sector": "Redes / IA",
+      "senal_bot": "BUY",
+      "score": 81.0,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 181.08,
+      "objetivo": 204.93
+    },
+    {
+      "ticker": "ABNB",
+      "sector": "Viajes",
+      "senal_bot": "BUY",
+      "score": 78.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 146.33,
+      "objetivo": 156.89
+    },
+    {
       "ticker": "NU",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 78.1,
+      "score": 78.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 13.71,
-      "objetivo": 14.8
+      "precio": 13.69,
+      "objetivo": 14.78
     },
     {
       "ticker": "WMB",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 76.6,
+      "score": 77.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 74.79,
-      "objetivo": 79.31
+      "precio": 74.44,
+      "objetivo": 78.97
     },
     {
-      "ticker": "AAPL",
-      "sector": "Tecnología",
+      "ticker": "XBI",
+      "sector": "ETF Biotech",
       "senal_bot": "BUY",
-      "score": 75.5,
+      "score": 76.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 317.46,
-      "objetivo": 337.53
-    },
-    {
-      "ticker": "AXP",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 75.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 353.36,
-      "objetivo": 372.59
-    },
-    {
-      "ticker": "UNH",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 75.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 429.36,
-      "objetivo": 452.14
+      "precio": 155.32,
+      "objetivo": 164.96
     }
   ],
   "open_positions": [],
