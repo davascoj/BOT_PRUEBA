@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-13T15:40:29Z",
+  "updated": "2026-07-13T17:36:43Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -21,51 +21,51 @@
       "ticker": "WMB",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 81.6,
+      "score": 76.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 75.13,
-      "objetivo": 79.65
-    },
-    {
-      "ticker": "UBER",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 81.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 75.21,
-      "objetivo": 81.39
-    },
-    {
-      "ticker": "ANET",
-      "sector": "Redes / IA",
-      "senal_bot": "BUY",
-      "score": 81.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 186.93,
-      "objetivo": 210.33
+      "precio": 75.07,
+      "objetivo": 79.59
     },
     {
       "ticker": "AXP",
       "sector": "Pagos",
       "senal_bot": "BUY",
-      "score": 80.6,
+      "score": 75.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 356.09,
-      "objetivo": 375.32
+      "precio": 355.31,
+      "objetivo": 374.54
     },
     {
-      "ticker": "FTNT",
-      "sector": "Ciberseguridad",
+      "ticker": "AAPL",
+      "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 80.0,
+      "score": 74.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 161.72,
-      "objetivo": 176.41
+      "precio": 316.44,
+      "objetivo": 336.51
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 74.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 429.0,
+      "objetivo": 451.78
+    },
+    {
+      "ticker": "ANET",
+      "sector": "Redes / IA",
+      "senal_bot": "BUY",
+      "score": 74.7,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 182.46,
+      "objetivo": 206.18
     }
   ],
   "open_positions": [],
