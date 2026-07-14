@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T17:13:21Z",
+  "updated": "2026-07-14T18:18:50Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "SOFI",
-      "sector": "Fintech",
-      "senal_bot": "BUY",
-      "score": 84.9,
-      "riesgo": "BAJO",
+      "ticker": "GS",
+      "sector": "Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 93.6,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 18.53,
-      "objetivo": 20.61
+      "precio": 1130.02,
+      "objetivo": 1204.07
     },
     {
       "ticker": "DELL",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 83.1,
+      "score": 87.7,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 457.04,
-      "objetivo": 523.64
+      "precio": 458.66,
+      "objetivo": 525.26
     },
     {
-      "ticker": "BAC",
-      "sector": "Finanzas",
+      "ticker": "ANET",
+      "sector": "Redes / IA",
       "senal_bot": "BUY",
-      "score": 82.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 60.58,
-      "objetivo": 63.3
-    },
-    {
-      "ticker": "MS",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 82.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 228.06,
-      "objetivo": 241.76
-    },
-    {
-      "ticker": "GS",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 82.9,
+      "score": 86.5,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 1126.06,
-      "objetivo": 1200.12
+      "precio": 182.6,
+      "objetivo": 205.61
+    },
+    {
+      "ticker": "SOFI",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 86.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 18.61,
+      "objetivo": 20.69
+    },
+    {
+      "ticker": "AAPL",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 84.8,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 315.16,
+      "objetivo": 334.91
     }
   ],
   "open_positions": [],
