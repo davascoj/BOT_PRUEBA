@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T19:45:23Z",
+  "updated": "2026-07-14T20:46:21Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "GS",
       "sector": "Finanzas",
       "senal_bot": "BUY STRONG",
-      "score": 95.5,
+      "score": 96.5,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 1138.95,
-      "objetivo": 1213.56
+      "precio": 1140.0,
+      "objetivo": 1215.23
+    },
+    {
+      "ticker": "BAC",
+      "sector": "Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 91.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 60.62,
+      "objetivo": 63.35
+    },
+    {
+      "ticker": "XLF",
+      "sector": "ETF Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 88.8,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 56.18,
+      "objetivo": 57.94
     },
     {
       "ticker": "SOFI",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 86.6,
+      "score": 87.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 18.47,
-      "objetivo": 20.54
+      "precio": 18.55,
+      "objetivo": 20.62
     },
     {
       "ticker": "MS",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 84.6,
+      "score": 85.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 227.91,
-      "objetivo": 241.61
-    },
-    {
-      "ticker": "NU",
-      "sector": "Fintech",
-      "senal_bot": "BUY",
-      "score": 83.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 13.89,
-      "objetivo": 15.02
-    },
-    {
-      "ticker": "JPM",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 83.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 342.69,
-      "objetivo": 359.3
+      "precio": 227.67,
+      "objetivo": 241.37
     }
   ],
   "open_positions": [],
