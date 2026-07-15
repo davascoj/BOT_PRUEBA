@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T22:38:38Z",
+  "updated": "2026-07-15T14:33:39Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "GS",
-      "sector": "Finanzas",
-      "senal_bot": "BUY STRONG",
-      "score": 96.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 1140.0,
-      "objetivo": 1215.23
-    },
-    {
-      "ticker": "BAC",
-      "sector": "Finanzas",
-      "senal_bot": "BUY STRONG",
-      "score": 91.6,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 60.62,
-      "objetivo": 63.35
-    },
-    {
-      "ticker": "XLF",
-      "sector": "ETF Finanzas",
-      "senal_bot": "BUY STRONG",
-      "score": 89.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 56.18,
-      "objetivo": 57.94
-    },
-    {
-      "ticker": "SOFI",
-      "sector": "Fintech",
-      "senal_bot": "BUY",
-      "score": 87.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 18.55,
-      "objetivo": 20.62
-    },
-    {
       "ticker": "MS",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 87.1,
+      "score": 83.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 227.67,
-      "objetivo": 241.37
+      "precio": 231.07,
+      "objetivo": 244.71
+    },
+    {
+      "ticker": "SHOP",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 83.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 124.16,
+      "objetivo": 137.53
+    },
+    {
+      "ticker": "XYZ",
+      "sector": "Pagos",
+      "senal_bot": "BUY",
+      "score": 82.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 82.41,
+      "objetivo": 88.94
+    },
+    {
+      "ticker": "ABNB",
+      "sector": "Viajes",
+      "senal_bot": "BUY",
+      "score": 82.3,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 150.17,
+      "objetivo": 160.1
+    },
+    {
+      "ticker": "AFRM",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 81.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 82.11,
+      "objetivo": 90.37
     }
   ],
   "open_positions": [],
