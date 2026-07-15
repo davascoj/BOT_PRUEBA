@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T19:50:04Z",
+  "updated": "2026-07-15T20:46:35Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "MS",
+      "ticker": "WFC",
       "sector": "Finanzas",
       "senal_bot": "BUY STRONG",
-      "score": 98.3,
+      "score": 96.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 228.94,
-      "objetivo": 243.25
+      "precio": 87.51,
+      "objetivo": 92.17
     },
     {
-      "ticker": "DHR",
-      "sector": "Salud",
+      "ticker": "MS",
+      "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 86.5,
+      "score": 89.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 200.85,
-      "objetivo": 212.27
-    },
-    {
-      "ticker": "XYZ",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 86.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 81.85,
-      "objetivo": 88.57
-    },
-    {
-      "ticker": "CMG",
-      "sector": "Consumo",
-      "senal_bot": "BUY",
-      "score": 85.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 34.94,
-      "objetivo": 37.73
+      "precio": 228.55,
+      "objetivo": 242.86
     },
     {
       "ticker": "JPM",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 85.8,
+      "score": 87.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 347.06,
-      "objetivo": 364.24
+      "precio": 346.91,
+      "objetivo": 364.09
+    },
+    {
+      "ticker": "DHR",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 87.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 200.79,
+      "objetivo": 212.21
+    },
+    {
+      "ticker": "SHOP",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 86.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 123.55,
+      "objetivo": 136.92
     }
   ],
   "open_positions": [],
