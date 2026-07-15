@@ -1,5 +1,5 @@
 {
-  "actualizado": "15-07-2026 04:40 PM Colombia",
+  "actualizado": "15-07-2026 05:39 PM Colombia",
   "version_bot": "V4.8 REPORTE EJECUTIVO",
   "contexto_mercado": {
     "estado": "NEUTRO +",
@@ -18,8 +18,8 @@
         "ticker": "BTC-USD",
         "estado": "POSITIVO",
         "score": 3,
-        "mom20": 8.47,
-        "mom5": 1.02
+        "mom20": 8.61,
+        "mom5": 1.15
       },
       "CL=F": {
         "ticker": "CL=F",
@@ -32,8 +32,8 @@
         "ticker": "ETH-USD",
         "estado": "POSITIVO",
         "score": 3,
-        "mom20": 22.74,
-        "mom5": 6.96
+        "mom20": 22.88,
+        "mom5": 7.08
       },
       "QQQ": {
         "ticker": "QQQ",
@@ -88,8 +88,8 @@
       "cripto": {
         "estado": "NEUTRO +",
         "score": 3,
-        "mom20_prom": 15.61,
-        "detalle": "BTC-USD 8.47% · ETH-USD 22.74%",
+        "mom20_prom": 15.74,
+        "detalle": "BTC-USD 8.61% · ETH-USD 22.88%",
         "drivers": [
           "BTC-USD",
           "ETH-USD"
@@ -422,12 +422,12 @@
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "NEUTRO +",
-      "Drivers sector": "BTC-USD 8.47% · ETH-USD 22.74%",
+      "Drivers sector": "BTC-USD 8.61% · ETH-USD 22.88%",
       "Riesgo": "BAJO",
       "Hot Score": "🔥🔥",
       "Senal": "POSIBLE COMPRA",
       "Senal Bot": "BUY",
-      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.47% · ETH-USD 22.74%; Precio sobre MA20; RSI saludable; MACD positivo",
+      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.61% · ETH-USD 22.88%; Precio sobre MA20; RSI saludable; MACD positivo",
       "Alertas": "Tendencia larga débil",
       "Score calidad": 77.7
     },
@@ -7302,12 +7302,12 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "NEUTRO +",
-      "Drivers sector": "BTC-USD 8.47% · ETH-USD 22.74%",
+      "Drivers sector": "BTC-USD 8.61% · ETH-USD 22.88%",
       "Riesgo": "MEDIO",
       "Hot Score": "🔥",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
-      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.47% · ETH-USD 22.74%; RSI saludable; MACD positivo; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.61% · ETH-USD 22.88%; RSI saludable; MACD positivo; MACD mejorando",
       "Alertas": "Precio bajo MA20; Tendencia larga débil; Volumen bajo; Débil vs QQQ; Lejos del máximo 20D",
       "Score calidad": 38.5
     },
@@ -8358,12 +8358,12 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "NEUTRO +",
-      "Drivers sector": "BTC-USD 8.47% · ETH-USD 22.74%",
+      "Drivers sector": "BTC-USD 8.61% · ETH-USD 22.88%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
-      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.47% · ETH-USD 22.74%; MA20 sobre MA50; Tendencia larga positiva; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.61% · ETH-USD 22.88%; MA20 sobre MA50; Tendencia larga positiva; MACD mejorando",
       "Alertas": "Precio bajo MA20; RSI débil; MACD sin confirmar; Débil vs QQQ; Lejos del máximo 20D",
       "Score calidad": 23.9
     },
@@ -8422,12 +8422,12 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "NEUTRO +",
-      "Drivers sector": "BTC-USD 8.47% · ETH-USD 22.74%",
+      "Drivers sector": "BTC-USD 8.61% · ETH-USD 22.88%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
-      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.47% · ETH-USD 22.74%; Tendencia larga positiva; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector ligeramente positivo: BTC-USD 8.61% · ETH-USD 22.88%; Tendencia larga positiva; MACD mejorando",
       "Alertas": "Precio bajo MA20; RSI débil; MACD sin confirmar; Momentum negativo; Débil vs QQQ",
       "Score calidad": 8.6
     },
@@ -9009,7 +9009,7 @@
     }
   ],
   "paper_trading": {
-    "updated": "15-07-2026 04:40 PM Colombia",
+    "updated": "15-07-2026 05:39 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -9036,8 +9036,8 @@
           "ticker": "BTC-USD",
           "estado": "POSITIVO",
           "score": 3,
-          "mom20": 8.47,
-          "mom5": 1.02
+          "mom20": 8.61,
+          "mom5": 1.15
         },
         "CL=F": {
           "ticker": "CL=F",
@@ -9050,8 +9050,8 @@
           "ticker": "ETH-USD",
           "estado": "POSITIVO",
           "score": 3,
-          "mom20": 22.74,
-          "mom5": 6.96
+          "mom20": 22.88,
+          "mom5": 7.08
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -9106,8 +9106,8 @@
         "cripto": {
           "estado": "NEUTRO +",
           "score": 3,
-          "mom20_prom": 15.61,
-          "detalle": "BTC-USD 8.47% · ETH-USD 22.74%",
+          "mom20_prom": 15.74,
+          "detalle": "BTC-USD 8.61% · ETH-USD 22.88%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -9162,7 +9162,7 @@
     "backtest_operaciones": 300
   },
   "historial": {
-    "actualizado": "15-07-2026 04:40 PM Colombia",
+    "actualizado": "15-07-2026 05:39 PM Colombia",
     "resumen": {
       "total_operaciones": 300,
       "abiertas": 0,
