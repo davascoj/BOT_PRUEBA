@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T18:37:52Z",
+  "updated": "2026-07-15T19:50:04Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "MS",
       "sector": "Finanzas",
       "senal_bot": "BUY STRONG",
-      "score": 97.5,
+      "score": 98.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 228.78,
-      "objetivo": 243.09
+      "precio": 228.94,
+      "objetivo": 243.25
+    },
+    {
+      "ticker": "DHR",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 86.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 200.85,
+      "objetivo": 212.27
     },
     {
       "ticker": "XYZ",
       "sector": "Pagos",
       "senal_bot": "BUY",
-      "score": 85.7,
+      "score": 86.5,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 81.57,
-      "objetivo": 88.29
+      "precio": 81.85,
+      "objetivo": 88.57
+    },
+    {
+      "ticker": "CMG",
+      "sector": "Consumo",
+      "senal_bot": "BUY",
+      "score": 85.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 34.94,
+      "objetivo": 37.73
     },
     {
       "ticker": "JPM",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 85.0,
+      "score": 85.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 345.61,
-      "objetivo": 362.79
-    },
-    {
-      "ticker": "ABNB",
-      "sector": "Viajes",
-      "senal_bot": "BUY",
-      "score": 85.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 148.78,
-      "objetivo": 158.78
-    },
-    {
-      "ticker": "IBKR",
-      "sector": "Trading",
-      "senal_bot": "BUY",
-      "score": 83.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 97.28,
-      "objetivo": 105.78
+      "precio": 347.06,
+      "objetivo": 364.24
     }
   ],
   "open_positions": [],
