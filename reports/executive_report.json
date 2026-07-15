@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T20:46:35Z",
+  "updated": "2026-07-15T21:40:35Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,7 +21,7 @@
       "ticker": "WFC",
       "sector": "Finanzas",
       "senal_bot": "BUY STRONG",
-      "score": 96.1,
+      "score": 98.0,
       "riesgo": "BAJO",
       "rr": 1.63,
       "precio": 87.51,
@@ -38,6 +38,16 @@
       "objetivo": 242.86
     },
     {
+      "ticker": "DHR",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 88.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 200.79,
+      "objetivo": 212.21
+    },
+    {
       "ticker": "JPM",
       "sector": "Finanzas",
       "senal_bot": "BUY",
@@ -46,16 +56,6 @@
       "rr": 1.63,
       "precio": 346.91,
       "objetivo": 364.09
-    },
-    {
-      "ticker": "DHR",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 87.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 200.79,
-      "objetivo": 212.21
     },
     {
       "ticker": "SHOP",
