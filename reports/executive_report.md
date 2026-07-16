@@ -1,11 +1,11 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-07-16T18:46:08Z
+**Actualizado:** 2026-07-16T19:49:01Z
 **Estado:** BLOQUEADO
-**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
+**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.
 
 ## Resumen
-- Mercado: NEUTRO
+- Mercado: DÉBIL
 - Capital total estimado USD: 5834.3
 - G/P total estimada USD: 834.3
 - Operaciones abiertas: 0
@@ -15,16 +15,12 @@
 - Backtest profit factor: 1.14
 
 ## Alertas
-- Estado operativo BLOQUEADO: Volumen relativo bajo
+- Estado operativo BLOQUEADO: SIN BLOQUEOS
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- UNH · BUY · score 79.6 · R/R 1.63
-- ABT · BUY · score 79.5 · R/R 1.63
-- DHR · BUY · score 78.7 · R/R 1.63
-- OKE · BUY · score 78.2 · R/R 1.63
-- MRK · BUY · score 77.4 · R/R 1.63
+- Sin oportunidades BUY/BUY STRONG.
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
