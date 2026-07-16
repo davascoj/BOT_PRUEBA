@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T14:53:43Z",
+  "updated": "2026-07-16T16:09:08Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -21,51 +21,51 @@
       "ticker": "UNH",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 79.8,
+      "score": 80.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 437.61,
-      "objetivo": 465.33
-    },
-    {
-      "ticker": "DHR",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 77.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 204.88,
-      "objetivo": 215.75
+      "precio": 435.78,
+      "objetivo": 463.49
     },
     {
       "ticker": "ABT",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 76.8,
+      "score": 77.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 100.0,
-      "objetivo": 107.03
+      "precio": 98.72,
+      "objetivo": 105.75
+    },
+    {
+      "ticker": "DHR",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 77.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 203.33,
+      "objetivo": 214.2
     },
     {
       "ticker": "OKE",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 76.2,
+      "score": 76.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 92.75,
-      "objetivo": 97.71
+      "precio": 92.85,
+      "objetivo": 97.81
     },
     {
       "ticker": "MRK",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 75.7,
+      "score": 76.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 127.85,
-      "objetivo": 135.74
+      "precio": 128.05,
+      "objetivo": 135.97
     }
   ],
   "open_positions": [],
