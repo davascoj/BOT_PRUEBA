@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T17:53:41Z",
+  "updated": "2026-07-17T18:47:36Z",
   "version": "V4.7",
   "status": {
     "health": "OK",
@@ -27,7 +27,7 @@
     "capital_inicial_usd": 5000.0,
     "capital_final_estimado_usd": 5834.3,
     "max_drawdown_pct": 27.55,
-    "mercado_actual": "NEUTRO",
+    "mercado_actual": "DÉBIL",
     "nota": "Backtesting sobre operaciones simuladas guardadas. No es recomendación financiera ni ejecución real."
   },
   "by_sector": [

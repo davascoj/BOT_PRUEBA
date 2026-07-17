@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-17T17:53:41Z",
+  "updated": "2026-07-17T18:47:36Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "UNH",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 78.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 434.5,
-      "objetivo": 462.58
-    },
-    {
-      "ticker": "PM",
-      "sector": "Consumo defensivo",
-      "senal_bot": "BUY",
-      "score": 78.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 190.96,
-      "objetivo": 202.68
-    },
-    {
-      "ticker": "XYZ",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 78.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 80.5,
-      "objetivo": 87.03
-    },
-    {
-      "ticker": "NVO",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 77.8,
-      "riesgo": "BAJO",
-      "rr": 1.64,
-      "precio": 50.46,
-      "objetivo": 53.21
-    },
-    {
-      "ticker": "OKE",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 77.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 93.02,
-      "objetivo": 98.06
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
