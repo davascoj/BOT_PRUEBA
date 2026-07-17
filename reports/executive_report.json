@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T16:52:54Z",
+  "updated": "2026-07-17T17:53:41Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,14 +18,14 @@
   },
   "top_opportunities": [
     {
-      "ticker": "MRK",
+      "ticker": "UNH",
       "sector": "Salud",
       "senal_bot": "BUY",
       "score": 78.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 127.97,
-      "objetivo": 136.14
+      "precio": 434.5,
+      "objetivo": 462.58
     },
     {
       "ticker": "PM",
@@ -34,38 +34,38 @@
       "score": 78.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 191.48,
-      "objetivo": 203.2
+      "precio": 190.96,
+      "objetivo": 202.68
     },
     {
-      "ticker": "TRV",
-      "sector": "Seguros",
+      "ticker": "XYZ",
+      "sector": "Pagos",
       "senal_bot": "BUY",
-      "score": 78.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 362.89,
-      "objetivo": 383.59
-    },
-    {
-      "ticker": "GILD",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 77.9,
+      "score": 78.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 135.54,
-      "objetivo": 144.7
+      "precio": 80.5,
+      "objetivo": 87.03
     },
     {
-      "ticker": "TGT",
-      "sector": "Consumo",
+      "ticker": "NVO",
+      "sector": "Salud",
       "senal_bot": "BUY",
       "score": 77.8,
       "riesgo": "BAJO",
+      "rr": 1.64,
+      "precio": 50.46,
+      "objetivo": 53.21
+    },
+    {
+      "ticker": "OKE",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 77.6,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 140.38,
-      "objetivo": 149.57
+      "precio": 93.02,
+      "objetivo": 98.06
     }
   ],
   "open_positions": [],
