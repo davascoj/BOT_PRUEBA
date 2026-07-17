@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T22:36:25Z",
+  "updated": "2026-07-17T14:25:48Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "WFC",
-      "sector": "Finanzas",
-      "senal_bot": "BUY STRONG",
-      "score": 88.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 88.07,
-      "objetivo": 92.68
-    },
-    {
-      "ticker": "SCHD",
-      "sector": "ETF Dividendos",
-      "senal_bot": "BUY STRONG",
-      "score": 83.9,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 33.04,
-      "objetivo": 33.84
-    },
-    {
-      "ticker": "DHR",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 81.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 205.01,
-      "objetivo": 215.88
-    },
-    {
       "ticker": "MRK",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 80.5,
+      "score": 78.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 127.63,
-      "objetivo": 135.68
+      "precio": 130.6,
+      "objetivo": 138.74
     },
     {
-      "ticker": "ABT",
+      "ticker": "PM",
+      "sector": "Consumo defensivo",
+      "senal_bot": "BUY",
+      "score": 77.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 192.0,
+      "objetivo": 203.72
+    },
+    {
+      "ticker": "TGT",
+      "sector": "Consumo",
+      "senal_bot": "BUY",
+      "score": 77.8,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 142.38,
+      "objetivo": 151.57
+    },
+    {
+      "ticker": "ABBV",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 79.6,
-      "riesgo": "MEDIO",
+      "score": 76.9,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 98.83,
-      "objetivo": 105.86
+      "precio": 258.18,
+      "objetivo": 272.54
+    },
+    {
+      "ticker": "OKE",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 76.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 93.37,
+      "objetivo": 98.36
     }
   ],
   "open_positions": [],
