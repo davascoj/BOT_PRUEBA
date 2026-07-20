@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-20T16:26:55Z",
+  "updated": "2026-07-20T18:28:16Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "NU",
-      "sector": "Fintech",
-      "senal_bot": "BUY",
-      "score": 79.1,
-      "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 14.12,
-      "objetivo": 15.25
-    },
-    {
-      "ticker": "TGT",
-      "sector": "Consumo",
-      "senal_bot": "BUY",
-      "score": 77.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 140.33,
-      "objetivo": 149.34
-    },
-    {
-      "ticker": "BAC",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 76.5,
-      "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 60.78,
-      "objetivo": 63.59
-    },
-    {
-      "ticker": "ABBV",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 75.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 253.62,
-      "objetivo": 267.47
-    },
-    {
-      "ticker": "XYZ",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 75.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 80.15,
-      "objetivo": 86.74
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
