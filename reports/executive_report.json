@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:55:16Z",
+  "updated": "2026-07-21T16:13:02Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "ABBV",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 76.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 255.35,
-      "objetivo": 269.08
-    },
-    {
-      "ticker": "AMGN",
-      "sector": "Salud",
-      "senal_bot": "BUY",
-      "score": 75.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 365.24,
-      "objetivo": 385.26
-    },
-    {
       "ticker": "NU",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 75.7,
+      "score": 77.8,
       "riesgo": "BAJO",
-      "rr": 1.64,
-      "precio": 14.15,
-      "objetivo": 15.28
+      "rr": 1.62,
+      "precio": 14.19,
+      "objetivo": 15.31
+    },
+    {
+      "ticker": "GPN",
+      "sector": "Pagos",
+      "senal_bot": "BUY",
+      "score": 77.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 80.08,
+      "objetivo": 87.33
+    },
+    {
+      "ticker": "ABBV",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 77.0,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 255.26,
+      "objetivo": 268.99
+    },
+    {
+      "ticker": "GM",
+      "sector": "Autos",
+      "senal_bot": "BUY",
+      "score": 76.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 79.72,
+      "objetivo": 84.43
     },
     {
       "ticker": "MDT",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 75.6,
+      "score": 75.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 82.47,
-      "objetivo": 87.94
-    },
-    {
-      "ticker": "HMC",
-      "sector": "Autos",
-      "senal_bot": "BUY",
-      "score": 75.2,
-      "riesgo": "BAJO",
-      "rr": 1.64,
-      "precio": 28.55,
-      "objetivo": 30.04
+      "precio": 82.55,
+      "objetivo": 88.02
     }
   ],
   "open_positions": [],
