@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T18:55:40Z",
+  "updated": "2026-07-21T20:11:25Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "GM",
+      "sector": "Autos",
+      "senal_bot": "BUY STRONG",
+      "score": 89.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 79.51,
+      "objetivo": 84.23
+    },
+    {
       "ticker": "NU",
       "sector": "Fintech",
       "senal_bot": "BUY STRONG",
-      "score": 91.4,
-      "riesgo": "BAJO",
+      "score": 88.0,
+      "riesgo": "MEDIO",
+      "rr": 1.64,
+      "precio": 14.38,
+      "objetivo": 15.53
+    },
+    {
+      "ticker": "SPOT",
+      "sector": "Entretenimiento",
+      "senal_bot": "BUY STRONG",
+      "score": 87.8,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 14.27,
-      "objetivo": 15.41
+      "precio": 493.27,
+      "objetivo": 529.63
     },
     {
       "ticker": "COIN",
       "sector": "Cripto / Trading",
       "senal_bot": "BUY",
-      "score": 82.3,
+      "score": 81.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 177.16,
-      "objetivo": 199.51
+      "precio": 175.85,
+      "objetivo": 198.2
     },
     {
-      "ticker": "GM",
-      "sector": "Autos",
-      "senal_bot": "BUY",
-      "score": 77.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 79.35,
-      "objetivo": 84.07
-    },
-    {
-      "ticker": "GPN",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 77.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 79.78,
-      "objetivo": 87.09
-    },
-    {
-      "ticker": "ABBV",
+      "ticker": "AMGN",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 77.4,
+      "score": 80.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 255.61,
-      "objetivo": 269.34
+      "precio": 366.24,
+      "objetivo": 386.26
     }
   ],
   "open_positions": [],
