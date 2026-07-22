@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:40:55Z",
+  "updated": "2026-07-22T18:47:45Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,24 +18,14 @@
   },
   "top_opportunities": [
     {
-      "ticker": "COIN",
-      "sector": "Cripto / Trading",
-      "senal_bot": "BUY",
-      "score": 77.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 169.28,
-      "objetivo": 189.93
-    },
-    {
       "ticker": "NU",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 77.5,
+      "score": 79.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 14.11,
-      "objetivo": 15.25
+      "precio": 14.36,
+      "objetivo": 15.5
     },
     {
       "ticker": "PM",
@@ -44,28 +34,38 @@
       "score": 77.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 193.7,
-      "objetivo": 206.28
+      "precio": 192.65,
+      "objetivo": 205.23
     },
     {
       "ticker": "ABBV",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 76.9,
+      "score": 76.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 254.78,
-      "objetivo": 268.35
+      "precio": 253.57,
+      "objetivo": 267.35
+    },
+    {
+      "ticker": "JNJ",
+      "sector": "Salud",
+      "senal_bot": "BUY",
+      "score": 76.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 255.05,
+      "objetivo": 269.62
     },
     {
       "ticker": "MRK",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 76.0,
+      "score": 76.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 127.85,
-      "objetivo": 135.85
+      "precio": 127.86,
+      "objetivo": 135.86
     }
   ],
   "open_positions": [],
