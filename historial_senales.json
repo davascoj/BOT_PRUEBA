@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "24-07-2026 09:33 AM Colombia",
+  "actualizado": "24-07-2026 10:58 AM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -17363,12 +17363,12 @@
     "benchmark": {
       "fecha_inicio": "2026-05-18",
       "bot_rentabilidad_neta_pct": 16.69,
-      "spy_rentabilidad_pct": 0.28,
-      "qqq_rentabilidad_pct": -2.77,
-      "bot_vs_spy_alpha_pct": 16.41,
-      "bot_vs_qqq_alpha_pct": 19.46,
-      "capital_si_spy_usd": 5014.0,
-      "capital_si_qqq_usd": 4861.5
+      "spy_rentabilidad_pct": 0.81,
+      "qqq_rentabilidad_pct": -2.01,
+      "bot_vs_spy_alpha_pct": 15.88,
+      "bot_vs_qqq_alpha_pct": 18.7,
+      "capital_si_spy_usd": 5040.5,
+      "capital_si_qqq_usd": 4899.5
     },
     "rendimiento_por_sector": [
       {
