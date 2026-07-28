@@ -1,8 +1,8 @@
 {
-  "updated": "28-07-2026 02:48 PM Colombia",
+  "updated": "28-07-2026 03:50 PM Colombia",
   "version": "V4.4.4",
   "status": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -15,72 +15,72 @@
     "market": {
       "estado": "DÉBIL",
       "score": -8,
-      "spy20": 0.03,
-      "qqq20": -6.58,
+      "spy20": -0.02,
+      "qqq20": -6.71,
       "drivers": {
         "ARKK": {
           "ticker": "ARKK",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -10.58,
-          "mom5": -7.2
+          "mom20": -10.15,
+          "mom5": -6.75
         },
         "BTC-USD": {
           "ticker": "BTC-USD",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 2.18,
-          "mom5": -2.2
+          "mom20": 2.53,
+          "mom5": -1.86
         },
         "CL=F": {
           "ticker": "CL=F",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 11.56,
-          "mom5": -7.04
+          "mom20": 11.99,
+          "mom5": -6.69
         },
         "ETH-USD": {
           "ticker": "ETH-USD",
           "estado": "FUERTE",
           "score": 6,
-          "mom20": 9.84,
-          "mom5": 1.97
+          "mom20": 9.93,
+          "mom5": 2.06
         },
         "QQQ": {
           "ticker": "QQQ",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -6.58,
-          "mom5": -4.59
+          "mom20": -6.71,
+          "mom5": -4.72
         },
         "SOXX": {
           "ticker": "SOXX",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -19.58,
-          "mom5": -10.61
+          "mom20": -20.0,
+          "mom5": -11.08
         },
         "SPY": {
           "ticker": "SPY",
-          "estado": "NEUTRO",
-          "score": 0,
-          "mom20": 0.03,
-          "mom5": -0.94
+          "estado": "DÉBIL",
+          "score": -6,
+          "mom20": -0.02,
+          "mom5": -0.99
         },
         "XLE": {
           "ticker": "XLE",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 7.71,
-          "mom5": -1.35
+          "mom20": 7.45,
+          "mom5": -1.59
         }
       },
       "sectores": {
         "chips": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -13.08,
-          "detalle": "SOXX -19.58% · QQQ -6.58%",
+          "mom20_prom": -13.36,
+          "detalle": "SOXX -20.0% · QQQ -6.71%",
           "drivers": [
             "SOXX",
             "QQQ"
@@ -89,8 +89,8 @@
         "energia": {
           "estado": "NEUTRO",
           "score": 0,
-          "mom20_prom": 9.63,
-          "detalle": "XLE 7.71% · CL=F 11.56%",
+          "mom20_prom": 9.72,
+          "detalle": "XLE 7.45% · CL=F 11.99%",
           "drivers": [
             "XLE",
             "CL=F"
@@ -99,8 +99,8 @@
         "cripto": {
           "estado": "NEUTRO +",
           "score": 3,
-          "mom20_prom": 6.01,
-          "detalle": "BTC-USD 2.18% · ETH-USD 9.84%",
+          "mom20_prom": 6.23,
+          "detalle": "BTC-USD 2.53% · ETH-USD 9.93%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -109,8 +109,8 @@
         "tech_ia": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -5.71,
-          "detalle": "QQQ -6.58% · ARKK -10.58% · SPY 0.03%",
+          "mom20_prom": -5.63,
+          "detalle": "QQQ -6.71% · ARKK -10.15% · SPY -0.02%",
           "drivers": [
             "QQQ",
             "ARKK",
@@ -137,7 +137,7 @@
     }
   },
   "portfolio": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "version": "V4.4.4",
     "mode": "PAPER_TRADING_SIMULATED",
     "capital_initial_usd": 5000.0,
@@ -154,7 +154,7 @@
     "positions": []
   },
   "orders": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "mode": "PAPER_ONLY",
     "total": 600,
     "detail_file": "paper/paper_orders.json",
@@ -162,7 +162,7 @@
     "note": "V4.4.4: detalle no embebido para aligerar paper_state.json."
   },
   "trades": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "mode": "PAPER_ONLY",
     "total": 300,
     "detail_file": "paper/paper_trades.json",
@@ -170,78 +170,78 @@
     "note": "V4.4.4: detalle no embebido para aligerar paper_state.json."
   },
   "risk": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "version": "V4.4.4",
     "mode": "PAPER_TRADING_SIMULATED",
     "market_state": {
       "estado": "DÉBIL",
       "score": -8,
-      "spy20": 0.03,
-      "qqq20": -6.58,
+      "spy20": -0.02,
+      "qqq20": -6.71,
       "drivers": {
         "ARKK": {
           "ticker": "ARKK",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -10.58,
-          "mom5": -7.2
+          "mom20": -10.15,
+          "mom5": -6.75
         },
         "BTC-USD": {
           "ticker": "BTC-USD",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 2.18,
-          "mom5": -2.2
+          "mom20": 2.53,
+          "mom5": -1.86
         },
         "CL=F": {
           "ticker": "CL=F",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 11.56,
-          "mom5": -7.04
+          "mom20": 11.99,
+          "mom5": -6.69
         },
         "ETH-USD": {
           "ticker": "ETH-USD",
           "estado": "FUERTE",
           "score": 6,
-          "mom20": 9.84,
-          "mom5": 1.97
+          "mom20": 9.93,
+          "mom5": 2.06
         },
         "QQQ": {
           "ticker": "QQQ",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -6.58,
-          "mom5": -4.59
+          "mom20": -6.71,
+          "mom5": -4.72
         },
         "SOXX": {
           "ticker": "SOXX",
           "estado": "DÉBIL",
           "score": -6,
-          "mom20": -19.58,
-          "mom5": -10.61
+          "mom20": -20.0,
+          "mom5": -11.08
         },
         "SPY": {
           "ticker": "SPY",
-          "estado": "NEUTRO",
-          "score": 0,
-          "mom20": 0.03,
-          "mom5": -0.94
+          "estado": "DÉBIL",
+          "score": -6,
+          "mom20": -0.02,
+          "mom5": -0.99
         },
         "XLE": {
           "ticker": "XLE",
           "estado": "NEUTRO",
           "score": 0,
-          "mom20": 7.71,
-          "mom5": -1.35
+          "mom20": 7.45,
+          "mom5": -1.59
         }
       },
       "sectores": {
         "chips": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -13.08,
-          "detalle": "SOXX -19.58% · QQQ -6.58%",
+          "mom20_prom": -13.36,
+          "detalle": "SOXX -20.0% · QQQ -6.71%",
           "drivers": [
             "SOXX",
             "QQQ"
@@ -250,8 +250,8 @@
         "energia": {
           "estado": "NEUTRO",
           "score": 0,
-          "mom20_prom": 9.63,
-          "detalle": "XLE 7.71% · CL=F 11.56%",
+          "mom20_prom": 9.72,
+          "detalle": "XLE 7.45% · CL=F 11.99%",
           "drivers": [
             "XLE",
             "CL=F"
@@ -260,8 +260,8 @@
         "cripto": {
           "estado": "NEUTRO +",
           "score": 3,
-          "mom20_prom": 6.01,
-          "detalle": "BTC-USD 2.18% · ETH-USD 9.84%",
+          "mom20_prom": 6.23,
+          "detalle": "BTC-USD 2.53% · ETH-USD 9.93%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -270,8 +270,8 @@
         "tech_ia": {
           "estado": "NO ACOMPAÑA",
           "score": -8,
-          "mom20_prom": -5.71,
-          "detalle": "QQQ -6.58% · ARKK -10.58% · SPY 0.03%",
+          "mom20_prom": -5.63,
+          "detalle": "QQQ -6.71% · ARKK -10.15% · SPY -0.02%",
           "drivers": [
             "QQQ",
             "ARKK",
@@ -372,7 +372,7 @@
     }
   },
   "audit": {
-    "updated": "28-07-2026 02:48 PM Colombia",
+    "updated": "28-07-2026 03:50 PM Colombia",
     "version": "V4.4.4",
     "mode": "AUDITORIA_BLOQUEOS_EXISTENTES",
     "summary": {
