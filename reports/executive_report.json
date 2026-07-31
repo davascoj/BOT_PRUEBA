@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T20:50:01Z",
+  "updated": "2026-07-31T21:50:34Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -48,6 +48,16 @@
       "objetivo": 109.07
     },
     {
+      "ticker": "ANET",
+      "sector": "Redes / IA",
+      "senal_bot": "BUY",
+      "score": 81.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 180.35,
+      "objetivo": 203.28
+    },
+    {
       "ticker": "ARES",
       "sector": "Finanzas",
       "senal_bot": "BUY",
@@ -56,21 +66,11 @@
       "rr": 1.63,
       "precio": 128.09,
       "objetivo": 138.78
-    },
-    {
-      "ticker": "SPOT",
-      "sector": "Entretenimiento",
-      "senal_bot": "BUY",
-      "score": 81.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 499.94,
-      "objetivo": 538.69
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
