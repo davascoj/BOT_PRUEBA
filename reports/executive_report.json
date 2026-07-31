@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-31T15:14:58Z",
+  "updated": "2026-07-31T16:57:21Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
-    "mercado": "DÉBIL",
+    "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,10 +16,61 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [],
+  "top_opportunities": [
+    {
+      "ticker": "ETN",
+      "sector": "Industrial",
+      "senal_bot": "BUY",
+      "score": 78.8,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 414.16,
+      "objetivo": 457.6
+    },
+    {
+      "ticker": "SPOT",
+      "sector": "Entretenimiento",
+      "senal_bot": "BUY",
+      "score": 78.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 510.25,
+      "objetivo": 547.95
+    },
+    {
+      "ticker": "BKR",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 77.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 60.52,
+      "objetivo": 65.01
+    },
+    {
+      "ticker": "SCHW",
+      "sector": "Finanzas",
+      "senal_bot": "BUY",
+      "score": 77.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 105.3,
+      "objetivo": 110.48
+    },
+    {
+      "ticker": "BILL",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 77.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 45.02,
+      "objetivo": 49.87
+    }
+  ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
