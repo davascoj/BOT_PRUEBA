@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T19:53:21Z",
+  "updated": "2026-07-31T20:50:01Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -21,51 +21,51 @@
       "ticker": "ETN",
       "sector": "Industrial",
       "senal_bot": "BUY STRONG",
-      "score": 92.1,
+      "score": 91.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 417.27,
-      "objetivo": 460.71
+      "precio": 415.2,
+      "objetivo": 458.64
+    },
+    {
+      "ticker": "ZM",
+      "sector": "Tecnología",
+      "senal_bot": "BUY STRONG",
+      "score": 91.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 96.07,
+      "objetivo": 103.21
     },
     {
       "ticker": "KKR",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 81.2,
+      "score": 82.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 101.33,
-      "objetivo": 108.96
-    },
-    {
-      "ticker": "ANET",
-      "sector": "Redes / IA",
-      "senal_bot": "BUY",
-      "score": 80.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 180.8,
-      "objetivo": 203.73
+      "precio": 101.43,
+      "objetivo": 109.07
     },
     {
       "ticker": "ARES",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 80.1,
+      "score": 81.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 127.82,
-      "objetivo": 138.46
+      "precio": 128.09,
+      "objetivo": 138.78
     },
     {
-      "ticker": "BILL",
-      "sector": "Fintech",
+      "ticker": "SPOT",
+      "sector": "Entretenimiento",
       "senal_bot": "BUY",
-      "score": 79.7,
+      "score": 81.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 45.19,
-      "objetivo": 50.04
+      "precio": 499.94,
+      "objetivo": 538.69
     }
   ],
   "open_positions": [],
