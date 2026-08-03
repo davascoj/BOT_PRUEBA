@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T19:04:10Z",
+  "updated": "2026-08-03T20:30:54Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "VEEV",
-      "sector": "Salud / Software",
+      "ticker": "ETN",
+      "sector": "Industrial",
       "senal_bot": "BUY STRONG",
-      "score": 95.0,
+      "score": 96.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 208.54,
-      "objetivo": 226.66
+      "precio": 438.23,
+      "objetivo": 484.04
     },
     {
-      "ticker": "U",
-      "sector": "Software",
-      "senal_bot": "BUY",
-      "score": 86.4,
+      "ticker": "VOO",
+      "sector": "ETF Mercado",
+      "senal_bot": "BUY STRONG",
+      "score": 94.3,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 696.4,
+      "objetivo": 714.36
+    },
+    {
+      "ticker": "KKR",
+      "sector": "Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 93.1,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 33.35,
-      "objetivo": 37.32
+      "precio": 106.56,
+      "objetivo": 114.76
     },
     {
-      "ticker": "ZS",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 84.8,
-      "riesgo": "BAJO",
+      "ticker": "XLY",
+      "sector": "ETF Consumo",
+      "senal_bot": "BUY STRONG",
+      "score": 91.0,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 155.64,
-      "objetivo": 171.54
+      "precio": 118.21,
+      "objetivo": 123.02
     },
     {
-      "ticker": "ROK",
-      "sector": "Automatización",
-      "senal_bot": "BUY",
-      "score": 84.6,
+      "ticker": "XLI",
+      "sector": "ETF Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 90.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 478.3,
-      "objetivo": 511.62
-    },
-    {
-      "ticker": "GEN",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 84.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 28.16,
-      "objetivo": 30.04
+      "precio": 183.16,
+      "objetivo": 190.09
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
