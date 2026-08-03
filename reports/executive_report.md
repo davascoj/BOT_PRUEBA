@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-03T20:30:54Z
+**Actualizado:** 2026-08-03T21:40:06Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -23,7 +23,7 @@
 - ETN · BUY STRONG · score 96.8 · R/R 1.63
 - VOO · BUY STRONG · score 94.3 · R/R 1.63
 - KKR · BUY STRONG · score 93.1 · R/R 1.63
-- XLY · BUY STRONG · score 91.0 · R/R 1.63
+- XLY · BUY STRONG · score 91.2 · R/R 1.63
 - XLI · BUY STRONG · score 90.1 · R/R 1.63
 
 ## Conclusión
