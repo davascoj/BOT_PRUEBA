@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T15:16:15Z",
+  "updated": "2026-08-04T17:04:50Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "DIA",
+      "sector": "ETF Dow",
+      "senal_bot": "BUY STRONG",
+      "score": 92.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 541.11,
+      "objetivo": 555.76
+    },
+    {
       "ticker": "VLO",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 83.1,
+      "score": 84.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 308.56,
-      "objetivo": 332.95
-    },
-    {
-      "ticker": "BKR",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 82.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 61.22,
-      "objetivo": 65.6
+      "precio": 307.92,
+      "objetivo": 332.31
     },
     {
       "ticker": "MPC",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 82.3,
+      "score": 83.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 312.24,
-      "objetivo": 332.85
+      "precio": 312.77,
+      "objetivo": 333.39
     },
     {
-      "ticker": "BLK",
-      "sector": "Finanzas",
+      "ticker": "AVGO",
+      "sector": "IA / Chips",
       "senal_bot": "BUY",
-      "score": 82.2,
-      "riesgo": "BAJO",
+      "score": 83.4,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 1134.0,
-      "objetivo": 1197.4
+      "precio": 417.01,
+      "objetivo": 454.59
     },
     {
-      "ticker": "CVX",
-      "sector": "Energía",
+      "ticker": "URI",
+      "sector": "Construcción",
       "senal_bot": "BUY",
-      "score": 81.7,
+      "score": 83.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 190.73,
-      "objetivo": 200.67
+      "precio": 1146.18,
+      "objetivo": 1241.48
     }
   ],
   "open_positions": [],
