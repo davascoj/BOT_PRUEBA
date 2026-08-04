@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T17:04:50Z",
+  "updated": "2026-08-04T18:43:45Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -21,51 +21,51 @@
       "ticker": "DIA",
       "sector": "ETF Dow",
       "senal_bot": "BUY STRONG",
-      "score": 92.2,
+      "score": 93.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 541.11,
-      "objetivo": 555.76
+      "precio": 540.91,
+      "objetivo": 555.68
+    },
+    {
+      "ticker": "HACK",
+      "sector": "ETF Ciberseguridad",
+      "senal_bot": "BUY STRONG",
+      "score": 92.8,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 113.78,
+      "objetivo": 120.3
+    },
+    {
+      "ticker": "XLI",
+      "sector": "ETF Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 91.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 186.2,
+      "objetivo": 193.16
+    },
+    {
+      "ticker": "ROBO",
+      "sector": "ETF Robótica",
+      "senal_bot": "BUY STRONG",
+      "score": 91.0,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 84.2,
+      "objetivo": 88.56
     },
     {
       "ticker": "VLO",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 84.4,
+      "score": 85.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 307.92,
-      "objetivo": 332.31
-    },
-    {
-      "ticker": "MPC",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 83.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 312.77,
-      "objetivo": 333.39
-    },
-    {
-      "ticker": "AVGO",
-      "sector": "IA / Chips",
-      "senal_bot": "BUY",
-      "score": 83.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 417.01,
-      "objetivo": 454.59
-    },
-    {
-      "ticker": "URI",
-      "sector": "Construcción",
-      "senal_bot": "BUY",
-      "score": 83.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 1146.18,
-      "objetivo": 1241.48
+      "precio": 308.05,
+      "objetivo": 332.44
     }
   ],
   "open_positions": [],
