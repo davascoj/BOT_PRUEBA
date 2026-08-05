@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:50:24Z",
+  "updated": "2026-08-05T18:14:18Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "DIS",
+      "sector": "Entretenimiento",
+      "senal_bot": "BUY STRONG",
+      "score": 94.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 101.89,
+      "objetivo": 107.4
+    },
+    {
+      "ticker": "SLV",
+      "sector": "ETF Plata",
+      "senal_bot": "BUY STRONG",
+      "score": 93.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 56.19,
+      "objetivo": 60.09
+    },
+    {
       "ticker": "GLD",
       "sector": "ETF Oro",
       "senal_bot": "BUY STRONG",
-      "score": 91.5,
+      "score": 91.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 389.23,
-      "objetivo": 404.39
-    },
-    {
-      "ticker": "KKR",
-      "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 84.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 104.7,
-      "objetivo": 113.06
-    },
-    {
-      "ticker": "XYZ",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 84.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 84.59,
-      "objetivo": 90.22
+      "precio": 390.4,
+      "objetivo": 405.55
     },
     {
       "ticker": "MSTR",
       "sector": "Cripto / Trading",
       "senal_bot": "BUY",
-      "score": 84.6,
+      "score": 85.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 97.46,
-      "objetivo": 110.02
+      "precio": 98.15,
+      "objetivo": 110.72
     },
     {
-      "ticker": "BX",
-      "sector": "Finanzas",
+      "ticker": "PH",
+      "sector": "Industrial",
       "senal_bot": "BUY",
-      "score": 84.3,
+      "score": 85.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 135.23,
-      "objetivo": 145.6
+      "precio": 1002.03,
+      "objetivo": 1058.64
     }
   ],
   "open_positions": [],
