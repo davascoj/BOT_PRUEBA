@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T15:01:52Z",
+  "updated": "2026-08-07T15:55:44Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "MSTR",
       "sector": "Cripto / Trading",
       "senal_bot": "BUY",
-      "score": 86.1,
+      "score": 87.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 101.42,
-      "objetivo": 113.96
-    },
-    {
-      "ticker": "NET",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 86.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 303.65,
-      "objetivo": 339.9
-    },
-    {
-      "ticker": "DE",
-      "sector": "Industrial",
-      "senal_bot": "BUY",
-      "score": 82.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 624.47,
-      "objetivo": 663.71
-    },
-    {
-      "ticker": "GPN",
-      "sector": "Pagos",
-      "senal_bot": "BUY",
-      "score": 81.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 87.03,
-      "objetivo": 93.68
+      "precio": 102.09,
+      "objetivo": 114.63
     },
     {
       "ticker": "OKTA",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
+      "score": 82.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 147.96,
+      "objetivo": 161.93
+    },
+    {
+      "ticker": "DE",
+      "sector": "Industrial",
+      "senal_bot": "BUY",
       "score": 81.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 147.76,
-      "objetivo": 161.73
+      "precio": 622.75,
+      "objetivo": 661.99
+    },
+    {
+      "ticker": "TRV",
+      "sector": "Seguros",
+      "senal_bot": "BUY",
+      "score": 81.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 384.76,
+      "objetivo": 403.91
+    },
+    {
+      "ticker": "PANW",
+      "sector": "Ciberseguridad",
+      "senal_bot": "BUY",
+      "score": 81.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 364.01,
+      "objetivo": 396.03
     }
   ],
   "open_positions": [],
