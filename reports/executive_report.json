@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T15:55:44Z",
+  "updated": "2026-08-07T16:39:36Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "NET",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 88.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 306.45,
+      "objetivo": 342.7
+    },
+    {
       "ticker": "MSTR",
       "sector": "Cripto / Trading",
       "senal_bot": "BUY",
-      "score": 87.6,
+      "score": 87.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 102.09,
-      "objetivo": 114.63
+      "precio": 101.7,
+      "objetivo": 114.24
     },
     {
-      "ticker": "OKTA",
-      "sector": "Ciberseguridad",
+      "ticker": "BILL",
+      "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 82.1,
+      "score": 84.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 147.96,
-      "objetivo": 161.93
+      "precio": 47.82,
+      "objetivo": 52.7
     },
     {
       "ticker": "DE",
       "sector": "Industrial",
       "senal_bot": "BUY",
-      "score": 81.8,
+      "score": 82.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 622.75,
-      "objetivo": 661.99
+      "precio": 626.22,
+      "objetivo": 665.61
     },
     {
-      "ticker": "TRV",
-      "sector": "Seguros",
-      "senal_bot": "BUY",
-      "score": 81.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 384.76,
-      "objetivo": 403.91
-    },
-    {
-      "ticker": "PANW",
+      "ticker": "OKTA",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 81.6,
-      "riesgo": "MEDIO",
+      "score": 82.7,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 364.01,
-      "objetivo": 396.03
+      "precio": 148.22,
+      "objetivo": 162.19
     }
   ],
   "open_positions": [],
