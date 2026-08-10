@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-07T22:23:38Z",
+  "updated": "2026-08-10T14:12:00Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "ALCISTA",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "SLV",
-      "sector": "ETF Plata",
-      "senal_bot": "BUY STRONG",
-      "score": 95.3,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 57.5,
-      "objetivo": 61.6
-    },
-    {
-      "ticker": "LULU",
-      "sector": "Consumo",
-      "senal_bot": "BUY STRONG",
-      "score": 94.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 128.58,
-      "objetivo": 137.38
-    },
-    {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY STRONG",
-      "score": 93.1,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 115.42,
-      "objetivo": 121.99
-    },
-    {
-      "ticker": "XLB",
-      "sector": "ETF Materiales",
-      "senal_bot": "BUY STRONG",
-      "score": 90.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 52.86,
-      "objetivo": 54.93
-    },
-    {
-      "ticker": "GPN",
-      "sector": "Pagos",
+      "ticker": "SLB",
+      "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 88.8,
+      "score": 85.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 86.12,
-      "objetivo": 93.12
+      "precio": 51.75,
+      "objetivo": 56.06
+    },
+    {
+      "ticker": "NET",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 85.0,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 302.42,
+      "objetivo": 339.48
+    },
+    {
+      "ticker": "PANW",
+      "sector": "Ciberseguridad",
+      "senal_bot": "BUY",
+      "score": 84.9,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 379.29,
+      "objetivo": 411.53
+    },
+    {
+      "ticker": "DELL",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 84.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 471.54,
+      "objetivo": 551.77
+    },
+    {
+      "ticker": "OXY",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 84.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 58.14,
+      "objetivo": 62.3
     }
   ],
   "open_positions": [],
