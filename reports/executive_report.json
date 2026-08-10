@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T17:59:13Z",
+  "updated": "2026-08-10T18:41:42Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "HACK",
+      "sector": "ETF Ciberseguridad",
+      "senal_bot": "BUY STRONG",
+      "score": 99.1,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 119.72,
+      "objetivo": 126.58
+    },
+    {
       "ticker": "NET",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 89.5,
+      "score": 90.4,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 304.47,
-      "objetivo": 341.99
-    },
-    {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 88.6,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 119.71,
-      "objetivo": 126.56
-    },
-    {
-      "ticker": "OXY",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 87.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 58.54,
-      "objetivo": 62.72
+      "precio": 306.01,
+      "objetivo": 343.53
     },
     {
       "ticker": "XOM",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 87.3,
+      "score": 88.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 159.58,
-      "objetivo": 168.9
+      "precio": 159.97,
+      "objetivo": 169.41
+    },
+    {
+      "ticker": "OXY",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 87.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 58.51,
+      "objetivo": 62.72
     },
     {
       "ticker": "PANW",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 87.0,
+      "score": 87.1,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 381.64,
-      "objetivo": 414.12
+      "precio": 380.85,
+      "objetivo": 413.32
     }
   ],
   "open_positions": [],
