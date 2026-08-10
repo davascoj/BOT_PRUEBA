@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T18:41:42Z",
+  "updated": "2026-08-10T19:40:09Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -21,51 +21,51 @@
       "ticker": "HACK",
       "sector": "ETF Ciberseguridad",
       "senal_bot": "BUY STRONG",
-      "score": 99.1,
+      "score": 99.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 119.72,
-      "objetivo": 126.58
+      "precio": 119.54,
+      "objetivo": 126.39
+    },
+    {
+      "ticker": "GLD",
+      "sector": "ETF Oro",
+      "senal_bot": "BUY STRONG",
+      "score": 95.1,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 402.55,
+      "objetivo": 419.0
     },
     {
       "ticker": "NET",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 90.4,
+      "score": 91.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 306.01,
-      "objetivo": 343.53
+      "precio": 309.08,
+      "objetivo": 347.06
     },
     {
-      "ticker": "XOM",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 88.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 159.97,
-      "objetivo": 169.41
-    },
-    {
-      "ticker": "OXY",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 87.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 58.51,
-      "objetivo": 62.72
-    },
-    {
-      "ticker": "PANW",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 87.1,
+      "ticker": "IBB",
+      "sector": "ETF Biotech",
+      "senal_bot": "BUY STRONG",
+      "score": 91.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 380.85,
-      "objetivo": 413.32
+      "precio": 199.68,
+      "objetivo": 207.58
+    },
+    {
+      "ticker": "VTI",
+      "sector": "ETF Mercado",
+      "senal_bot": "BUY STRONG",
+      "score": 89.5,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 381.75,
+      "objetivo": 391.39
     }
   ],
   "open_positions": [],
