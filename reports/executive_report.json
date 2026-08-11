@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T19:15:42Z",
+  "updated": "2026-08-11T20:07:12Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -21,51 +21,51 @@
       "ticker": "XOM",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 82.2,
+      "score": 83.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 159.69,
-      "objetivo": 169.02
-    },
-    {
-      "ticker": "XLE",
-      "sector": "ETF Energía",
-      "senal_bot": "BUY",
-      "score": 81.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 60.81,
-      "objetivo": 64.0
+      "precio": 159.8,
+      "objetivo": 169.13
     },
     {
       "ticker": "VLO",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 81.2,
+      "score": 82.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 322.32,
-      "objetivo": 348.92
+      "precio": 323.93,
+      "objetivo": 350.53
     },
     {
-      "ticker": "CVX",
-      "sector": "Energía",
+      "ticker": "XLE",
+      "sector": "ETF Energía",
       "senal_bot": "BUY",
-      "score": 80.6,
+      "score": 82.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 196.35,
-      "objetivo": 207.39
+      "precio": 60.93,
+      "objetivo": 64.12
+    },
+    {
+      "ticker": "MPC",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 82.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 336.37,
+      "objetivo": 363.14
     },
     {
       "ticker": "PSX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 80.6,
+      "score": 82.1,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 223.41,
-      "objetivo": 240.19
+      "precio": 224.36,
+      "objetivo": 241.27
     }
   ],
   "open_positions": [],
