@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T20:07:13Z",
+  "updated": "2026-08-12T20:58:23Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -24,8 +24,8 @@
       "score": 89.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 52.6,
-      "objetivo": 57.03
+      "precio": 52.61,
+      "objetivo": 57.04
     },
     {
       "ticker": "XOM",
@@ -34,8 +34,18 @@
       "score": 89.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 159.76,
-      "objetivo": 168.87
+      "precio": 159.75,
+      "objetivo": 168.86
+    },
+    {
+      "ticker": "VLO",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 88.5,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 330.21,
+      "objetivo": 356.03
     },
     {
       "ticker": "CVX",
@@ -44,28 +54,18 @@
       "score": 88.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 196.59,
-      "objetivo": 207.34
+      "precio": 196.6,
+      "objetivo": 207.35
     },
     {
-      "ticker": "VLO",
+      "ticker": "PSX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 87.7,
+      "score": 87.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 330.31,
-      "objetivo": 356.13
-    },
-    {
-      "ticker": "DOCU",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 87.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 58.1,
-      "objetivo": 64.95
+      "precio": 225.58,
+      "objetivo": 242.58
     }
   ],
   "open_positions": [],
