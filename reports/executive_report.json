@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T15:13:53Z",
+  "updated": "2026-08-12T16:09:33Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -21,51 +21,51 @@
       "ticker": "XOM",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 86.7,
+      "score": 87.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 158.89,
-      "objetivo": 167.93
+      "precio": 159.1,
+      "objetivo": 168.14
     },
     {
       "ticker": "CVX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 86.4,
+      "score": 86.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 196.81,
-      "objetivo": 207.5
+      "precio": 196.57,
+      "objetivo": 207.26
     },
     {
-      "ticker": "COP",
+      "ticker": "LNG",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 84.8,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 125.5,
-      "objetivo": 133.61
-    },
-    {
-      "ticker": "EOG",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 84.5,
+      "score": 85.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 142.16,
-      "objetivo": 152.6
+      "precio": 268.85,
+      "objetivo": 287.84
     },
     {
-      "ticker": "VLO",
+      "ticker": "PSX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 83.9,
+      "score": 85.2,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 325.66,
-      "objetivo": 351.09
+      "precio": 224.12,
+      "objetivo": 241.12
+    },
+    {
+      "ticker": "UBER",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 85.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 75.27,
+      "objetivo": 81.73
     }
   ],
   "open_positions": [],
