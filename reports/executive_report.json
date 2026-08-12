@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T20:58:23Z",
+  "updated": "2026-08-12T21:35:45Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -41,7 +41,7 @@
       "ticker": "VLO",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 88.5,
+      "score": 89.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
       "precio": 330.21,
@@ -58,14 +58,14 @@
       "objetivo": 207.35
     },
     {
-      "ticker": "PSX",
+      "ticker": "OKE",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 87.8,
-      "riesgo": "MEDIO",
+      "score": 87.6,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 225.58,
-      "objetivo": 242.58
+      "precio": 92.47,
+      "objetivo": 98.28
     }
   ],
   "open_positions": [],
