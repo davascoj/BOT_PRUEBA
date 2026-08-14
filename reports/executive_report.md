@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-14T14:07:52Z
+**Actualizado:** 2026-08-14T15:04:14Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- INTU · BUY · score 83.0 · R/R 1.63
-- ANET · BUY · score 82.8 · R/R 1.63
-- SLB · BUY · score 82.5 · R/R 1.63
-- ADBE · BUY · score 81.5 · R/R 1.63
-- DOCU · BUY · score 81.3 · R/R 1.63
+- NET · BUY · score 84.0 · R/R 1.63
+- CIEN · BUY · score 83.5 · R/R 1.63
+- ANET · BUY · score 83.1 · R/R 1.63
+- SLB · BUY · score 82.9 · R/R 1.63
+- INTU · BUY · score 82.8 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
