@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:04:14Z",
+  "updated": "2026-08-14T15:57:53Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -21,51 +21,51 @@
       "ticker": "NET",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 84.0,
+      "score": 84.5,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 320.3,
-      "objetivo": 362.19
+      "precio": 320.98,
+      "objetivo": 362.88
     },
     {
-      "ticker": "CIEN",
-      "sector": "Redes / IA",
+      "ticker": "ADBE",
+      "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 83.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 435.42,
-      "objetivo": 507.15
-    },
-    {
-      "ticker": "ANET",
-      "sector": "Redes / IA",
-      "senal_bot": "BUY",
-      "score": 83.1,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 200.72,
-      "objetivo": 225.74
-    },
-    {
-      "ticker": "SLB",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 82.9,
+      "score": 83.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 53.46,
-      "objetivo": 57.19
+      "precio": 266.06,
+      "objetivo": 293.12
     },
     {
       "ticker": "INTU",
       "sector": "Tecnología",
       "senal_bot": "BUY",
+      "score": 83.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 348.38,
+      "objetivo": 382.46
+    },
+    {
+      "ticker": "DOCU",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 83.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 61.8,
+      "objetivo": 68.68
+    },
+    {
+      "ticker": "ANET",
+      "sector": "Redes / IA",
+      "senal_bot": "BUY",
       "score": 82.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 346.79,
-      "objetivo": 380.88
+      "precio": 198.83,
+      "objetivo": 224.04
     }
   ],
   "open_positions": [],
