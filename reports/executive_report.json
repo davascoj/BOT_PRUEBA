@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T22:10:58Z",
+  "updated": "2026-08-14T14:07:52Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "ROBO",
-      "sector": "ETF Robótica",
-      "senal_bot": "BUY STRONG",
-      "score": 89.6,
+      "ticker": "INTU",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 83.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 85.01,
-      "objetivo": 88.9
+      "precio": 350.29,
+      "objetivo": 384.07
     },
     {
       "ticker": "ANET",
       "sector": "Redes / IA",
       "senal_bot": "BUY",
-      "score": 87.2,
+      "score": 82.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 203.62,
-      "objetivo": 229.43
+      "precio": 201.43,
+      "objetivo": 226.27
     },
     {
-      "ticker": "CVX",
+      "ticker": "SLB",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 86.9,
+      "score": 82.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 197.7,
-      "objetivo": 208.64
+      "precio": 53.55,
+      "objetivo": 57.25
     },
     {
-      "ticker": "XLE",
-      "sector": "ETF Energía",
+      "ticker": "ADBE",
+      "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 86.7,
+      "score": 81.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 61.06,
-      "objetivo": 64.17
+      "precio": 263.55,
+      "objetivo": 290.57
     },
     {
-      "ticker": "OXY",
-      "sector": "Energía",
+      "ticker": "DOCU",
+      "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 86.2,
-      "riesgo": "BAJO",
+      "score": 81.3,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 57.7,
-      "objetivo": 61.81
+      "precio": 61.74,
+      "objetivo": 68.45
     }
   ],
   "open_positions": [],
