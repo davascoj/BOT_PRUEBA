@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T19:25:05Z",
+  "updated": "2026-08-17T19:49:22Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "XLF",
-      "sector": "ETF Finanzas",
-      "senal_bot": "BUY STRONG",
-      "score": 89.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 57.78,
-      "objetivo": 59.07
-    },
-    {
       "ticker": "INTU",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 87.0,
+      "score": 87.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 337.52,
-      "objetivo": 371.33
+      "precio": 337.17,
+      "objetivo": 370.98
     },
     {
       "ticker": "KKR",
       "sector": "Finanzas",
       "senal_bot": "BUY",
-      "score": 85.9,
+      "score": 86.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 108.6,
-      "objetivo": 118.87
+      "precio": 108.66,
+      "objetivo": 118.93
+    },
+    {
+      "ticker": "DOCU",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 85.8,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 59.91,
+      "objetivo": 66.66
     },
     {
       "ticker": "SLB",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 85.3,
+      "score": 85.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 53.66,
-      "objetivo": 57.25
+      "precio": 53.76,
+      "objetivo": 57.35
     },
     {
       "ticker": "DELL",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 85.0,
+      "score": 85.4,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 480.82,
-      "objetivo": 553.38
+      "precio": 482.02,
+      "objetivo": 554.58
     }
   ],
   "open_positions": [],
