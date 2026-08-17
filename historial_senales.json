@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "17-08-2026 04:40 PM Colombia",
+  "actualizado": "17-08-2026 04:57 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -14973,6 +14973,23 @@
       },
       {
         "fecha": "2026-08-17",
+        "accion": "BILL",
+        "senal_bot": "BUY",
+        "motivo": "Volumen relativo bajo",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 76.6,
+        "precio": 48.5,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": false,
+        "limitador_posicion": "RIESGO",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Fintech"
+      },
+      {
+        "fecha": "2026-08-17",
         "accion": "RTX",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -15174,23 +15191,6 @@
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Defensa"
-      },
-      {
-        "fecha": "2026-08-17",
-        "accion": "XLV",
-        "senal_bot": "BUY",
-        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 78.1,
-        "precio": 167.05,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": true,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "ETF Salud"
       }
     ],
     "reglas_operativas": {

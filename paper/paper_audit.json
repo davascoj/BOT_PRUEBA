@@ -1,5 +1,5 @@
 {
-  "updated": "17-08-2026 04:40 PM Colombia",
+  "updated": "17-08-2026 04:57 PM Colombia",
   "version": "V4.4.4",
   "mode": "AUDITORIA_BLOQUEOS_EXISTENTES",
   "summary": {
@@ -16,11 +16,11 @@
   "block_reasons": [
     {
       "reason": "Volumen relativo bajo",
-      "count": 27
+      "count": 28
     },
     {
       "reason": "Bloqueo operativo por drawdown máximo: 27.55%",
-      "count": 23
+      "count": 22
     }
   ],
   "blocked_signals": [
@@ -619,6 +619,22 @@
     {
       "id": "BLOCK-38",
       "date": "2026-08-17",
+      "ticker": "BILL",
+      "signal": "BUY",
+      "reason": "Volumen relativo bajo",
+      "risk": "BAJO",
+      "rr": 1.63,
+      "score": 76.6,
+      "price": 48.5,
+      "exposure_pct": 0.0,
+      "open_risk_pct": 0.0,
+      "drawdown_pct": 27.55,
+      "operational_rule": false,
+      "decision": "BLOCKED_BY_EXISTING_RULE"
+    },
+    {
+      "id": "BLOCK-39",
+      "date": "2026-08-17",
       "ticker": "RTX",
       "signal": "BUY",
       "reason": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -633,7 +649,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-39",
+      "id": "BLOCK-40",
       "date": "2026-08-17",
       "ticker": "PH",
       "signal": "BUY",
@@ -649,7 +665,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-40",
+      "id": "BLOCK-41",
       "date": "2026-08-17",
       "ticker": "FCX",
       "signal": "BUY",
@@ -665,7 +681,7 @@
       "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
-      "id": "BLOCK-41",
+      "id": "BLOCK-42",
       "date": "2026-08-17",
       "ticker": "IBKR",
       "signal": "BUY",
@@ -681,7 +697,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-42",
+      "id": "BLOCK-43",
       "date": "2026-08-17",
       "ticker": "LMT",
       "signal": "BUY",
@@ -697,7 +713,7 @@
       "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
-      "id": "BLOCK-43",
+      "id": "BLOCK-44",
       "date": "2026-08-17",
       "ticker": "BX",
       "signal": "BUY",
@@ -713,7 +729,7 @@
       "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
-      "id": "BLOCK-44",
+      "id": "BLOCK-45",
       "date": "2026-08-17",
       "ticker": "GILD",
       "signal": "BUY",
@@ -729,7 +745,7 @@
       "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
-      "id": "BLOCK-45",
+      "id": "BLOCK-46",
       "date": "2026-08-17",
       "ticker": "CAT",
       "signal": "BUY",
@@ -745,7 +761,7 @@
       "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
-      "id": "BLOCK-46",
+      "id": "BLOCK-47",
       "date": "2026-08-17",
       "ticker": "VRTX",
       "signal": "BUY",
@@ -761,7 +777,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-47",
+      "id": "BLOCK-48",
       "date": "2026-08-17",
       "ticker": "BA",
       "signal": "BUY",
@@ -777,7 +793,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-48",
+      "id": "BLOCK-49",
       "date": "2026-08-17",
       "ticker": "BKNG",
       "signal": "BUY",
@@ -793,7 +809,7 @@
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     },
     {
-      "id": "BLOCK-49",
+      "id": "BLOCK-50",
       "date": "2026-08-17",
       "ticker": "NOC",
       "signal": "BUY",
@@ -807,22 +823,6 @@
       "drawdown_pct": 27.55,
       "operational_rule": false,
       "decision": "BLOCKED_BY_EXISTING_RULE"
-    },
-    {
-      "id": "BLOCK-50",
-      "date": "2026-08-17",
-      "ticker": "XLV",
-      "signal": "BUY",
-      "reason": "Bloqueo operativo por drawdown máximo: 27.55%",
-      "risk": "BAJO",
-      "rr": 1.63,
-      "score": 78.1,
-      "price": 167.05,
-      "exposure_pct": 0.0,
-      "open_risk_pct": 0.0,
-      "drawdown_pct": 27.55,
-      "operational_rule": true,
-      "decision": "BLOCKED_BY_OPERATIONAL_RULE"
     }
   ],
   "buy_candidates": [
@@ -1197,6 +1197,16 @@
       "target": 20.13
     },
     {
+      "ticker": "BILL",
+      "signal": "BUY",
+      "score": 76.6,
+      "risk": "BAJO",
+      "already_open": false,
+      "entry": "47.68 - 48.85",
+      "stop": 45.32,
+      "target": 53.68
+    },
+    {
       "ticker": "RTX",
       "signal": "BUY",
       "score": 82.5,
@@ -1485,16 +1495,6 @@
       "entry": "532.24 - 535.03",
       "stop": 526.66,
       "target": 546.47
-    },
-    {
-      "ticker": "BILL",
-      "signal": "BUY",
-      "score": 71.8,
-      "risk": "BAJO",
-      "already_open": false,
-      "entry": "47.71 - 48.84",
-      "stop": 45.45,
-      "target": 53.48
     },
     {
       "ticker": "MA",
