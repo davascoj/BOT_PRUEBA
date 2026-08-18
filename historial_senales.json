@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "18-08-2026 04:13 PM Colombia",
+  "actualizado": "18-08-2026 04:38 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -14667,6 +14667,23 @@
       },
       {
         "fecha": "2026-08-18",
+        "accion": "SPOT",
+        "senal_bot": "BUY",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 86.2,
+        "precio": 516.28,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": true,
+        "limitador_posicion": "RIESGO",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Entretenimiento"
+      },
+      {
+        "fecha": "2026-08-18",
         "accion": "CME",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14732,23 +14749,6 @@
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Salud"
-      },
-      {
-        "fecha": "2026-08-18",
-        "accion": "SPOT",
-        "senal_bot": "BUY",
-        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 84.2,
-        "precio": 516.28,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": true,
-        "limitador_posicion": "RIESGO",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Entretenimiento"
       },
       {
         "fecha": "2026-08-18",
@@ -14922,29 +14922,12 @@
       },
       {
         "fecha": "2026-08-18",
-        "accion": "HMC",
-        "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
-        "rr": 1.64,
-        "riesgo": "BAJO",
-        "score": 83.9,
-        "precio": 31.95,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": false,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Autos"
-      },
-      {
-        "fecha": "2026-08-18",
         "accion": "EXPE",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 82.3,
+        "score": 82.4,
         "precio": 321.42,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -15063,7 +15046,7 @@
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 76.2,
+        "score": 78.3,
         "precio": 107.19,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -15072,6 +15055,23 @@
         "limitador_posicion": "RIESGO",
         "capital_disponible_usd": 4750.0,
         "sector": "Finanzas"
+      },
+      {
+        "fecha": "2026-08-18",
+        "accion": "URI",
+        "senal_bot": "BUY",
+        "motivo": "Volumen relativo bajo",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 77.0,
+        "precio": 1116.38,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": false,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Construcción"
       },
       {
         "fecha": "2026-08-18",
@@ -15160,23 +15160,6 @@
       },
       {
         "fecha": "2026-08-18",
-        "accion": "URI",
-        "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 75.3,
-        "precio": 1116.38,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": false,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Construcción"
-      },
-      {
-        "fecha": "2026-08-18",
         "accion": "PEP",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -15191,6 +15174,23 @@
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Consumo"
+      },
+      {
+        "fecha": "2026-08-18",
+        "accion": "XLI",
+        "senal_bot": "BUY",
+        "motivo": "Volumen relativo bajo",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 73.4,
+        "precio": 183.57,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": false,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "ETF Industrial"
       }
     ],
     "reglas_operativas": {
@@ -15203,7 +15203,7 @@
       "max_riesgo_total_abierto_pct": 10.0,
       "modo_defensivo_drawdown_pct": 12.0,
       "bloquear_entradas_drawdown_pct": 25.0,
-      "bloqueos_generados": 99,
+      "bloqueos_generados": 102,
       "motivo_principal": "Volumen relativo bajo",
       "reglas_activas": {
         "exposicion": true,
