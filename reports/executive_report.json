@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T20:58:16Z",
+  "updated": "2026-08-18T21:13:48Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -17,6 +17,16 @@
     "backtest_operaciones": 300
   },
   "top_opportunities": [
+    {
+      "ticker": "XOM",
+      "sector": "Energía",
+      "senal_bot": "BUY STRONG",
+      "score": 97.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 165.56,
+      "objetivo": 173.81
+    },
     {
       "ticker": "DVN",
       "sector": "Energía",
@@ -38,6 +48,16 @@
       "objetivo": 222.82
     },
     {
+      "ticker": "KMI",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 87.4,
+      "riesgo": "BAJO",
+      "rr": 1.62,
+      "precio": 32.87,
+      "objetivo": 34.28
+    },
+    {
       "ticker": "NFLX",
       "sector": "Tecnología",
       "senal_bot": "BUY",
@@ -46,26 +66,6 @@
       "rr": 1.63,
       "precio": 77.77,
       "objetivo": 82.83
-    },
-    {
-      "ticker": "SPOT",
-      "sector": "Entretenimiento",
-      "senal_bot": "BUY",
-      "score": 86.2,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 516.28,
-      "objetivo": 572.88
-    },
-    {
-      "ticker": "CME",
-      "sector": "Trading",
-      "senal_bot": "BUY",
-      "score": 85.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 271.54,
-      "objetivo": 284.12
     }
   ],
   "open_positions": [],
