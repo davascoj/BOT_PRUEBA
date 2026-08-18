@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:41:10Z",
+  "updated": "2026-08-18T17:03:58Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,21 +21,31 @@
       "ticker": "NFLX",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 85.1,
+      "score": 85.3,
       "riesgo": "BAJO",
       "rr": 1.63,
       "precio": 78.86,
-      "objetivo": 83.91
+      "objetivo": 83.92
     },
     {
       "ticker": "DVN",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 84.9,
+      "score": 85.1,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 48.11,
-      "objetivo": 51.09
+      "precio": 48.09,
+      "objetivo": 51.07
+    },
+    {
+      "ticker": "SPOT",
+      "sector": "Entretenimiento",
+      "senal_bot": "BUY",
+      "score": 84.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 523.58,
+      "objetivo": 580.18
     },
     {
       "ticker": "FANG",
@@ -44,28 +54,18 @@
       "score": 84.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 209.37,
-      "objetivo": 222.04
+      "precio": 209.35,
+      "objetivo": 222.02
     },
     {
       "ticker": "CME",
       "sector": "Trading",
       "senal_bot": "BUY",
-      "score": 84.1,
+      "score": 84.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 273.62,
-      "objetivo": 286.2
-    },
-    {
-      "ticker": "ROBO",
-      "sector": "ETF Robótica",
-      "senal_bot": "BUY",
-      "score": 83.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 82.21,
-      "objetivo": 86.12
+      "precio": 273.17,
+      "objetivo": 285.75
     }
   ],
   "open_positions": [],
