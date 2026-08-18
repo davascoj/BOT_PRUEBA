@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T22:12:39Z",
+  "updated": "2026-08-18T13:36:21Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "EOG",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 81.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 148.35,
+      "objetivo": 158.21
+    },
+    {
       "ticker": "DVN",
       "sector": "Energía",
-      "senal_bot": "BUY STRONG",
-      "score": 95.8,
+      "senal_bot": "BUY",
+      "score": 81.2,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 47.57,
-      "objetivo": 50.72
+      "precio": 48.37,
+      "objetivo": 51.62
     },
     {
-      "ticker": "KKR",
-      "sector": "Finanzas",
+      "ticker": "DT",
+      "sector": "Software",
       "senal_bot": "BUY",
-      "score": 87.3,
+      "score": 81.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 108.83,
-      "objetivo": 119.1
+      "precio": 48.04,
+      "objetivo": 53.13
     },
     {
-      "ticker": "SLB",
-      "sector": "Energía",
+      "ticker": "ANET",
+      "sector": "Redes / IA",
       "senal_bot": "BUY",
-      "score": 86.1,
+      "score": 80.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 53.86,
-      "objetivo": 57.44
-    },
-    {
-      "ticker": "VTI",
-      "sector": "ETF Mercado",
-      "senal_bot": "BUY STRONG",
-      "score": 85.3,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 382.13,
-      "objetivo": 390.66
+      "precio": 195.47,
+      "objetivo": 219.59
     },
     {
       "ticker": "EXPE",
       "sector": "Viajes",
       "senal_bot": "BUY",
-      "score": 85.3,
+      "score": 80.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 318.5,
-      "objetivo": 349.62
+      "precio": 318.49,
+      "objetivo": 349.35
     }
   ],
   "open_positions": [],
