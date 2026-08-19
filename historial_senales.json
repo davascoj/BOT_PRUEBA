@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "19-08-2026 03:39 PM Colombia",
+  "actualizado": "19-08-2026 04:00 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -14400,7 +14400,7 @@
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "MEDIO",
-        "score": 92.2,
+        "score": 92.5,
         "precio": 60.01,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14871,6 +14871,23 @@
       },
       {
         "fecha": "2026-08-19",
+        "accion": "FCX",
+        "senal_bot": "BUY",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 83.5,
+        "precio": 69.09,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": true,
+        "limitador_posicion": "RIESGO",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Minería"
+      },
+      {
+        "fecha": "2026-08-19",
         "accion": "MA",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -15055,23 +15072,6 @@
         "limitador_posicion": "RIESGO",
         "capital_disponible_usd": 4750.0,
         "sector": "Finanzas"
-      },
-      {
-        "fecha": "2026-08-19",
-        "accion": "FCX",
-        "senal_bot": "BUY",
-        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 82.7,
-        "precio": 69.09,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": true,
-        "limitador_posicion": "RIESGO",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Minería"
       },
       {
         "fecha": "2026-08-19",
