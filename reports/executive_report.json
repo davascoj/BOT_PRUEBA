@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T19:06:27Z",
+  "updated": "2026-08-19T19:34:19Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "LLY",
       "sector": "Salud",
       "senal_bot": "BUY STRONG",
-      "score": 92.9,
+      "score": 93.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 1283.69,
-      "objetivo": 1384.5
+      "precio": 1285.86,
+      "objetivo": 1386.67
     },
     {
       "ticker": "ARKK",
       "sector": "ETF Innovación",
       "senal_bot": "BUY STRONG",
-      "score": 89.8,
+      "score": 91.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 82.87,
-      "objetivo": 88.07
+      "precio": 83.06,
+      "objetivo": 88.26
+    },
+    {
+      "ticker": "SLV",
+      "sector": "ETF Plata",
+      "senal_bot": "BUY STRONG",
+      "score": 91.3,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 60.0,
+      "objetivo": 63.98
+    },
+    {
+      "ticker": "PGR",
+      "sector": "Seguros",
+      "senal_bot": "BUY",
+      "score": 86.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 216.68,
+      "objetivo": 226.77
     },
     {
       "ticker": "MSTR",
       "sector": "Cripto / Trading",
       "senal_bot": "BUY",
-      "score": 87.9,
+      "score": 86.2,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 103.64,
-      "objetivo": 116.23
-    },
-    {
-      "ticker": "FANG",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 85.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 209.42,
-      "objetivo": 222.3
-    },
-    {
-      "ticker": "DVN",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 85.4,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 48.38,
-      "objetivo": 51.35
+      "precio": 103.37,
+      "objetivo": 115.96
     }
   ],
   "open_positions": [],
