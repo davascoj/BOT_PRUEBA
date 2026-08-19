@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:37:29Z",
+  "updated": "2026-08-19T14:11:14Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "FANG",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 83.2,
+      "score": 84.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 211.33,
-      "objetivo": 223.7
+      "precio": 211.52,
+      "objetivo": 224.22
     },
     {
       "ticker": "EOG",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 82.0,
+      "score": 83.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 149.58,
-      "objetivo": 158.15
+      "precio": 150.74,
+      "objetivo": 159.5
+    },
+    {
+      "ticker": "LOW",
+      "sector": "Consumo",
+      "senal_bot": "BUY",
+      "score": 83.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 224.03,
+      "objetivo": 236.38
     },
     {
       "ticker": "ADBE",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 81.6,
+      "score": 82.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 268.11,
-      "objetivo": 291.64
+      "precio": 270.7,
+      "objetivo": 294.73
     },
     {
-      "ticker": "GPN",
-      "sector": "Pagos",
+      "ticker": "ICE",
+      "sector": "Trading",
       "senal_bot": "BUY",
-      "score": 81.3,
+      "score": 82.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 91.32,
-      "objetivo": 98.57
-    },
-    {
-      "ticker": "DVN",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 81.2,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 48.45,
-      "objetivo": 51.36
+      "precio": 158.5,
+      "objetivo": 165.84
     }
   ],
   "open_positions": [],
