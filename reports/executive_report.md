@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-20T20:07:07Z
+**Actualizado:** 2026-08-20T20:40:49Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -20,9 +20,9 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- FCX · BUY STRONG · score 94.1 · R/R 1.63
+- FCX · BUY STRONG · score 94.0 · R/R 1.63
+- CVX · BUY · score 88.5 · R/R 1.63
 - FANG · BUY · score 88.0 · R/R 1.63
-- CVX · BUY · score 87.5 · R/R 1.63
 - HAL · BUY · score 86.9 · R/R 1.63
 - BKR · BUY · score 86.4 · R/R 1.63
 
