@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T15:25:13Z",
+  "updated": "2026-08-20T15:55:23Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
+      "ticker": "DE",
+      "sector": "Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 94.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 634.46,
+      "objetivo": 674.52
+    },
+    {
       "ticker": "BKR",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 84.9,
+      "score": 84.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 63.52,
-      "objetivo": 66.87
+      "precio": 63.15,
+      "objetivo": 66.5
     },
     {
       "ticker": "HAL",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 84.1,
+      "score": 84.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 35.78,
-      "objetivo": 37.82
-    },
-    {
-      "ticker": "DE",
-      "sector": "Industrial",
-      "senal_bot": "BUY",
-      "score": 83.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 627.22,
-      "objetivo": 664.69
+      "precio": 35.62,
+      "objetivo": 37.66
     },
     {
       "ticker": "LNG",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 82.4,
+      "score": 83.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 278.27,
-      "objetivo": 294.77
+      "precio": 279.71,
+      "objetivo": 296.27
     },
     {
       "ticker": "OXY",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 81.9,
+      "score": 82.9,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 61.74,
-      "objetivo": 65.42
+      "precio": 62.03,
+      "objetivo": 65.71
     }
   ],
   "open_positions": [],
