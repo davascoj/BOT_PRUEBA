@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-21T20:04:39Z
+**Actualizado:** 2026-08-21T20:33:40Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -20,9 +20,9 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- URA · BUY STRONG · score 92.5 · R/R 1.63
-- DE · BUY STRONG · score 90.6 · R/R 1.63
-- HYG · BUY STRONG · score 88.4 · R/R 1.6
+- URA · BUY STRONG · score 92.6 · R/R 1.63
+- DE · BUY STRONG · score 90.5 · R/R 1.63
+- HYG · BUY STRONG · score 88.8 · R/R 1.65
 - AI · BUY · score 87.4 · R/R 1.62
 - XLB · BUY STRONG · score 86.8 · R/R 1.63
 
