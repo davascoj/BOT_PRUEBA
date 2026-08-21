@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T19:17:47Z",
+  "updated": "2026-08-21T19:38:55Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "DE",
       "sector": "Industrial",
       "senal_bot": "BUY STRONG",
-      "score": 89.7,
+      "score": 91.3,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 648.01,
-      "objetivo": 690.81
+      "precio": 652.22,
+      "objetivo": 695.87
     },
     {
       "ticker": "AI",
       "sector": "IA",
       "senal_bot": "BUY",
-      "score": 87.0,
+      "score": 87.3,
       "riesgo": "BAJO",
       "rr": 1.64,
-      "precio": 10.32,
-      "objetivo": 11.35
+      "precio": 10.34,
+      "objetivo": 11.36
     },
     {
       "ticker": "SOFI",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 85.9,
+      "score": 86.0,
       "riesgo": "BAJO",
-      "rr": 1.64,
-      "precio": 18.9,
-      "objetivo": 20.52
+      "rr": 1.63,
+      "precio": 18.87,
+      "objetivo": 20.5
     },
     {
       "ticker": "ADBE",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 84.7,
+      "score": 84.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 274.22,
-      "objetivo": 297.47
+      "precio": 274.65,
+      "objetivo": 297.91
     },
     {
       "ticker": "BSX",
       "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 84.1,
+      "score": 84.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 50.37,
-      "objetivo": 54.08
+      "precio": 50.38,
+      "objetivo": 54.09
     }
   ],
   "open_positions": [],
