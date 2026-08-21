@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T13:38:00Z",
+  "updated": "2026-08-21T14:11:15Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "AI",
       "sector": "IA",
       "senal_bot": "BUY",
-      "score": 82.9,
-      "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 10.51,
-      "objetivo": 11.5
-    },
-    {
-      "ticker": "BKR",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 81.9,
+      "score": 84.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 63.91,
-      "objetivo": 67.23
+      "precio": 10.48,
+      "objetivo": 11.49
+    },
+    {
+      "ticker": "SOFI",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 83.1,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 18.97,
+      "objetivo": 20.59
     },
     {
       "ticker": "ADBE",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 81.8,
+      "score": 82.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 273.69,
-      "objetivo": 296.25
+      "precio": 274.14,
+      "objetivo": 297.13
     },
     {
       "ticker": "UBER",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 81.6,
+      "score": 82.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 78.39,
-      "objetivo": 84.82
+      "precio": 78.62,
+      "objetivo": 85.1
     },
     {
-      "ticker": "DVN",
+      "ticker": "BKR",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 81.5,
-      "riesgo": "MEDIO",
+      "score": 81.0,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 49.6,
-      "objetivo": 52.48
+      "precio": 63.26,
+      "objetivo": 66.58
     }
   ],
   "open_positions": [],
