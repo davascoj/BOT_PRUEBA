@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T15:52:31Z",
+  "updated": "2026-08-21T16:16:08Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -21,51 +21,51 @@
       "ticker": "AI",
       "sector": "IA",
       "senal_bot": "BUY",
-      "score": 85.8,
+      "score": 86.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 10.43,
+      "precio": 10.42,
       "objetivo": 11.43
+    },
+    {
+      "ticker": "SOFI",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 84.9,
+      "riesgo": "BAJO",
+      "rr": 1.64,
+      "precio": 18.96,
+      "objetivo": 20.58
     },
     {
       "ticker": "ADBE",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 83.9,
+      "score": 84.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 276.13,
-      "objetivo": 299.38
+      "precio": 276.2,
+      "objetivo": 299.46
     },
     {
-      "ticker": "FANG",
-      "sector": "Energía",
+      "ticker": "BSX",
+      "sector": "Salud",
       "senal_bot": "BUY",
-      "score": 81.6,
+      "score": 82.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 211.1,
-      "objetivo": 224.07
+      "precio": 50.88,
+      "objetivo": 54.59
     },
     {
       "ticker": "DVN",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 81.4,
+      "score": 82.0,
       "riesgo": "MEDIO",
-      "rr": 1.62,
-      "precio": 49.14,
-      "objetivo": 52.08
-    },
-    {
-      "ticker": "GEN",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 80.5,
-      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 28.72,
-      "objetivo": 30.9
+      "precio": 49.27,
+      "objetivo": 52.21
     }
   ],
   "open_positions": [],
