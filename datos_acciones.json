@@ -1,5 +1,5 @@
 {
-  "actualizado": "21-08-2026 04:55 PM Colombia",
+  "actualizado": "21-08-2026 05:09 PM Colombia",
   "version_bot": "V4.8 REPORTE EJECUTIVO",
   "contexto_mercado": {
     "estado": "NEUTRO +",
@@ -18,8 +18,8 @@
         "ticker": "BTC-USD",
         "estado": "FUERTE",
         "score": 6,
-        "mom20": 25.06,
-        "mom5": 24.95
+        "mom20": 25.09,
+        "mom5": 24.98
       },
       "CL=F": {
         "ticker": "CL=F",
@@ -32,8 +32,8 @@
         "ticker": "ETH-USD",
         "estado": "FUERTE",
         "score": 6,
-        "mom20": 35.91,
-        "mom5": 33.69
+        "mom20": 37.01,
+        "mom5": 34.77
       },
       "QQQ": {
         "ticker": "QQQ",
@@ -88,8 +88,8 @@
       "cripto": {
         "estado": "ACOMPAÑA",
         "score": 7,
-        "mom20_prom": 30.48,
-        "detalle": "BTC-USD 25.06% · ETH-USD 35.91%",
+        "mom20_prom": 31.05,
+        "detalle": "BTC-USD 25.09% · ETH-USD 37.01%",
         "drivers": [
           "BTC-USD",
           "ETH-USD"
@@ -376,7 +376,7 @@
       "Momentum 20D": 9.29,
       "Momentum 60D": -1.0,
       "Fuerza relativa": 5.02,
-      "Volumen relativo": 0.61,
+      "Volumen relativo": 0.62,
       "ATR": 1.54,
       "ATR %": 2.48,
       "Entrada min": 61.8,
@@ -2712,7 +2712,7 @@
       "Momentum 20D": 27.7,
       "Momentum 60D": 43.77,
       "Fuerza relativa": 23.43,
-      "Volumen relativo": 0.72,
+      "Volumen relativo": 0.73,
       "ATR": 8.19,
       "ATR %": 4.5,
       "Entrada min": 178.88,
@@ -2749,7 +2749,7 @@
       "ATR %": 5.18,
       "Entrada min": 423.01,
       "Entrada max": 434.18,
-      "Stop loss": 400.68,
+      "Stop loss": 400.67,
       "Objetivo": 479.97,
       "R/R": 1.63,
       "RSI": 67.24,
@@ -3128,7 +3128,7 @@
       "Momentum 20D": 18.12,
       "Momentum 60D": 24.81,
       "Fuerza relativa": 13.85,
-      "Volumen relativo": 0.63,
+      "Volumen relativo": 0.64,
       "ATR": 6.89,
       "ATR %": 3.29,
       "Entrada min": 207.21,
@@ -3149,7 +3149,7 @@
       "Senal Bot": "BUY",
       "Razones": "Mercado NEUTRO +; Precio sobre MA20; MA20 sobre MA50; Tendencia larga positiva; Fuerte vs QQQ",
       "Alertas": "RSI algo alto; MACD sin confirmar; Volumen bajo",
-      "Score calidad": 72.9
+      "Score calidad": 73.0
     },
     {
       "Accion": "ENTG",
@@ -4070,12 +4070,12 @@
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "ACOMPAÑA",
-      "Drivers sector": "BTC-USD 25.06% · ETH-USD 35.91%",
+      "Drivers sector": "BTC-USD 25.09% · ETH-USD 37.01%",
       "Riesgo": "ALTO",
       "Hot Score": "🔥🔥",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
-      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.06% · ETH-USD 35.91%; Precio sobre MA20; MACD positivo; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.09% · ETH-USD 37.01%; Precio sobre MA20; MACD positivo; MACD mejorando",
       "Alertas": "Tendencia larga débil; RSI algo alto; Subida muy extendida 5D; Muy alejada de MA20",
       "Score calidad": 74.9
     },
@@ -4262,12 +4262,12 @@
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "ACOMPAÑA",
-      "Drivers sector": "BTC-USD 25.06% · ETH-USD 35.91%",
+      "Drivers sector": "BTC-USD 25.09% · ETH-USD 37.01%",
       "Riesgo": "ALTO",
       "Hot Score": "🔥",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
-      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.06% · ETH-USD 35.91%; Precio sobre MA20; MACD positivo; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.09% · ETH-USD 37.01%; Precio sobre MA20; MACD positivo; MACD mejorando",
       "Alertas": "Tendencia larga débil; RSI sobrecomprado; Subida muy extendida 5D; Muy alejada de MA20",
       "Score calidad": 69.1
     },
@@ -4326,12 +4326,12 @@
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "ACOMPAÑA",
-      "Drivers sector": "BTC-USD 25.06% · ETH-USD 35.91%",
+      "Drivers sector": "BTC-USD 25.09% · ETH-USD 37.01%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "VIGILAR",
       "Senal Bot": "HOLD",
-      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.06% · ETH-USD 35.91%; Precio sobre MA20; Tendencia larga positiva; MACD positivo",
+      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.09% · ETH-USD 37.01%; Precio sobre MA20; Tendencia larga positiva; MACD positivo",
       "Alertas": "Subida muy extendida 5D; Débil vs QQQ; Algo extendida sobre MA20; Volatilidad alta",
       "Score calidad": 57.8
     },
@@ -5026,7 +5026,7 @@
       "R/R": 1.62,
       "RSI": 87.03,
       "Distancia MA20 %": 7.12,
-      "Distancia Max20 %": -0.21,
+      "Distancia Max20 %": -0.22,
       "Confirmacion": "MEDIA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "GENERAL",
@@ -5688,7 +5688,7 @@
       "Momentum 20D": 10.93,
       "Momentum 60D": 19.39,
       "Fuerza relativa": 6.66,
-      "Volumen relativo": 0.45,
+      "Volumen relativo": 0.47,
       "ATR": 2.19,
       "ATR %": 1.39,
       "Entrada min": 156.72,
@@ -5709,7 +5709,7 @@
       "Senal Bot": "HOLD",
       "Razones": "Mercado NEUTRO +; Precio sobre MA20; MA20 sobre MA50; Tendencia larga positiva; MACD positivo",
       "Alertas": "RSI sobrecomprado; Volumen bajo",
-      "Score calidad": 56.9
+      "Score calidad": 57.0
     },
     {
       "Accion": "DIS",
@@ -6104,7 +6104,7 @@
       "Momentum 20D": 0.75,
       "Momentum 60D": 20.0,
       "Fuerza relativa": -3.52,
-      "Volumen relativo": 0.69,
+      "Volumen relativo": 0.7,
       "ATR": 5.84,
       "ATR %": 3.81,
       "Entrada min": 151.46,
@@ -6616,7 +6616,7 @@
       "Momentum 20D": 1.36,
       "Momentum 60D": -5.42,
       "Fuerza relativa": -2.91,
-      "Volumen relativo": 1.17,
+      "Volumen relativo": 1.18,
       "ATR": 17.29,
       "ATR %": 1.82,
       "Entrada min": 941.69,
@@ -6637,7 +6637,7 @@
       "Senal Bot": "SELL / EVITAR",
       "Razones": "Mercado NEUTRO +; MA20 sobre MA50",
       "Alertas": "Precio bajo MA20; Tendencia larga débil; MACD sin confirmar; Lejos del máximo 20D",
-      "Score calidad": 44.2
+      "Score calidad": 44.3
     },
     {
       "Accion": "PG",
@@ -6777,7 +6777,7 @@
       "Momentum 60D": 21.72,
       "Fuerza relativa": -10.38,
       "Volumen relativo": 0.87,
-      "ATR": 7.0,
+      "ATR": 7.01,
       "ATR %": 1.93,
       "Entrada min": 361.13,
       "Entrada max": 364.63,
@@ -7289,12 +7289,12 @@
       "Momentum 60D": 6.8,
       "Fuerza relativa": -7.54,
       "Volumen relativo": 0.72,
-      "ATR": 15.21,
+      "ATR": 15.23,
       "ATR %": 2.7,
-      "Entrada min": 558.25,
+      "Entrada min": 558.24,
       "Entrada max": 565.85,
-      "Stop loss": 543.04,
-      "Objetivo": 597.03,
+      "Stop loss": 543.01,
+      "Objetivo": 597.07,
       "R/R": 1.63,
       "RSI": 42.22,
       "Distancia MA20 %": -4.08,
@@ -8408,7 +8408,7 @@
       "Momentum 20D": -8.09,
       "Momentum 60D": 9.95,
       "Fuerza relativa": -12.36,
-      "Volumen relativo": 0.66,
+      "Volumen relativo": 0.67,
       "ATR": 27.1,
       "ATR %": 5.51,
       "Entrada min": 482.83,
@@ -8742,12 +8742,12 @@
       "Confirmacion": "BAJA",
       "Mercado": "NEUTRO +",
       "Contexto sector": "ACOMPAÑA",
-      "Drivers sector": "BTC-USD 25.06% · ETH-USD 35.91%",
+      "Drivers sector": "BTC-USD 25.09% · ETH-USD 37.01%",
       "Riesgo": "ALTO",
       "Hot Score": "",
       "Senal": "NO COMPRAR",
       "Senal Bot": "SELL / EVITAR",
-      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.06% · ETH-USD 35.91%; Tendencia larga positiva; MACD positivo; MACD mejorando",
+      "Razones": "Mercado NEUTRO +; Sector acompaña: BTC-USD 25.09% · ETH-USD 37.01%; Tendencia larga positiva; MACD positivo; MACD mejorando",
       "Alertas": "Precio bajo MA20; Débil vs QQQ; Lejos del máximo 20D; Volatilidad muy alta",
       "Score calidad": 34.4
     },
@@ -9009,7 +9009,7 @@
     }
   ],
   "paper_trading": {
-    "updated": "21-08-2026 04:55 PM Colombia",
+    "updated": "21-08-2026 05:09 PM Colombia",
     "version": "V4.4.4",
     "engine": "PAPER_TRADING_ENGINE",
     "mode": "PAPER_ONLY_NO_REAL_ORDERS",
@@ -9036,8 +9036,8 @@
           "ticker": "BTC-USD",
           "estado": "FUERTE",
           "score": 6,
-          "mom20": 25.06,
-          "mom5": 24.95
+          "mom20": 25.09,
+          "mom5": 24.98
         },
         "CL=F": {
           "ticker": "CL=F",
@@ -9050,8 +9050,8 @@
           "ticker": "ETH-USD",
           "estado": "FUERTE",
           "score": 6,
-          "mom20": 35.91,
-          "mom5": 33.69
+          "mom20": 37.01,
+          "mom5": 34.77
         },
         "QQQ": {
           "ticker": "QQQ",
@@ -9106,8 +9106,8 @@
         "cripto": {
           "estado": "ACOMPAÑA",
           "score": 7,
-          "mom20_prom": 30.48,
-          "detalle": "BTC-USD 25.06% · ETH-USD 35.91%",
+          "mom20_prom": 31.05,
+          "detalle": "BTC-USD 25.09% · ETH-USD 37.01%",
           "drivers": [
             "BTC-USD",
             "ETH-USD"
@@ -9162,7 +9162,7 @@
     "backtest_operaciones": 300
   },
   "historial": {
-    "actualizado": "21-08-2026 04:55 PM Colombia",
+    "actualizado": "21-08-2026 05:09 PM Colombia",
     "resumen": {
       "total_operaciones": 300,
       "abiertas": 0,
