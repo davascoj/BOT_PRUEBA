@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-24T15:07:21Z",
+  "updated": "2026-08-24T15:51:41Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
-    "mercado": "DÉBIL",
+    "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,10 +16,61 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [],
+  "top_opportunities": [
+    {
+      "ticker": "AI",
+      "sector": "IA",
+      "senal_bot": "BUY",
+      "score": 78.1,
+      "riesgo": "BAJO",
+      "rr": 1.64,
+      "precio": 10.28,
+      "objetivo": 11.28
+    },
+    {
+      "ticker": "EXPE",
+      "sector": "Viajes",
+      "senal_bot": "BUY",
+      "score": 77.6,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 335.48,
+      "objetivo": 363.38
+    },
+    {
+      "ticker": "DVN",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 77.3,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 47.81,
+      "objetivo": 50.76
+    },
+    {
+      "ticker": "UBER",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 77.3,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 78.62,
+      "objetivo": 85.26
+    },
+    {
+      "ticker": "ACN",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 77.1,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 186.51,
+      "objetivo": 203.03
+    }
+  ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
