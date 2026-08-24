@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-21T22:09:07Z",
+  "updated": "2026-08-24T13:42:59Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "URA",
-      "sector": "ETF Uranio",
-      "senal_bot": "BUY STRONG",
-      "score": 92.8,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 46.07,
-      "objetivo": 49.28
-    },
-    {
-      "ticker": "DE",
-      "sector": "Industrial",
-      "senal_bot": "BUY STRONG",
-      "score": 90.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 647.47,
-      "objetivo": 691.12
-    },
-    {
-      "ticker": "IBKR",
-      "sector": "Trading",
-      "senal_bot": "BUY STRONG",
-      "score": 90.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 93.87,
-      "objetivo": 100.07
-    },
-    {
-      "ticker": "HYG",
-      "sector": "ETF Bonos",
-      "senal_bot": "BUY STRONG",
-      "score": 89.2,
-      "riesgo": "BAJO",
-      "rr": 1.65,
-      "precio": 79.61,
-      "objetivo": 79.99
-    },
-    {
-      "ticker": "AI",
-      "sector": "IA",
-      "senal_bot": "BUY",
-      "score": 89.0,
-      "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 10.3,
-      "objetivo": 11.32
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
