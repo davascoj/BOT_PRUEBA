@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-24T17:00:14Z
+**Actualizado:** 2026-08-24T17:24:44Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
 
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- UBER · BUY · score 77.8 · R/R 1.63
+- UBER · BUY · score 78.0 · R/R 1.63
 - EXPE · BUY · score 77.8 · R/R 1.63
-- AI · BUY · score 77.7 · R/R 1.62
-- EOG · BUY · score 77.1 · R/R 1.63
-- ACN · BUY · score 77.0 · R/R 1.63
+- AI · BUY · score 77.6 · R/R 1.62
+- EOG · BUY · score 77.2 · R/R 1.63
+- ACN · BUY · score 77.2 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
