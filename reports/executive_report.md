@@ -1,11 +1,11 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-24T19:58:11Z
+**Actualizado:** 2026-08-24T20:18:36Z
 **Estado:** BLOQUEADO
-**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
+**Titular:** BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.
 
 ## Resumen
-- Mercado: NEUTRO
+- Mercado: DÉBIL
 - Capital total estimado USD: 5834.3
 - G/P total estimada USD: 834.3
 - Operaciones abiertas: 0
@@ -15,16 +15,12 @@
 - Backtest profit factor: 1.14
 
 ## Alertas
-- Estado operativo BLOQUEADO: Volumen relativo bajo
+- Estado operativo BLOQUEADO: SIN BLOQUEOS
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- UBER · BUY · score 79.1 · R/R 1.63
-- ZM · BUY · score 79.0 · R/R 1.63
-- EOG · BUY · score 78.8 · R/R 1.63
-- ACN · BUY · score 78.7 · R/R 1.63
-- AI · BUY · score 78.1 · R/R 1.64
+- Sin oportunidades BUY/BUY STRONG.
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.

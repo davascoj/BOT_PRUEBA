@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-24T19:58:11Z",
+  "updated": "2026-08-24T20:18:36Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "UBER",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 79.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 78.98,
-      "objetivo": 85.62
-    },
-    {
-      "ticker": "ZM",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 79.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 104.68,
-      "objetivo": 112.56
-    },
-    {
-      "ticker": "EOG",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 78.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 150.4,
-      "objetivo": 158.8
-    },
-    {
-      "ticker": "ACN",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 78.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 186.59,
-      "objetivo": 203.16
-    },
-    {
-      "ticker": "AI",
-      "sector": "IA",
-      "senal_bot": "BUY",
-      "score": 78.1,
-      "riesgo": "BAJO",
-      "rr": 1.64,
-      "precio": 10.09,
-      "objetivo": 11.09
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
