@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-25T14:27:36Z",
+  "updated": "2026-08-25T15:13:12Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "TOST",
-      "sector": "Fintech",
-      "senal_bot": "BUY",
-      "score": 77.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 36.97,
-      "objetivo": 39.47
-    },
-    {
-      "ticker": "CRM",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 77.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 207.45,
-      "objetivo": 224.28
-    },
-    {
-      "ticker": "INTU",
-      "sector": "Tecnología",
-      "senal_bot": "BUY",
-      "score": 76.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 360.96,
-      "objetivo": 390.37
-    },
-    {
-      "ticker": "DT",
-      "sector": "Software",
-      "senal_bot": "BUY",
-      "score": 76.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 50.57,
-      "objetivo": 54.84
-    },
-    {
-      "ticker": "EXPE",
-      "sector": "Viajes",
-      "senal_bot": "BUY",
-      "score": 76.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 336.78,
-      "objetivo": 363.56
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
