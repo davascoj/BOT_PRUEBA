@@ -1,5 +1,5 @@
 {
-  "updated": "25-08-2026 03:27 PM Colombia",
+  "updated": "25-08-2026 03:53 PM Colombia",
   "version": "V4.4.4",
   "mode": "AUDITORIA_BLOQUEOS_EXISTENTES",
   "summary": {
@@ -192,7 +192,7 @@
       "reason": "Volumen relativo bajo",
       "risk": "BAJO",
       "rr": 1.63,
-      "score": 72.9,
+      "score": 73.0,
       "price": 144.76,
       "exposure_pct": 0.0,
       "open_risk_pct": 0.0,
@@ -283,6 +283,22 @@
     {
       "id": "BLOCK-17",
       "date": "2026-08-25",
+      "ticker": "HPE",
+      "signal": "BUY",
+      "reason": "Volumen relativo bajo",
+      "risk": "BAJO",
+      "rr": 1.63,
+      "score": 68.9,
+      "price": 53.44,
+      "exposure_pct": 0.0,
+      "open_risk_pct": 0.0,
+      "drawdown_pct": 27.55,
+      "operational_rule": false,
+      "decision": "BLOCKED_BY_EXISTING_RULE"
+    },
+    {
+      "id": "BLOCK-18",
+      "date": "2026-08-25",
       "ticker": "OKE",
       "signal": "BUY",
       "reason": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -295,22 +311,6 @@
       "drawdown_pct": 27.55,
       "operational_rule": true,
       "decision": "BLOCKED_BY_OPERATIONAL_RULE"
-    },
-    {
-      "id": "BLOCK-18",
-      "date": "2026-08-25",
-      "ticker": "HPE",
-      "signal": "BUY",
-      "reason": "Volumen relativo bajo",
-      "risk": "BAJO",
-      "rr": 1.63,
-      "score": 68.3,
-      "price": 53.44,
-      "exposure_pct": 0.0,
-      "open_risk_pct": 0.0,
-      "drawdown_pct": 27.55,
-      "operational_rule": false,
-      "decision": "BLOCKED_BY_EXISTING_RULE"
     },
     {
       "id": "BLOCK-19",
@@ -704,7 +704,7 @@
       "reason": "Volumen relativo bajo",
       "risk": "BAJO",
       "rr": 1.63,
-      "score": 68.2,
+      "score": 68.3,
       "price": 1233.66,
       "exposure_pct": 0.0,
       "open_risk_pct": 0.0,
@@ -768,7 +768,7 @@
       "reason": "Volumen relativo bajo",
       "risk": "BAJO",
       "rr": 1.63,
-      "score": 65.1,
+      "score": 65.3,
       "price": 77.29,
       "exposure_pct": 0.0,
       "open_risk_pct": 0.0,
@@ -816,8 +816,8 @@
       "reason": "Volumen relativo bajo",
       "risk": "BAJO",
       "rr": 1.63,
-      "score": 64.2,
-      "price": 299.28,
+      "score": 64.1,
+      "price": 299.23,
       "exposure_pct": 0.0,
       "open_risk_pct": 0.0,
       "drawdown_pct": 27.55,
@@ -929,7 +929,7 @@
     {
       "ticker": "ORCL",
       "signal": "BUY",
-      "score": 72.9,
+      "score": 73.0,
       "risk": "BAJO",
       "already_open": false,
       "entry": "142.55 - 145.71",
@@ -987,6 +987,16 @@
       "target": 189.1
     },
     {
+      "ticker": "HPE",
+      "signal": "BUY",
+      "score": 68.9,
+      "risk": "BAJO",
+      "already_open": false,
+      "entry": "52.39 - 53.89",
+      "stop": 49.4,
+      "target": 60.02
+    },
+    {
       "ticker": "OKE",
       "signal": "BUY",
       "score": 68.6,
@@ -995,16 +1005,6 @@
       "entry": "90.92 - 92.03",
       "stop": 88.71,
       "target": 96.58
-    },
-    {
-      "ticker": "HPE",
-      "signal": "BUY",
-      "score": 68.3,
-      "risk": "BAJO",
-      "already_open": false,
-      "entry": "52.39 - 53.89",
-      "stop": 49.4,
-      "target": 60.02
     },
     {
       "ticker": "HPQ",
@@ -1249,7 +1249,7 @@
     {
       "ticker": "LLY",
       "signal": "BUY",
-      "score": 68.2,
+      "score": 68.3,
       "risk": "BAJO",
       "already_open": false,
       "entry": "1219.42 - 1239.76",
@@ -1289,12 +1289,12 @@
     {
       "ticker": "ZTS",
       "signal": "BUY",
-      "score": 65.1,
+      "score": 65.3,
       "risk": "BAJO",
       "already_open": false,
       "entry": "76.18 - 77.76",
       "stop": 73.02,
-      "target": 84.24
+      "target": 84.25
     },
     {
       "ticker": "HMC",
@@ -1319,12 +1319,12 @@
     {
       "ticker": "IWM",
       "signal": "BUY",
-      "score": 64.2,
+      "score": 64.1,
       "risk": "BAJO",
       "already_open": false,
-      "entry": "298.29 - 299.7",
-      "stop": 295.46,
-      "target": 305.5
+      "entry": "298.24 - 299.65",
+      "stop": 295.41,
+      "target": 305.45
     },
     {
       "ticker": "ARKK",
@@ -1427,6 +1427,16 @@
       "target": 61.84
     },
     {
+      "ticker": "XOM",
+      "signal": "BUY",
+      "score": 67.9,
+      "risk": "MEDIO",
+      "already_open": false,
+      "entry": "159.42 - 161.16",
+      "stop": 155.94,
+      "target": 168.3
+    },
+    {
       "ticker": "GTLB",
       "signal": "BUY",
       "score": 67.4,
@@ -1435,16 +1445,6 @@
       "entry": "40.92 - 41.98",
       "stop": 38.8,
       "target": 46.32
-    },
-    {
-      "ticker": "XOM",
-      "signal": "BUY",
-      "score": 67.2,
-      "risk": "MEDIO",
-      "already_open": false,
-      "entry": "159.42 - 161.16",
-      "stop": 155.93,
-      "target": 168.31
     },
     {
       "ticker": "RIG",
@@ -1499,7 +1499,7 @@
     {
       "ticker": "TGT",
       "signal": "BUY",
-      "score": 79.1,
+      "score": 79.2,
       "risk": "MEDIO",
       "already_open": false,
       "entry": "161.56 - 164.29",
@@ -1529,7 +1529,7 @@
     {
       "ticker": "MCO",
       "signal": "BUY",
-      "score": 72.0,
+      "score": 72.2,
       "risk": "MEDIO",
       "already_open": false,
       "entry": "509.4 - 514.7",
