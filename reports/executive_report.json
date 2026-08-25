@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T20:01:53Z",
+  "updated": "2026-08-25T20:27:06Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -21,17 +21,27 @@
       "ticker": "XBI",
       "sector": "ETF Biotech",
       "senal_bot": "BUY STRONG",
-      "score": 86.7,
+      "score": 86.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
       "precio": 169.1,
       "objetivo": 178.78
     },
     {
+      "ticker": "IBKR",
+      "sector": "Trading",
+      "senal_bot": "BUY STRONG",
+      "score": 85.7,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 98.19,
+      "objetivo": 104.92
+    },
+    {
       "ticker": "GEN",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY STRONG",
-      "score": 83.7,
+      "score": 83.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
       "precio": 29.31,
@@ -41,31 +51,21 @@
       "ticker": "INTU",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 80.1,
+      "score": 82.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 356.99,
-      "objetivo": 386.92
+      "precio": 357.46,
+      "objetivo": 387.39
     },
     {
       "ticker": "TOST",
       "sector": "Fintech",
       "senal_bot": "BUY",
-      "score": 79.5,
+      "score": 80.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 36.79,
-      "objetivo": 39.29
-    },
-    {
-      "ticker": "ARKK",
-      "sector": "ETF Innovación",
-      "senal_bot": "BUY",
-      "score": 79.2,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 86.43,
-      "objetivo": 91.41
+      "precio": 36.8,
+      "objetivo": 39.3
     }
   ],
   "open_positions": [],
