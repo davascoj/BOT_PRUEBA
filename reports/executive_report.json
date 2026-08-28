@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T22:42:07Z",
+  "updated": "2026-08-28T22:48:01Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,54 +18,54 @@
   },
   "top_opportunities": [
     {
-      "ticker": "NVDA",
-      "sector": "IA / Chips",
+      "ticker": "CHKP",
+      "sector": "Ciberseguridad",
       "senal_bot": "BUY STRONG",
       "score": 100.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 227.98,
-      "objetivo": 242.31
+      "precio": 138.32,
+      "objetivo": 147.65
     },
     {
-      "ticker": "NOW",
+      "ticker": "SLB",
+      "sector": "Energía",
+      "senal_bot": "BUY STRONG",
+      "score": 96.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 57.33,
+      "objetivo": 60.67
+    },
+    {
+      "ticker": "AI",
+      "sector": "IA",
+      "senal_bot": "BUY",
+      "score": 92.5,
+      "riesgo": "BAJO",
+      "rr": 1.62,
+      "precio": 10.53,
+      "objetivo": 11.6
+    },
+    {
+      "ticker": "DOCU",
       "sector": "Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 100.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 138.43,
-      "objetivo": 151.61
-    },
-    {
-      "ticker": "ADBE",
-      "sector": "Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 100.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 289.15,
-      "objetivo": 312.68
-    },
-    {
-      "ticker": "GTLB",
-      "sector": "Software",
-      "senal_bot": "BUY STRONG",
-      "score": 99.3,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 44.81,
-      "objetivo": 49.32
-    },
-    {
-      "ticker": "VGT",
-      "sector": "ETF Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 97.9,
+      "senal_bot": "BUY",
+      "score": 92.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 121.91,
-      "objetivo": 126.2
+      "precio": 64.0,
+      "objetivo": 69.93
+    },
+    {
+      "ticker": "TENB",
+      "sector": "Ciberseguridad",
+      "senal_bot": "BUY",
+      "score": 92.1,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 37.67,
+      "objetivo": 42.42
     }
   ],
   "open_positions": [],
