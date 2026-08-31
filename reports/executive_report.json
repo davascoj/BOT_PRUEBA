@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-28T22:48:01Z",
+  "updated": "2026-08-31T19:19:04Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
-    "mercado": "ALCISTA",
+    "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "CHKP",
-      "sector": "Ciberseguridad",
+      "ticker": "TSLA",
+      "sector": "Autos / Tech",
       "senal_bot": "BUY STRONG",
-      "score": 100.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 138.32,
-      "objetivo": 147.65
-    },
-    {
-      "ticker": "SLB",
-      "sector": "Energía",
-      "senal_bot": "BUY STRONG",
-      "score": 96.2,
+      "score": 91.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 57.33,
-      "objetivo": 60.67
+      "precio": 365.57,
+      "objetivo": 394.14
     },
     {
-      "ticker": "AI",
-      "sector": "IA",
+      "ticker": "WMB",
+      "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 92.5,
+      "score": 87.2,
       "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 10.53,
-      "objetivo": 11.6
+      "rr": 1.63,
+      "precio": 75.11,
+      "objetivo": 79.99
     },
     {
-      "ticker": "DOCU",
+      "ticker": "OKE",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 86.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 95.78,
+      "objetivo": 100.74
+    },
+    {
+      "ticker": "DELL",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 92.2,
+      "score": 86.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 64.0,
-      "objetivo": 69.93
+      "precio": 462.41,
+      "objetivo": 516.45
     },
     {
-      "ticker": "TENB",
-      "sector": "Ciberseguridad",
+      "ticker": "HAL",
+      "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 92.1,
+      "score": 85.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 37.67,
-      "objetivo": 42.42
+      "precio": 36.88,
+      "objetivo": 39.23
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
