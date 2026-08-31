@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-08-31T19:19:04Z
+**Actualizado:** 2026-08-31T23:15:12Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -15,16 +15,16 @@
 - Backtest profit factor: 1.14
 
 ## Alertas
-- Estado operativo BLOQUEADO: Volumen relativo bajo
+- Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- TSLA · BUY STRONG · score 91.6 · R/R 1.63
-- WMB · BUY · score 87.2 · R/R 1.63
-- OKE · BUY · score 86.4 · R/R 1.63
-- DELL · BUY · score 86.3 · R/R 1.63
-- HAL · BUY · score 85.8 · R/R 1.63
+- WMB · BUY STRONG · score 100.0 · R/R 1.63
+- AI · BUY STRONG · score 99.7 · R/R 1.62
+- TSLA · BUY STRONG · score 99.6 · R/R 1.63
+- DOCU · BUY STRONG · score 98.9 · R/R 1.63
+- ZS · BUY STRONG · score 98.6 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
