@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-09-04T16:41:32Z
+**Actualizado:** 2026-09-04T19:08:51Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.
 
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- ORCL · BUY · score 88.5 · R/R 1.63
-- XLE · BUY · score 88.1 · R/R 1.63
-- SNOW · BUY · score 88.1 · R/R 1.63
-- ARKK · BUY · score 86.7 · R/R 1.63
-- SMCI · BUY · score 86.7 · R/R 1.63
+- TSLA · BUY · score 90.8 · R/R 1.63
+- SNOW · BUY · score 89.4 · R/R 1.63
+- ORCL · BUY · score 89.3 · R/R 1.63
+- XLE · BUY · score 88.8 · R/R 1.63
+- CVX · BUY · score 87.4 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
