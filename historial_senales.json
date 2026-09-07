@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "04-09-2026 06:07 PM Colombia",
+  "actualizado": "07-09-2026 01:00 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -14343,13 +14343,30 @@
     "promedio_cerradas_pct": 0.72,
     "nuevas_bloqueadas": [
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
+        "accion": "MDT",
+        "senal_bot": "BUY STRONG",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 96.6,
+        "precio": 94.17,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": true,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Salud"
+      },
+      {
+        "fecha": "2026-09-07",
         "accion": "VLO",
         "senal_bot": "BUY STRONG",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "MEDIO",
-        "score": 97.8,
+        "score": 97.9,
         "precio": 370.72,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14360,7 +14377,7 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "ORCL",
         "senal_bot": "BUY STRONG",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14377,14 +14394,14 @@
         "sector": "Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "GILD",
         "senal_bot": "BUY STRONG",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "MEDIO",
-        "score": 92.5,
-        "precio": 150.99,
+        "score": 92.6,
+        "precio": 151.0,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
@@ -14394,7 +14411,7 @@
         "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "TSLA",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14411,7 +14428,7 @@
         "sector": "Autos / Tech"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "SNOW",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14428,7 +14445,7 @@
         "sector": "Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "XLE",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14445,24 +14462,24 @@
         "sector": "ETF Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "COP",
         "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 89.3,
+        "score": 89.6,
         "precio": 134.26,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
-        "regla_operativa": false,
+        "regla_operativa": true,
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "OKE",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14479,7 +14496,7 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "CVX",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14496,7 +14513,7 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "DVN",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14513,13 +14530,13 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "RIG",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.61,
         "riesgo": "BAJO",
-        "score": 88.7,
+        "score": 88.9,
         "precio": 5.85,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14530,13 +14547,13 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "EOG",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 88.3,
+        "score": 88.4,
         "precio": 145.19,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14547,13 +14564,13 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "OXY",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 88.3,
+        "score": 88.4,
         "precio": 60.04,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14564,13 +14581,13 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "ARKK",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 87.9,
+        "score": 88.0,
         "precio": 86.22,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14581,7 +14598,24 @@
         "sector": "ETF Innovación"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
+        "accion": "WMB",
+        "senal_bot": "BUY",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 87.4,
+        "precio": 74.15,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": true,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Energía"
+      },
+      {
+        "fecha": "2026-09-07",
         "accion": "SLB",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14598,24 +14632,7 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
-        "accion": "WMB",
-        "senal_bot": "BUY",
-        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 86.9,
-        "precio": 74.15,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": true,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Energía"
-      },
-      {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "AI",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14632,13 +14649,13 @@
         "sector": "IA"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "BKR",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 86.1,
+        "score": 86.2,
         "precio": 63.5,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14649,13 +14666,13 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "AAPL",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 84.9,
+        "score": 85.1,
         "precio": 319.97,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14666,13 +14683,13 @@
         "sector": "Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "DT",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 81.2,
+        "score": 81.3,
         "precio": 51.9,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14683,13 +14700,13 @@
         "sector": "Software"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "MSFT",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 80.8,
+        "score": 80.9,
         "precio": 499.7,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14700,13 +14717,30 @@
         "sector": "Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
+        "accion": "IBM",
+        "senal_bot": "BUY",
+        "motivo": "Volumen relativo bajo",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 77.6,
+        "precio": 234.89,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": false,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Tecnología"
+      },
+      {
+        "fecha": "2026-09-07",
         "accion": "XOM",
         "senal_bot": "BUY",
         "motivo": "Confirmación baja",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 76.0,
+        "score": 76.1,
         "precio": 159.47,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14717,7 +14751,7 @@
         "sector": "Energía"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "VGT",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14734,7 +14768,7 @@
         "sector": "ETF Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "XLK",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14751,7 +14785,7 @@
         "sector": "ETF Tecnología"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "ANET",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14768,41 +14802,7 @@
         "sector": "Redes / IA"
       },
       {
-        "fecha": "2026-09-04",
-        "accion": "IBM",
-        "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 75.5,
-        "precio": 234.89,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": false,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Tecnología"
-      },
-      {
-        "fecha": "2026-09-04",
-        "accion": "MDT",
-        "senal_bot": "BUY",
-        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 86.3,
-        "precio": 94.17,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": true,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Salud"
-      },
-      {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "F",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14819,13 +14819,13 @@
         "sector": "Autos"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "NVDA",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 85.0,
+        "score": 85.2,
         "precio": 230.36,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14836,7 +14836,7 @@
         "sector": "IA / Chips"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "TSM",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14853,30 +14853,30 @@
         "sector": "Chips"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "REGN",
         "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 84.1,
+        "score": 84.3,
         "precio": 827.72,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
-        "regla_operativa": false,
+        "regla_operativa": true,
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "JNJ",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 82.8,
+        "score": 83.2,
         "precio": 275.23,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14887,13 +14887,13 @@
         "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "AMGN",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 82.6,
+        "score": 82.7,
         "precio": 437.23,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -14904,7 +14904,7 @@
         "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "QCOM",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14921,7 +14921,24 @@
         "sector": "Chips"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
+        "accion": "WFC",
+        "senal_bot": "BUY",
+        "motivo": "Volumen relativo bajo",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 81.9,
+        "precio": 89.97,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": false,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Finanzas"
+      },
+      {
+        "fecha": "2026-09-07",
         "accion": "HMC",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -14938,24 +14955,24 @@
         "sector": "Autos"
       },
       {
-        "fecha": "2026-09-04",
-        "accion": "WFC",
+        "fecha": "2026-09-07",
+        "accion": "GM",
         "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 81.8,
-        "precio": 89.97,
+        "score": 81.6,
+        "precio": 87.76,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
-        "regla_operativa": false,
+        "regla_operativa": true,
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
-        "sector": "Finanzas"
+        "sector": "Autos"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "C",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14972,7 +14989,7 @@
         "sector": "Finanzas"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "IBB",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -14989,24 +15006,24 @@
         "sector": "ETF Biotech"
       },
       {
-        "fecha": "2026-09-04",
-        "accion": "GM",
+        "fecha": "2026-09-07",
+        "accion": "MS",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 81.2,
-        "precio": 87.76,
+        "score": 80.2,
+        "precio": 217.72,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
         "regla_operativa": true,
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
-        "sector": "Autos"
+        "sector": "Finanzas"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "URA",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -15023,30 +15040,30 @@
         "sector": "ETF Uranio"
       },
       {
-        "fecha": "2026-09-04",
-        "accion": "MS",
+        "fecha": "2026-09-07",
+        "accion": "UNH",
         "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
         "score": 79.9,
-        "precio": 217.72,
+        "precio": 397.14,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
         "drawdown_pct": 27.55,
-        "regla_operativa": false,
+        "regla_operativa": true,
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
-        "sector": "Finanzas"
+        "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "SMH",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 79.2,
+        "score": 79.4,
         "precio": 567.01,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -15057,7 +15074,7 @@
         "sector": "ETF Chips"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "PG",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -15074,7 +15091,24 @@
         "sector": "Consumo defensivo"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
+        "accion": "FIS",
+        "senal_bot": "BUY",
+        "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
+        "rr": 1.63,
+        "riesgo": "BAJO",
+        "score": 77.9,
+        "precio": 41.89,
+        "exposicion_abierta_pct": 0.0,
+        "riesgo_abierto_pct": 0.0,
+        "drawdown_pct": 27.55,
+        "regla_operativa": true,
+        "limitador_posicion": "MAX_POSICION",
+        "capital_disponible_usd": 4750.0,
+        "sector": "Pagos"
+      },
+      {
+        "fecha": "2026-09-07",
         "accion": "NVO",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -15091,13 +15125,13 @@
         "sector": "Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "GPN",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.63,
         "riesgo": "BAJO",
-        "score": 84.0,
+        "score": 84.9,
         "precio": 92.54,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -15108,13 +15142,13 @@
         "sector": "Pagos"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "SCHD",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
         "rr": 1.65,
         "riesgo": "BAJO",
-        "score": 81.0,
+        "score": 81.1,
         "precio": 34.8,
         "exposicion_abierta_pct": 0.0,
         "riesgo_abierto_pct": 0.0,
@@ -15125,7 +15159,7 @@
         "sector": "ETF Dividendos"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "XLV",
         "senal_bot": "BUY",
         "motivo": "Bloqueo operativo por drawdown máximo: 27.55%",
@@ -15142,7 +15176,7 @@
         "sector": "ETF Salud"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "accion": "GS",
         "senal_bot": "BUY",
         "motivo": "Volumen relativo bajo",
@@ -15157,40 +15191,6 @@
         "limitador_posicion": "MAX_POSICION",
         "capital_disponible_usd": 4750.0,
         "sector": "Finanzas"
-      },
-      {
-        "fecha": "2026-09-04",
-        "accion": "XYZ",
-        "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 79.5,
-        "precio": 82.76,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": false,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Pagos"
-      },
-      {
-        "fecha": "2026-09-04",
-        "accion": "TMO",
-        "senal_bot": "BUY",
-        "motivo": "Volumen relativo bajo",
-        "rr": 1.63,
-        "riesgo": "BAJO",
-        "score": 79.2,
-        "precio": 613.78,
-        "exposicion_abierta_pct": 0.0,
-        "riesgo_abierto_pct": 0.0,
-        "drawdown_pct": 27.55,
-        "regla_operativa": false,
-        "limitador_posicion": "MAX_POSICION",
-        "capital_disponible_usd": 4750.0,
-        "sector": "Salud"
       }
     ],
     "reglas_operativas": {
@@ -15203,7 +15203,7 @@
       "max_riesgo_total_abierto_pct": 10.0,
       "modo_defensivo_drawdown_pct": 12.0,
       "bloquear_entradas_drawdown_pct": 25.0,
-      "bloqueos_generados": 101,
+      "bloqueos_generados": 102,
       "motivo_principal": "Bloqueo operativo por drawdown máximo: 27.55%",
       "reglas_activas": {
         "exposicion": true,
@@ -18204,7 +18204,7 @@
         "ultima_accion_cerrada": "IWM"
       },
       {
-        "fecha": "2026-09-04",
+        "fecha": "2026-09-07",
         "capital_cerrado_usd": 5834.3,
         "capital_total_estimado_usd": 5834.3,
         "ganancia_total_estimada_usd": 834.3,
