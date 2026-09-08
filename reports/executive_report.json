@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T23:19:32Z",
+  "updated": "2026-09-08T16:55:04Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "VLO",
+      "ticker": "CVX",
       "sector": "Energía",
-      "senal_bot": "BUY STRONG",
-      "score": 97.9,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 370.72,
-      "objetivo": 392.52
-    },
-    {
-      "ticker": "ORCL",
-      "sector": "Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 96.9,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 158.78,
-      "objetivo": 172.46
-    },
-    {
-      "ticker": "MDT",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 96.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 94.17,
-      "objetivo": 99.24
-    },
-    {
-      "ticker": "GILD",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 92.6,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 151.0,
-      "objetivo": 159.13
-    },
-    {
-      "ticker": "TSLA",
-      "sector": "Autos / Tech",
       "senal_bot": "BUY",
-      "score": 91.4,
+      "score": 86.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 354.08,
-      "objetivo": 387.82
+      "precio": 209.74,
+      "objetivo": 218.01
+    },
+    {
+      "ticker": "COP",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 85.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 134.46,
+      "objetivo": 140.87
+    },
+    {
+      "ticker": "URA",
+      "sector": "ETF Uranio",
+      "senal_bot": "BUY",
+      "score": 85.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 48.05,
+      "objetivo": 51.88
+    },
+    {
+      "ticker": "XLE",
+      "sector": "ETF Energía",
+      "senal_bot": "BUY",
+      "score": 85.3,
+      "riesgo": "BAJO",
+      "rr": 1.64,
+      "precio": 64.46,
+      "objetivo": 66.96
+    },
+    {
+      "ticker": "NU",
+      "sector": "Fintech",
+      "senal_bot": "BUY",
+      "score": 85.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 15.39,
+      "objetivo": 16.72
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
