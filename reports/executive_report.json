@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T16:57:34Z",
+  "updated": "2026-09-09T19:35:00Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -21,51 +21,51 @@
       "ticker": "CVX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 80.6,
+      "score": 82.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 212.84,
-      "objetivo": 221.39
-    },
-    {
-      "ticker": "HAL",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 79.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 36.98,
-      "objetivo": 39.41
+      "precio": 213.82,
+      "objetivo": 222.37
     },
     {
       "ticker": "XLE",
       "sector": "ETF Energía",
       "senal_bot": "BUY",
-      "score": 79.5,
+      "score": 81.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 65.15,
-      "objetivo": 67.69
+      "precio": 65.4,
+      "objetivo": 67.94
     },
     {
       "ticker": "COP",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 79.3,
+      "score": 80.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 136.5,
-      "objetivo": 142.96
+      "precio": 137.21,
+      "objetivo": 143.67
     },
     {
-      "ticker": "NU",
-      "sector": "Fintech",
+      "ticker": "DVN",
+      "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 78.4,
+      "score": 80.3,
       "riesgo": "BAJO",
-      "rr": 1.62,
-      "precio": 15.21,
-      "objetivo": 16.47
+      "rr": 1.63,
+      "precio": 49.12,
+      "objetivo": 51.67
+    },
+    {
+      "ticker": "OXY",
+      "sector": "Energía",
+      "senal_bot": "BUY",
+      "score": 79.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 61.56,
+      "objetivo": 64.65
     }
   ],
   "open_positions": [],
