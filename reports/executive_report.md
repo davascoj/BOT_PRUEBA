@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-09-09T19:35:00Z
+**Actualizado:** 2026-09-09T21:54:32Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
 
@@ -15,16 +15,16 @@
 - Backtest profit factor: 1.14
 
 ## Alertas
-- Estado operativo BLOQUEADO: Volumen relativo bajo
+- Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- CVX · BUY · score 82.3 · R/R 1.63
-- XLE · BUY · score 81.0 · R/R 1.63
-- COP · BUY · score 80.7 · R/R 1.63
-- DVN · BUY · score 80.3 · R/R 1.63
-- OXY · BUY · score 79.9 · R/R 1.63
+- OXY · BUY STRONG · score 91.5 · R/R 1.63
+- IBM · BUY STRONG · score 88.0 · R/R 1.63
+- WFC · BUY STRONG · score 87.7 · R/R 1.63
+- CVX · BUY · score 83.9 · R/R 1.63
+- HAL · BUY · score 82.8 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.

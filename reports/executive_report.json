@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T19:35:00Z",
+  "updated": "2026-09-09T21:54:32Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
+      "ticker": "OXY",
+      "sector": "Energía",
+      "senal_bot": "BUY STRONG",
+      "score": 91.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 61.3,
+      "objetivo": 64.39
+    },
+    {
+      "ticker": "IBM",
+      "sector": "Tecnología",
+      "senal_bot": "BUY STRONG",
+      "score": 88.0,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 239.94,
+      "objetivo": 252.33
+    },
+    {
+      "ticker": "WFC",
+      "sector": "Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 87.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 89.67,
+      "objetivo": 93.72
+    },
+    {
       "ticker": "CVX",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 82.3,
+      "score": 83.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 213.82,
-      "objetivo": 222.37
+      "precio": 213.81,
+      "objetivo": 222.36
     },
     {
-      "ticker": "XLE",
-      "sector": "ETF Energía",
-      "senal_bot": "BUY",
-      "score": 81.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 65.4,
-      "objetivo": 67.94
-    },
-    {
-      "ticker": "COP",
+      "ticker": "HAL",
       "sector": "Energía",
       "senal_bot": "BUY",
-      "score": 80.7,
+      "score": 82.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 137.21,
-      "objetivo": 143.67
-    },
-    {
-      "ticker": "DVN",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 80.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 49.12,
-      "objetivo": 51.67
-    },
-    {
-      "ticker": "OXY",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 79.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 61.56,
-      "objetivo": 64.65
+      "precio": 37.13,
+      "objetivo": 39.56
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
