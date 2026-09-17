@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-16T22:57:18Z",
+  "updated": "2026-09-17T17:21:53Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
-    "mercado": "DÉBIL",
+    "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,10 +16,61 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [],
+  "top_opportunities": [
+    {
+      "ticker": "HACK",
+      "sector": "ETF Ciberseguridad",
+      "senal_bot": "BUY STRONG",
+      "score": 99.5,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 120.79,
+      "objetivo": 128.82
+    },
+    {
+      "ticker": "SMCI",
+      "sector": "Servidores IA",
+      "senal_bot": "BUY",
+      "score": 90.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 40.59,
+      "objetivo": 45.75
+    },
+    {
+      "ticker": "ANET",
+      "sector": "Redes / IA",
+      "senal_bot": "BUY",
+      "score": 89.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 200.12,
+      "objetivo": 217.32
+    },
+    {
+      "ticker": "ARM",
+      "sector": "Chips",
+      "senal_bot": "BUY",
+      "score": 88.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 263.29,
+      "objetivo": 295.76
+    },
+    {
+      "ticker": "ARKK",
+      "sector": "ETF Innovación",
+      "senal_bot": "BUY",
+      "score": 87.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 86.85,
+      "objetivo": 92.06
+    }
+  ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
