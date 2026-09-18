@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-17T22:56:47Z",
+  "updated": "2026-09-18T16:48:40Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "NEUTRO",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "ARKK",
-      "sector": "ETF Innovación",
-      "senal_bot": "BUY STRONG",
-      "score": 100.0,
+      "ticker": "NET",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 78.7,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 86.92,
-      "objetivo": 92.14
+      "precio": 318.34,
+      "objetivo": 357.13
     },
     {
-      "ticker": "DT",
-      "sector": "Software",
-      "senal_bot": "BUY STRONG",
-      "score": 99.9,
+      "ticker": "RIOT",
+      "sector": "Cripto / Trading",
+      "senal_bot": "BUY",
+      "score": 78.6,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 55.83,
-      "objetivo": 59.66
+      "precio": 22.96,
+      "objetivo": 25.99
     },
     {
-      "ticker": "XLK",
-      "sector": "ETF Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 96.5,
+      "ticker": "DOCU",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 77.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 188.06,
-      "objetivo": 194.65
+      "precio": 69.35,
+      "objetivo": 75.93
     },
     {
-      "ticker": "TMO",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 96.5,
+      "ticker": "TWLO",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 77.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 658.32,
-      "objetivo": 692.35
+      "precio": 245.0,
+      "objetivo": 267.84
     },
     {
       "ticker": "GILD",
       "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 95.3,
+      "senal_bot": "BUY",
+      "score": 77.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 150.89,
-      "objetivo": 158.36
+      "precio": 150.2,
+      "objetivo": 157.5
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
