@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-09-21T18:23:57Z
+**Actualizado:** 2026-09-21T22:05:42Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
@@ -15,16 +15,16 @@
 - Backtest profit factor: 1.14
 
 ## Alertas
-- Estado operativo BLOQUEADO: Volumen relativo bajo
+- Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- VGT · BUY STRONG · score 98.4 · R/R 1.63
-- XLC · BUY STRONG · score 90.1 · R/R 1.63
-- DT · BUY · score 89.0 · R/R 1.63
-- XLK · BUY · score 87.1 · R/R 1.63
-- TEAM · BUY · score 86.5 · R/R 1.63
+- DT · BUY STRONG · score 100.0 · R/R 1.63
+- QCOM · BUY STRONG · score 99.7 · R/R 1.63
+- CIBR · BUY STRONG · score 99.1 · R/R 1.63
+- TXN · BUY STRONG · score 95.9 · R/R 1.63
+- VGT · BUY STRONG · score 95.6 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
