@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-18T23:35:54Z",
+  "updated": "2026-09-21T18:23:57Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "ALCISTA",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "ARM",
-      "sector": "Chips",
+      "ticker": "VGT",
+      "sector": "ETF Tecnología",
       "senal_bot": "BUY STRONG",
-      "score": 92.0,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 275.61,
-      "objetivo": 307.7
-    },
-    {
-      "ticker": "GFS",
-      "sector": "Chips",
-      "senal_bot": "BUY STRONG",
-      "score": 91.2,
+      "score": 98.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 47.82,
-      "objetivo": 52.05
+      "precio": 125.18,
+      "objetivo": 129.39
     },
     {
-      "ticker": "ADI",
-      "sector": "Chips",
+      "ticker": "XLC",
+      "sector": "ETF Comunicaciones",
       "senal_bot": "BUY STRONG",
-      "score": 90.0,
+      "score": 90.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 375.72,
-      "objetivo": 398.69
+      "precio": 115.11,
+      "objetivo": 119.22
     },
     {
-      "ticker": "ABBV",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 87.6,
+      "ticker": "DT",
+      "sector": "Software",
+      "senal_bot": "BUY",
+      "score": 89.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 263.96,
-      "objetivo": 276.17
+      "precio": 55.97,
+      "objetivo": 59.97
     },
     {
-      "ticker": "COHR",
-      "sector": "Fotónica / IA",
-      "senal_bot": "BUY STRONG",
-      "score": 87.6,
-      "riesgo": "MEDIO",
+      "ticker": "XLK",
+      "sector": "ETF Tecnología",
+      "senal_bot": "BUY",
+      "score": 87.1,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 317.36,
-      "objetivo": 359.68
+      "precio": 194.23,
+      "objetivo": 201.2
+    },
+    {
+      "ticker": "TEAM",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 86.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 195.35,
+      "objetivo": 214.51
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
