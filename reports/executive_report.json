@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T20:17:41Z",
+  "updated": "2026-09-22T23:00:02Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -28,6 +28,26 @@
       "objetivo": 61.12
     },
     {
+      "ticker": "TSM",
+      "sector": "Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 97.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 452.0,
+      "objetivo": 474.63
+    },
+    {
+      "ticker": "DE",
+      "sector": "Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 93.4,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 703.12,
+      "objetivo": 737.73
+    },
+    {
       "ticker": "SYM",
       "sector": "Robótica",
       "senal_bot": "BUY STRONG",
@@ -46,26 +66,6 @@
       "rr": 1.63,
       "precio": 712.78,
       "objetivo": 726.41
-    },
-    {
-      "ticker": "TXN",
-      "sector": "Chips",
-      "senal_bot": "BUY STRONG",
-      "score": 91.3,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 271.41,
-      "objetivo": 289.31
-    },
-    {
-      "ticker": "FTNT",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 88.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 174.26,
-      "objetivo": 189.46
     }
   ],
   "open_positions": [],
