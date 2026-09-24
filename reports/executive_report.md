@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-09-24T20:46:24Z
+**Actualizado:** 2026-09-24T23:30:23Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
@@ -22,7 +22,7 @@
 ## Top oportunidades
 - VGT · BUY STRONG · score 95.6 · R/R 1.63
 - DHR · BUY STRONG · score 91.4 · R/R 1.63
-- RIOT · BUY · score 88.8 · R/R 1.63
+- RIOT · BUY · score 89.7 · R/R 1.63
 - VEEV · BUY · score 87.9 · R/R 1.63
 - GTLB · BUY · score 87.2 · R/R 1.63
 
