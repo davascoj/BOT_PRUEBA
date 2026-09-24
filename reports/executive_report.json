@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T23:08:36Z",
+  "updated": "2026-09-24T17:38:26Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "NXPI",
-      "sector": "Chips",
-      "senal_bot": "BUY STRONG",
-      "score": 98.1,
+      "ticker": "RIOT",
+      "sector": "Cripto / Trading",
+      "senal_bot": "BUY",
+      "score": 87.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 23.97,
+      "objetivo": 26.92
+    },
+    {
+      "ticker": "MU",
+      "sector": "Memoria / Chips",
+      "senal_bot": "BUY",
+      "score": 87.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 1073.05,
+      "objetivo": 1174.14
+    },
+    {
+      "ticker": "SMCI",
+      "sector": "Servidores IA",
+      "senal_bot": "BUY",
+      "score": 86.1,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 235.44,
-      "objetivo": 252.43
+      "precio": 41.44,
+      "objetivo": 46.56
     },
     {
-      "ticker": "DT",
-      "sector": "Software",
-      "senal_bot": "BUY STRONG",
-      "score": 98.0,
-      "riesgo": "MEDIO",
+      "ticker": "TSLA",
+      "sector": "Autos / Tech",
+      "senal_bot": "BUY",
+      "score": 86.0,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 58.51,
-      "objetivo": 62.66
-    },
-    {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY STRONG",
-      "score": 96.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 124.07,
-      "objetivo": 131.93
-    },
-    {
-      "ticker": "CIBR",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY STRONG",
-      "score": 96.1,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 104.01,
-      "objetivo": 109.88
+      "precio": 380.44,
+      "objetivo": 406.02
     },
     {
       "ticker": "TEAM",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 88.2,
+      "score": 85.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 195.08,
-      "objetivo": 214.12
+      "precio": 193.51,
+      "objetivo": 212.26
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
