@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T17:38:23Z",
+  "updated": "2026-09-25T20:45:20Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -21,51 +21,51 @@
       "ticker": "MSFT",
       "sector": "Tecnología",
       "senal_bot": "BUY STRONG",
-      "score": 96.7,
+      "score": 98.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 516.04,
-      "objetivo": 540.12
+      "precio": 516.17,
+      "objetivo": 540.24
+    },
+    {
+      "ticker": "GFS",
+      "sector": "Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 92.7,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 49.0,
+      "objetivo": 53.5
     },
     {
       "ticker": "OKTA",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 87.0,
+      "score": 87.4,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 199.89,
-      "objetivo": 222.03
+      "precio": 195.19,
+      "objetivo": 217.56
+    },
+    {
+      "ticker": "DELL",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 86.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 562.89,
+      "objetivo": 633.48
     },
     {
       "ticker": "SMH",
       "sector": "ETF Chips",
       "senal_bot": "BUY",
-      "score": 85.8,
+      "score": 86.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 607.1,
-      "objetivo": 641.38
-    },
-    {
-      "ticker": "MU",
-      "sector": "Memoria / Chips",
-      "senal_bot": "BUY",
-      "score": 85.3,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 1082.8,
-      "objetivo": 1180.86
-    },
-    {
-      "ticker": "TSLA",
-      "sector": "Autos / Tech",
-      "senal_bot": "BUY",
-      "score": 85.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 372.74,
-      "objetivo": 397.4
+      "precio": 606.56,
+      "objetivo": 640.84
     }
   ],
   "open_positions": [],

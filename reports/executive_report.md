@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-09-25T17:38:23Z
+**Actualizado:** 2026-09-25T20:45:20Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.
 
@@ -20,11 +20,11 @@
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
 ## Top oportunidades
-- MSFT · BUY STRONG · score 96.7 · R/R 1.63
-- OKTA · BUY · score 87.0 · R/R 1.63
-- SMH · BUY · score 85.8 · R/R 1.63
-- MU · BUY · score 85.3 · R/R 1.63
-- TSLA · BUY · score 85.1 · R/R 1.63
+- MSFT · BUY STRONG · score 98.5 · R/R 1.63
+- GFS · BUY STRONG · score 92.7 · R/R 1.63
+- OKTA · BUY · score 87.4 · R/R 1.63
+- DELL · BUY · score 86.9 · R/R 1.63
+- SMH · BUY · score 86.8 · R/R 1.63
 
 ## Conclusión
 No abrir nuevas posiciones hasta que bajen riesgo, exposicion o drawdown. Mantener seguimiento de cartera abierta.
