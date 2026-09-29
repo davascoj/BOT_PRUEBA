@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T00:00:54Z",
+  "updated": "2026-09-29T18:23:42Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "MCHP",
-      "sector": "Chips",
+      "ticker": "VGT",
+      "sector": "ETF Tecnología",
       "senal_bot": "BUY STRONG",
-      "score": 98.8,
+      "score": 92.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 77.97,
-      "objetivo": 83.91
+      "precio": 124.87,
+      "objetivo": 129.24
     },
     {
-      "ticker": "MU",
-      "sector": "Memoria / Chips",
+      "ticker": "TSM",
+      "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 88.6,
+      "score": 82.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 1053.98,
-      "objetivo": 1153.51
+      "precio": 458.45,
+      "objetivo": 481.22
     },
     {
       "ticker": "SOXX",
       "sector": "ETF Chips",
       "senal_bot": "BUY",
-      "score": 87.5,
+      "score": 80.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 560.79,
-      "objetivo": 598.04
+      "precio": 568.54,
+      "objetivo": 606.27
     },
     {
-      "ticker": "KLAC",
-      "sector": "Equipos chips",
+      "ticker": "SMH",
+      "sector": "ETF Chips",
       "senal_bot": "BUY",
-      "score": 87.3,
+      "score": 80.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 189.17,
-      "objetivo": 205.79
+      "precio": 607.73,
+      "objetivo": 643.28
     },
     {
-      "ticker": "QCOM",
-      "sector": "Chips",
+      "ticker": "SMCI",
+      "sector": "Servidores IA",
       "senal_bot": "BUY",
-      "score": 87.1,
+      "score": 80.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 187.48,
-      "objetivo": 210.26
+      "precio": 41.4,
+      "objetivo": 46.6
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
