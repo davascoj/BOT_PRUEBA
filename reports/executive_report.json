@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-29T22:25:43Z",
+  "updated": "2026-09-30T18:12:16Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
   "summary": {
-    "mercado": "NEUTRO +",
+    "mercado": "ALCISTA",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "VGT",
-      "sector": "ETF Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 92.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 124.85,
-      "objetivo": 129.22
-    },
-    {
-      "ticker": "ENTG",
-      "sector": "Equipos chips",
-      "senal_bot": "BUY STRONG",
-      "score": 91.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 154.77,
-      "objetivo": 169.08
-    },
-    {
       "ticker": "ASML",
       "sector": "Chips",
-      "senal_bot": "BUY STRONG",
-      "score": 91.4,
-      "riesgo": "MEDIO",
+      "senal_bot": "BUY",
+      "score": 86.1,
+      "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 1834.39,
-      "objetivo": 1949.73
+      "precio": 1816.88,
+      "objetivo": 1928.68
     },
     {
-      "ticker": "TSM",
-      "sector": "Chips",
+      "ticker": "AMAT",
+      "sector": "Equipos chips",
+      "senal_bot": "BUY",
+      "score": 85.4,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 511.44,
+      "objetivo": 552.25
+    },
+    {
+      "ticker": "HPE",
+      "sector": "Tecnología",
+      "senal_bot": "BUY",
+      "score": 84.8,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 64.85,
+      "objetivo": 73.35
+    },
+    {
+      "ticker": "SNOW",
+      "sector": "Tecnología",
       "senal_bot": "BUY",
       "score": 83.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 456.94,
-      "objetivo": 479.78
+      "precio": 341.52,
+      "objetivo": 372.52
     },
     {
-      "ticker": "MCHP",
+      "ticker": "GFS",
       "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 83.6,
+      "score": 83.5,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 78.78,
-      "objetivo": 84.83
+      "precio": 47.96,
+      "objetivo": 52.47
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: Volumen relativo bajo",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
