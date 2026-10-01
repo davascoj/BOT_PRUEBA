@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-01T18:38:30Z",
+  "updated": "2026-10-01T22:55:12Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
-    "mercado": "ALCISTA",
+    "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
+      "ticker": "MU",
+      "sector": "Memoria / Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 97.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 1097.39,
+      "objetivo": 1196.1
+    },
+    {
+      "ticker": "EMR",
+      "sector": "Industrial",
+      "senal_bot": "BUY STRONG",
+      "score": 93.5,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 158.57,
+      "objetivo": 166.82
+    },
+    {
+      "ticker": "ROK",
+      "sector": "Automatización",
+      "senal_bot": "BUY STRONG",
+      "score": 91.7,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 442.45,
+      "objetivo": 464.86
+    },
+    {
       "ticker": "XLK",
       "sector": "ETF Tecnología",
       "senal_bot": "BUY STRONG",
-      "score": 92.5,
+      "score": 89.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 198.24,
-      "objetivo": 205.27
+      "precio": 197.81,
+      "objetivo": 204.84
     },
     {
-      "ticker": "COHR",
-      "sector": "Fotónica / IA",
-      "senal_bot": "BUY",
-      "score": 91.2,
+      "ticker": "CIBR",
+      "sector": "ETF Ciberseguridad",
+      "senal_bot": "BUY STRONG",
+      "score": 89.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 317.27,
-      "objetivo": 362.81
-    },
-    {
-      "ticker": "ASML",
-      "sector": "Chips",
-      "senal_bot": "BUY",
-      "score": 87.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 1811.85,
-      "objetivo": 1922.25
-    },
-    {
-      "ticker": "MCHP",
-      "sector": "Chips",
-      "senal_bot": "BUY",
-      "score": 86.1,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 79.12,
-      "objetivo": 84.96
-    },
-    {
-      "ticker": "SMCI",
-      "sector": "Servidores IA",
-      "senal_bot": "BUY",
-      "score": 85.6,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 41.87,
-      "objetivo": 46.96
+      "precio": 103.78,
+      "objetivo": 109.77
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
