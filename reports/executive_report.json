@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T18:07:22Z",
+  "updated": "2026-10-02T22:08:31Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 84.9,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 123.35,
-      "objetivo": 130.45
-    },
-    {
       "ticker": "CIBR",
       "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 83.9,
+      "senal_bot": "BUY STRONG",
+      "score": 97.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 104.91,
-      "objetivo": 110.23
+      "precio": 104.7,
+      "objetivo": 110.02
     },
     {
-      "ticker": "VLO",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 83.1,
+      "ticker": "HACK",
+      "sector": "ETF Ciberseguridad",
+      "senal_bot": "BUY STRONG",
+      "score": 96.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 409.5,
-      "objetivo": 449.17
+      "precio": 123.08,
+      "objetivo": 130.19
+    },
+    {
+      "ticker": "URI",
+      "sector": "Construcción",
+      "senal_bot": "BUY STRONG",
+      "score": 89.9,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 1081.04,
+      "objetivo": 1152.35
     },
     {
       "ticker": "NET",
       "sector": "Tecnología",
       "senal_bot": "BUY",
-      "score": 82.9,
+      "score": 84.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 351.13,
-      "objetivo": 386.59
+      "precio": 349.07,
+      "objetivo": 384.53
     },
     {
       "ticker": "ARM",
       "sector": "Chips",
       "senal_bot": "BUY",
-      "score": 82.0,
+      "score": 83.0,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 308.32,
-      "objetivo": 353.19
+      "precio": 307.49,
+      "objetivo": 352.37
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
