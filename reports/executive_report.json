@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T19:09:20Z",
+  "updated": "2026-10-07T23:35:22Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
+      "ticker": "SMCI",
+      "sector": "Servidores IA",
+      "senal_bot": "BUY",
+      "score": 89.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 44.94,
+      "objetivo": 49.62
+    },
+    {
+      "ticker": "ABBV",
+      "sector": "Salud",
+      "senal_bot": "BUY STRONG",
+      "score": 89.2,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 271.36,
+      "objetivo": 283.31
+    },
+    {
       "ticker": "CIBR",
       "sector": "ETF Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 87.6,
+      "score": 88.3,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 106.88,
-      "objetivo": 112.0
-    },
-    {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 87.5,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 125.96,
-      "objetivo": 132.51
+      "precio": 106.57,
+      "objetivo": 111.69
     },
     {
       "ticker": "CRWD",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 86.6,
+      "score": 87.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 265.02,
-      "objetivo": 288.88
+      "precio": 265.44,
+      "objetivo": 289.33
     },
     {
       "ticker": "PANW",
       "sector": "Ciberseguridad",
       "senal_bot": "BUY",
-      "score": 86.6,
+      "score": 87.9,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 406.51,
-      "objetivo": 442.04
-    },
-    {
-      "ticker": "S",
-      "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 85.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 25.42,
-      "objetivo": 27.62
+      "precio": 405.57,
+      "objetivo": 441.32
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
