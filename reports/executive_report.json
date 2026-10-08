@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T19:04:59Z",
+  "updated": "2026-10-08T23:45:06Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado ALCISTA.",
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "XLE",
-      "sector": "ETF Energía",
-      "senal_bot": "BUY STRONG",
-      "score": 90.8,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 65.29,
-      "objetivo": 68.1
-    },
-    {
-      "ticker": "GFS",
-      "sector": "Chips",
-      "senal_bot": "BUY",
-      "score": 88.0,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 49.27,
-      "objetivo": 53.35
-    },
-    {
-      "ticker": "AMD",
-      "sector": "IA / Chips",
-      "senal_bot": "BUY",
-      "score": 87.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 616.56,
-      "objetivo": 670.89
-    },
-    {
-      "ticker": "HACK",
-      "sector": "ETF Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 87.4,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 125.2,
-      "objetivo": 131.5
-    },
-    {
       "ticker": "ZS",
       "sector": "Ciberseguridad",
-      "senal_bot": "BUY",
-      "score": 87.4,
+      "senal_bot": "BUY STRONG",
+      "score": 99.8,
       "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 217.31,
-      "objetivo": 237.81
+      "precio": 216.81,
+      "objetivo": 237.31
+    },
+    {
+      "ticker": "GTLB",
+      "sector": "Software",
+      "senal_bot": "BUY STRONG",
+      "score": 97.9,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 53.56,
+      "objetivo": 57.77
+    },
+    {
+      "ticker": "ISRG",
+      "sector": "Robótica / Salud",
+      "senal_bot": "BUY STRONG",
+      "score": 97.2,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 415.41,
+      "objetivo": 439.38
+    },
+    {
+      "ticker": "AFRM",
+      "sector": "Fintech",
+      "senal_bot": "BUY STRONG",
+      "score": 96.0,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 77.15,
+      "objetivo": 84.12
+    },
+    {
+      "ticker": "KMI",
+      "sector": "Energía",
+      "senal_bot": "BUY STRONG",
+      "score": 93.9,
+      "riesgo": "BAJO",
+      "rr": 1.63,
+      "precio": 32.25,
+      "objetivo": 33.77
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
