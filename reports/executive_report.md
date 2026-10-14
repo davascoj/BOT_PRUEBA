@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-10-14T20:59:24Z
+**Actualizado:** 2026-10-14T23:35:18Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.
 
@@ -21,8 +21,8 @@
 
 ## Top oportunidades
 - PFE · BUY STRONG · score 88.7 · R/R 1.63
-- LLY · BUY STRONG · score 87.9 · R/R 1.63
-- XLV · BUY STRONG · score 87.9 · R/R 1.63
+- LLY · BUY STRONG · score 88.0 · R/R 1.63
+- XLV · BUY STRONG · score 88.0 · R/R 1.63
 - DOCU · BUY STRONG · score 86.6 · R/R 1.63
 - AAPL · BUY STRONG · score 86.2 · R/R 1.63
 
