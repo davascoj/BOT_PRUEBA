@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-15T17:27:51Z",
+  "updated": "2026-10-15T20:27:32Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "NEUTRO +",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -18,59 +18,59 @@
   },
   "top_opportunities": [
     {
-      "ticker": "VEEV",
-      "sector": "Salud / Software",
-      "senal_bot": "BUY",
-      "score": 78.7,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 311.17,
-      "objetivo": 333.45
-    },
-    {
       "ticker": "BLK",
       "sector": "Finanzas",
-      "senal_bot": "BUY",
-      "score": 77.7,
+      "senal_bot": "BUY STRONG",
+      "score": 97.8,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 1109.96,
-      "objetivo": 1163.9
+      "precio": 1120.78,
+      "objetivo": 1176.71
     },
     {
-      "ticker": "ISRG",
-      "sector": "Robótica / Salud",
-      "senal_bot": "BUY",
-      "score": 77.3,
+      "ticker": "XLV",
+      "sector": "ETF Salud",
+      "senal_bot": "BUY STRONG",
+      "score": 96.4,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 426.25,
-      "objetivo": 450.51
+      "precio": 177.19,
+      "objetivo": 183.69
     },
     {
-      "ticker": "PLTR",
-      "sector": "IA / Software",
-      "senal_bot": "BUY",
-      "score": 77.1,
+      "ticker": "MCO",
+      "sector": "Finanzas",
+      "senal_bot": "BUY STRONG",
+      "score": 95.6,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 199.3,
-      "objetivo": 213.5
+      "precio": 483.69,
+      "objetivo": 506.81
     },
     {
-      "ticker": "LNG",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 76.2,
+      "ticker": "TEAM",
+      "sector": "Tecnología",
+      "senal_bot": "BUY STRONG",
+      "score": 95.0,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 217.12,
+      "objetivo": 236.96
+    },
+    {
+      "ticker": "ICE",
+      "sector": "Trading",
+      "senal_bot": "BUY STRONG",
+      "score": 94.2,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 278.67,
-      "objetivo": 292.84
+      "precio": 158.41,
+      "objetivo": 164.91
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
