@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-21T23:47:20Z",
+  "updated": "2026-10-22T17:43:46Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
-  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO.",
+  "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
   "summary": {
-    "mercado": "NEUTRO",
+    "mercado": "DÉBIL",
     "estado_operativo": "BLOQUEADO",
     "capital_total_estimado_usd": 5834.3,
     "ganancia_total_estimada_usd": 834.3,
@@ -16,61 +16,10 @@
     "backtest_profit_factor": 1.14,
     "backtest_operaciones": 300
   },
-  "top_opportunities": [
-    {
-      "ticker": "NOW",
-      "sector": "Tecnología",
-      "senal_bot": "BUY STRONG",
-      "score": 90.5,
-      "riesgo": "MEDIO",
-      "rr": 1.63,
-      "precio": 153.12,
-      "objetivo": 166.72
-    },
-    {
-      "ticker": "EMR",
-      "sector": "Industrial",
-      "senal_bot": "BUY STRONG",
-      "score": 90.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 163.11,
-      "objetivo": 171.95
-    },
-    {
-      "ticker": "VRTX",
-      "sector": "Salud",
-      "senal_bot": "BUY STRONG",
-      "score": 89.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 524.52,
-      "objetivo": 553.43
-    },
-    {
-      "ticker": "HON",
-      "sector": "Industrial",
-      "senal_bot": "BUY STRONG",
-      "score": 89.7,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 214.73,
-      "objetivo": 223.99
-    },
-    {
-      "ticker": "HAL",
-      "sector": "Energía",
-      "senal_bot": "BUY STRONG",
-      "score": 88.6,
-      "riesgo": "MEDIO",
-      "rr": 1.64,
-      "precio": 33.99,
-      "objetivo": 35.89
-    }
-  ],
+  "top_opportunities": [],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
+    "Estado operativo BLOQUEADO: SIN BLOQUEOS",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
