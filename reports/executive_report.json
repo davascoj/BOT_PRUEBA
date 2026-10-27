@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T18:27:25Z",
+  "updated": "2026-10-27T22:28:20Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado NEUTRO +.",
@@ -20,57 +20,57 @@
     {
       "ticker": "WMB",
       "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 89.3,
+      "senal_bot": "BUY STRONG",
+      "score": 100.0,
       "riesgo": "BAJO",
       "rr": 1.63,
-      "precio": 73.64,
-      "objetivo": 78.44
-    },
-    {
-      "ticker": "RCL",
-      "sector": "Cruceros",
-      "senal_bot": "BUY",
-      "score": 89.3,
-      "riesgo": "BAJO",
-      "rr": 1.63,
-      "precio": 297.55,
-      "objetivo": 320.77
+      "precio": 74.09,
+      "objetivo": 78.94
     },
     {
       "ticker": "BKR",
       "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 88.5,
-      "riesgo": "BAJO",
+      "senal_bot": "BUY STRONG",
+      "score": 98.8,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 57.93,
-      "objetivo": 61.51
+      "precio": 59.0,
+      "objetivo": 62.74
     },
     {
-      "ticker": "DVN",
-      "sector": "Energía",
-      "senal_bot": "BUY",
-      "score": 86.8,
-      "riesgo": "BAJO",
+      "ticker": "TSLA",
+      "sector": "Autos / Tech",
+      "senal_bot": "BUY STRONG",
+      "score": 96.1,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 51.16,
-      "objetivo": 54.29
+      "precio": 407.46,
+      "objetivo": 437.78
     },
     {
       "ticker": "NXPI",
       "sector": "Chips",
-      "senal_bot": "BUY",
-      "score": 84.8,
-      "riesgo": "BAJO",
+      "senal_bot": "BUY STRONG",
+      "score": 95.9,
+      "riesgo": "MEDIO",
       "rr": 1.63,
-      "precio": 251.75,
-      "objetivo": 271.26
+      "precio": 253.5,
+      "objetivo": 273.5
+    },
+    {
+      "ticker": "ADI",
+      "sector": "Chips",
+      "senal_bot": "BUY STRONG",
+      "score": 94.6,
+      "riesgo": "MEDIO",
+      "rr": 1.63,
+      "precio": 425.35,
+      "objetivo": 457.72
     }
   ],
   "open_positions": [],
   "alerts": [
-    "Estado operativo BLOQUEADO: Volumen relativo bajo",
+    "Estado operativo BLOQUEADO: Bloqueo operativo por drawdown máximo: 27.55%",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
