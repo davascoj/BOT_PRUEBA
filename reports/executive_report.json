@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T00:34:28Z",
+  "updated": "2026-11-11T19:56:20Z",
   "version": "V4.8",
   "status": "BLOQUEADO",
   "headline": "BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.",
@@ -20,6 +20,7 @@
   "open_positions": [],
   "alerts": [
     "Estado operativo BLOQUEADO: SIN BLOQUEOS",
+    "1 tickers omitidos por fallos de datos.",
     "Diagnóstico general marca riesgo ALTO.",
     "Reglas operativas V4.4 en estado BLOQUEADO."
   ],
