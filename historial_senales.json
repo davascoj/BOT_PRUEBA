@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "24-11-2026 05:50 PM Colombia",
+  "actualizado": "25-11-2026 05:03 PM Colombia",
   "operaciones": [
     {
       "id": "2026-06-18-VOO",
@@ -17353,7 +17353,7 @@
         "ultima_accion_cerrada": "IWM"
       },
       {
-        "fecha": "2026-11-24",
+        "fecha": "2026-11-25",
         "capital_cerrado_usd": 5834.3,
         "capital_total_estimado_usd": 5834.3,
         "ganancia_total_estimada_usd": 834.3,
@@ -17363,12 +17363,12 @@
     "benchmark": {
       "fecha_inicio": "2026-05-18",
       "bot_rentabilidad_neta_pct": 16.69,
-      "spy_rentabilidad_pct": -2.2,
-      "qqq_rentabilidad_pct": -9.41,
-      "bot_vs_spy_alpha_pct": 18.89,
-      "bot_vs_qqq_alpha_pct": 26.1,
-      "capital_si_spy_usd": 4890.0,
-      "capital_si_qqq_usd": 4529.5
+      "spy_rentabilidad_pct": -2.48,
+      "qqq_rentabilidad_pct": -10.0,
+      "bot_vs_spy_alpha_pct": 19.17,
+      "bot_vs_qqq_alpha_pct": 26.69,
+      "capital_si_spy_usd": 4876.0,
+      "capital_si_qqq_usd": 4500.0
     },
     "rendimiento_por_sector": [
       {

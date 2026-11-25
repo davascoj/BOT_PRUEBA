@@ -1,6 +1,6 @@
 # BOT-ARQ V4.8 - Reporte Ejecutivo Automatico
 
-**Actualizado:** 2026-11-24T22:50:47Z
+**Actualizado:** 2026-11-25T22:03:37Z
 **Estado:** BLOQUEADO
 **Titular:** BOT-ARQ en modo BLOQUEADO. Mercado DÉBIL.
 
@@ -16,6 +16,7 @@
 
 ## Alertas
 - Estado operativo BLOQUEADO: SIN BLOQUEOS
+- 1 tickers omitidos por fallos de datos.
 - Diagnóstico general marca riesgo ALTO.
 - Reglas operativas V4.4 en estado BLOQUEADO.
 
